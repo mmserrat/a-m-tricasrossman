@@ -3,10 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Agente de Métricas Inteligentes</title>
+<title>Sistema de Métricas Inteligentes</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap" rel="stylesheet">
 <style>
   :root {
     --bg: #FFF5F5;
@@ -61,7 +61,7 @@
     margin: 0;
     background: var(--bg);
     color: var(--fg);
-    font-family: 'Inter', system-ui, sans-serif;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     min-height: 100vh;
     padding-block: 28px 40px;
   }
@@ -73,7 +73,7 @@
   }
   header { margin-bottom: 16px; }
   h1 {
-    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.5rem;
     font-weight: 700;
     margin: 0 0 4px 0;
@@ -99,7 +99,7 @@
 
   .tabs { display: flex; gap: 8px; margin-bottom: 16px; }
   .tab {
-    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 0.88rem;
     background: transparent;
@@ -127,7 +127,7 @@
     padding: 14px;
   }
   .kpi .label { font-size: 0.72rem; color: var(--fg-muted); text-transform: uppercase; letter-spacing: 0.04em; margin-bottom: 6px; }
-  .kpi .value { font-family: 'Space Grotesk', sans-serif; font-size: 1.25rem; font-weight: 700; }
+  .kpi .value { font-family: 'Montserrat', sans-serif; font-size: 1.25rem; font-weight: 700; }
   .kpi .value.alert { color: var(--alert); }
 
   .card {
@@ -138,7 +138,7 @@
     margin-bottom: 16px;
   }
   .card h2 {
-    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
     margin: 0 0 12px 0;
   }
@@ -197,13 +197,94 @@
   input[type="text"]:focus { outline: 2px solid var(--accent-strong); outline-offset: 1px; }
   button.send { background: var(--accent-strong); color: #FFF5F5; border: none; border-radius: 12px; padding: 0 18px; font-size: 0.9rem; font-weight: 600; cursor: pointer; font-family: inherit; flex: none; }
 
-  footer { margin-top: 16px; color: var(--fg-muted); font-size: 0.76rem; text-align: center; }
+  .intro-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 18px 20px;
+    margin-bottom: 18px;
+  }
+  .intro-card h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.95rem;
+    margin: 0 0 8px 0;
+  }
+  .intro-card p {
+    font-size: 0.88rem;
+    line-height: 1.6;
+    color: var(--fg-muted);
+    margin: 0 0 10px 0;
+  }
+  .intro-card p:last-child { margin-bottom: 0; }
+  .intro-card strong { color: var(--fg); }
+
+  .stat-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+    gap: 10px;
+    margin-bottom: 16px;
+  }
+  .stat {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 14px;
+    text-align: center;
+  }
+  .stat .stat-value {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--accent-strong);
+  }
+  .stat .stat-label {
+    font-size: 0.72rem;
+    color: var(--fg-muted);
+    margin-top: 4px;
+  }
+
+  .step-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 12px;
+  }
+  .step-card {
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 14px;
+  }
+  .step-num {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background: var(--accent-strong);
+    color: #FFF5F5;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 0.8rem;
+    margin-bottom: 8px;
+  }
+  .step-card h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.88rem;
+    margin: 0 0 6px 0;
+  }
+  .step-card p {
+    font-size: 0.82rem;
+    color: var(--fg-muted);
+    line-height: 1.5;
+    margin: 0;
+  }
 </style>
 </head>
 <body>
 <div class="wrap">
   <header>
-    <h1>Agente de Métricas Inteligentes</h1>
+    <h1>Sistema de Métricas Inteligentes</h1>
     <p class="sub">Monitoreo diario de ventas y detección de anomalías · Rossmann Store Sales</p>
   </header>
 
@@ -212,11 +293,66 @@
   </div>
 
   <div class="tabs">
-    <button class="tab active" data-tab="dashboard">Dashboard</button>
-    <button class="tab" data-tab="agent">Pregúntale al agente</button>
+    <button class="tab active" data-tab="about">Sobre el proyecto</button>
+    <button class="tab" data-tab="dashboard">Dashboard</button>
+    <button class="tab" data-tab="agent">Consultas</button>
   </div>
 
-  <section class="tabpanel active" id="tab-dashboard">
+  <section class="tabpanel active" id="tab-about">
+    <div class="intro-card">
+      <h2>Objetivo de negocio</h2>
+      <p>Un equipo de retail necesita saber, todos los días, si las ventas se comportaron como se esperaba o si algo se salió de lo normal: una promoción que no funcionó, una tienda cerrada sin aviso, un pico atípico en una fecha sin razón aparente. Revisar esto manualmente, tienda por tienda, no escala. Este sistema automatiza esa revisión a nivel de negocio, consolidando 1,115 tiendas en una sola lectura diaria y señalando únicamente los días que requieren atención.</p>
+    </div>
+
+    <div class="card">
+      <h2>Fuente de datos</h2>
+      <div class="stat-row">
+        <div class="stat"><div class="stat-value">1,115</div><div class="stat-label">Tiendas</div></div>
+        <div class="stat"><div class="stat-value">2.5 años</div><div class="stat-label">Historial (2013-2015)</div></div>
+        <div class="stat"><div class="stat-value">779</div><div class="stat-label">Días analizados</div></div>
+        <div class="stat"><div class="stat-value">0</div><div class="stat-label">Valores nulos en ventas</div></div>
+      </div>
+      <p style="font-size:0.88rem; color:var(--fg-muted); line-height:1.6; margin:0;">Se usó <strong style="color:var(--fg);">Rossmann Store Sales</strong> (Kaggle) como fuente, porque se trata de datos transaccionales reales de retail: incluye feriados, promociones y cierres de tienda, el mismo tipo de ruido e irregularidades que un equipo de BI enfrenta en un negocio real, a diferencia de un dataset ya limpio o simulado.</p>
+    </div>
+
+    <div class="card">
+      <h2>Pipeline de datos</h2>
+      <div class="step-grid">
+        <div class="step-card">
+          <div class="step-num">1</div>
+          <h3>Carga y limpieza</h3>
+          <p>Se descartaron los días con tienda cerrada (ventas en 0 por definición), para que no sesgaran el cálculo de lo que es una venta normal.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-num">2</div>
+          <h3>Agregación diaria</h3>
+          <p>Se consolidaron las 1,115 tiendas en métricas por día: ventas totales, clientes totales, ticket promedio y porcentaje de tiendas en promoción.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-num">3</div>
+          <h3>Modelo de regresión</h3>
+          <p>Se entrenó un modelo que aprende la venta esperada de cada día a partir del día de la semana, si es feriado y el nivel de promoción.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-num">4</div>
+          <h3>Detección de alertas</h3>
+          <p>Cuando la venta real se aleja más de 2 desviaciones estándar de lo predicho por el modelo, se genera una alerta con el porcentaje de desviación y si coincide con un feriado.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Resultado</h2>
+      <div class="stat-row">
+        <div class="stat"><div class="stat-value">38</div><div class="stat-label">Alertas detectadas</div></div>
+        <div class="stat"><div class="stat-value">4.88%</div><div class="stat-label">Tasa de alerta del modelo</div></div>
+        <div class="stat"><div class="stat-value">6.8%</div><div class="stat-label">Tasa de alerta con promedio simple</div></div>
+      </div>
+      <p style="font-size:0.88rem; color:var(--fg-muted); line-height:1.6; margin:0;">El modelo de regresión redujo la tasa de falsas alertas frente a usar solo el promedio histórico por día de la semana, porque aprende de más variables a la vez (feriados y promociones, no solo el día). El detalle día a día está en la pestaña <strong style="color:var(--fg);">Dashboard</strong>, y se puede consultar en lenguaje natural en <strong style="color:var(--fg);">Consultas</strong>.</p>
+    </div>
+  </section>
+
+  <section class="tabpanel" id="tab-dashboard">
     <div class="kpi-row" id="kpiRow"></div>
 
     <div class="card">
@@ -235,7 +371,7 @@
     </div>
 
     <div class="card">
-      <h2>Alertas generadas por el agente</h2>
+      <h2>Alertas generadas</h2>
       <div class="alert-list" id="alertList"></div>
     </div>
   </section>
@@ -251,7 +387,6 @@
     </div>
   </section>
 
-  <footer>Dashboard y respuestas generados con lógica fija a partir de agente_datos.json — no usa un modelo de lenguaje.</footer>
 </div>
 
 <script>
@@ -367,7 +502,7 @@ function answer(raw) {
   const q = norm(raw);
 
   if (/\b(hola|buenas|buenos dias|buenas tardes|hey)\b/.test(q)) {
-    return 'Hola, soy el agente de métricas de ventas. Puedo decirte cuántas alertas se han generado, cómo va el modelo, o qué pasó en un día en específico. Prueba con alguna de las preguntas sugeridas abajo, o revisa la pestaña Dashboard.';
+    return 'Hola. Este panel responde preguntas sobre las ventas, las alertas y el modelo. Prueba con alguna de las preguntas sugeridas abajo, o revisa la pestaña Dashboard.';
   }
   if (/cuant(a|o)s? alertas|total de alertas|numero de alertas/.test(q)) {
     const alerts = lastNAlerts(3);
@@ -397,8 +532,8 @@ function answer(raw) {
     const estado = l.alert ? '<span class="alert-line">⚠ Este día se marcó como anómalo.</span>' : 'Dentro del rango esperado, sin alerta.';
     return `Último día con datos: <b>${l.date}</b>.<br>Ventas totales: ${money(l.total_sales)} vs. ${money(l.expected_sales)} esperadas por el modelo.<br>${estado}`;
   }
-  if (/como funciona|que modelo|modelo de regresion|que hace el agente|explicame el modelo/.test(q)) {
-    return 'El agente entrena un modelo de regresión lineal que predice las ventas esperadas de cada día usando el día de la semana, si es feriado y el % de tiendas en promoción. Cuando las ventas reales se alejan de lo predicho por más de 2 desviaciones estándar del error del modelo, se genera una alerta con el mensaje explicando la desviación.';
+  if (/como funciona|que modelo|modelo de regresion|que hace el sistema|explicame el modelo/.test(q)) {
+    return 'El sistema entrena un modelo de regresión lineal que predice las ventas esperadas de cada día usando el día de la semana, si es feriado y el % de tiendas en promoción. Cuando las ventas reales se alejan de lo predicho por más de 2 desviaciones estándar del error del modelo, se genera una alerta con el mensaje explicando la desviación.';
   }
   if (/feriado|holiday|causa/.test(q)) {
     const conFeriado = DATA.alerts.filter(a => a.is_holiday).length;
@@ -470,11 +605,6 @@ async function loadData() {
     addMessage('No pude cargar los datos (agente_datos.json). Si estás viendo esto directamente desde el archivo en tu computadora, ábrelo con un servidor local o revisa que esté publicado en GitHub Pages.', 'agent');
   }
 }
-
-loadData();
-</script>
-</body>
-</html>
 
 loadData();
 </script>
