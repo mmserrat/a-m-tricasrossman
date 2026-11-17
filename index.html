@@ -1,0 +1,477 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Agente de Métricas Inteligentes</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #FFF5F5;
+    --surface: #FFFFFF;
+    --surface-tint: #F7D6D0;
+    --border: #F0DCDA;
+    --fg: #4A4A4A;
+    --fg-muted: #8C7A7D;
+    --accent: #E2B4BD;
+    --accent-strong: #B97385;
+    --alert: #C0455B;
+    --user-bubble: #4A4A4A;
+    --user-bubble-fg: #FFF5F5;
+    --expected-line: #B97385;
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #221A1B;
+      --surface: #2E2224;
+      --surface-tint: #3A2B2D;
+      --border: #4A3639;
+      --fg: #F3E6E7;
+      --fg-muted: #C7A9AD;
+      --accent: #D79AA6;
+      --accent-strong: #E2B4BD;
+      --alert: #E27E8D;
+      --user-bubble: #D79AA6;
+      --user-bubble-fg: #2E2224;
+      --expected-line: #E2B4BD;
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #221A1B;
+    --surface: #2E2224;
+    --surface-tint: #3A2B2D;
+    --border: #4A3639;
+    --fg: #F3E6E7;
+    --fg-muted: #C7A9AD;
+    --accent: #D79AA6;
+    --accent-strong: #E2B4BD;
+    --alert: #E27E8D;
+    --user-bubble: #D79AA6;
+    --user-bubble-fg: #2E2224;
+    --expected-line: #E2B4BD;
+    color-scheme: dark;
+  }
+
+  * { box-sizing: border-box; min-width: 0; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: 'Inter', system-ui, sans-serif;
+    min-height: 100vh;
+    padding-block: 28px 40px;
+  }
+  .wrap {
+    max-width: 900px;
+    margin: 0 auto;
+    padding-left: max(16px, env(safe-area-inset-left, 0px));
+    padding-right: max(16px, env(safe-area-inset-right, 0px));
+  }
+  header { margin-bottom: 16px; }
+  h1 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0 0 4px 0;
+    text-wrap: balance;
+  }
+  .sub { color: var(--fg-muted); font-size: 0.9rem; margin: 0; }
+
+  .status-row { display: flex; gap: 10px; flex-wrap: wrap; margin: 14px 0 18px 0; }
+  .status-chip {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    padding: 6px 12px;
+    font-size: 0.78rem;
+    color: var(--fg-muted);
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .status-chip b { color: var(--fg); font-weight: 600; }
+  .dot { width: 7px; height: 7px; border-radius: 50%; background: var(--accent-strong); flex: none; }
+  .dot.ok { background: #5CA06A; }
+
+  .tabs { display: flex; gap: 8px; margin-bottom: 16px; }
+  .tab {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 600;
+    font-size: 0.88rem;
+    background: transparent;
+    border: 1px solid var(--border);
+    color: var(--fg-muted);
+    padding: 9px 16px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .tab.active { background: var(--fg); color: var(--bg); border-color: var(--fg); }
+  .tabpanel { display: none; }
+  .tabpanel.active { display: block; }
+
+  /* --- dashboard --- */
+  .kpi-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 10px;
+    margin-bottom: 16px;
+  }
+  .kpi {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 14px;
+  }
+  .kpi .label { font-size: 0.72rem; color: var(--fg-muted); text-transform: uppercase; letter-spacing: 0.04em; margin-bottom: 6px; }
+  .kpi .value { font-family: 'Space Grotesk', sans-serif; font-size: 1.25rem; font-weight: 700; }
+  .kpi .value.alert { color: var(--alert); }
+
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 18px;
+    margin-bottom: 16px;
+  }
+  .card h2 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1rem;
+    margin: 0 0 12px 0;
+  }
+  .legend { display: flex; gap: 16px; font-size: 0.78rem; color: var(--fg-muted); margin-top: 8px; flex-wrap: wrap; }
+  .legend span { display: inline-flex; align-items: center; gap: 6px; }
+  .legend i { width: 14px; height: 3px; border-radius: 2px; display: inline-block; }
+  .legend i.dot-mark { width: 8px; height: 8px; border-radius: 50%; }
+
+  .chart-scroll { overflow-x: auto; }
+  svg.chart { display: block; width: 100%; height: 220px; }
+
+  .bars { display: flex; flex-direction: column; gap: 8px; }
+  .bar-row { display: flex; align-items: center; gap: 10px; font-size: 0.82rem; }
+  .bar-row .bar-label { width: 70px; flex: none; color: var(--fg-muted); }
+  .bar-track { flex: 1; background: var(--bg); border: 1px solid var(--border); border-radius: 6px; height: 14px; overflow: hidden; }
+  .bar-fill { height: 100%; background: var(--accent-strong); }
+  .bar-row .bar-value { width: 42px; flex: none; text-align: right; font-weight: 600; }
+
+  .alert-list { display: flex; flex-direction: column; gap: 10px; max-height: 280px; overflow-y: auto; }
+  .alert-item {
+    background: var(--surface-tint);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 10px 12px;
+    font-size: 0.84rem;
+  }
+  .alert-item .date { font-weight: 700; color: var(--alert); margin-right: 6px; }
+
+  /* --- agent chat --- */
+  .panel {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 58vh;
+    min-height: 400px;
+  }
+  .chat { flex: 1; overflow-y: auto; padding: 20px; display: flex; flex-direction: column; gap: 14px; }
+  .msg { display: flex; gap: 10px; max-width: 100%; }
+  .msg.user { justify-content: flex-end; }
+  .bubble { padding: 11px 14px; border-radius: 14px; font-size: 0.92rem; line-height: 1.5; max-width: 82%; white-space: pre-wrap; }
+  .msg.agent .bubble { background: var(--surface-tint); border: 1px solid var(--border); border-top-left-radius: 4px; }
+  .msg.user .bubble { background: var(--user-bubble); color: var(--user-bubble-fg); border-top-right-radius: 4px; }
+  .bubble .alert-line { display: block; margin-top: 6px; padding-top: 6px; border-top: 1px dashed var(--border); color: var(--alert); font-weight: 600; }
+  .bubble ul { margin: 6px 0 0 0; padding-left: 18px; }
+  .bubble li { margin-bottom: 4px; }
+
+  .chips { display: flex; gap: 8px; flex-wrap: wrap; padding: 0 20px 14px 20px; border-top: 1px solid var(--border); padding-top: 14px; }
+  .chip { background: var(--surface-tint); border: 1px solid var(--border); color: var(--fg); border-radius: 999px; padding: 7px 13px; font-size: 0.8rem; cursor: pointer; font-family: inherit; }
+  .chip:hover { border-color: var(--accent-strong); }
+
+  form.inputbar { display: flex; gap: 10px; padding: 14px 16px; border-top: 1px solid var(--border); }
+  input[type="text"] { flex: 1; background: var(--bg); border: 1px solid var(--border); border-radius: 12px; padding: 11px 14px; color: var(--fg); font-size: 0.92rem; font-family: inherit; }
+  input[type="text"]:focus { outline: 2px solid var(--accent-strong); outline-offset: 1px; }
+  button.send { background: var(--accent-strong); color: #FFF5F5; border: none; border-radius: 12px; padding: 0 18px; font-size: 0.9rem; font-weight: 600; cursor: pointer; font-family: inherit; flex: none; }
+
+  footer { margin-top: 16px; color: var(--fg-muted); font-size: 0.76rem; text-align: center; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Agente de Métricas Inteligentes</h1>
+    <p class="sub">Monitoreo diario de ventas y detección de anomalías · Rossmann Store Sales</p>
+  </header>
+
+  <div class="status-row" id="statusRow">
+    <div class="status-chip"><span class="dot" id="statusDot"></span><span id="statusText">Cargando datos…</span></div>
+  </div>
+
+  <div class="tabs">
+    <button class="tab active" data-tab="dashboard">Dashboard</button>
+    <button class="tab" data-tab="agent">Pregúntale al agente</button>
+  </div>
+
+  <section class="tabpanel active" id="tab-dashboard">
+    <div class="kpi-row" id="kpiRow"></div>
+
+    <div class="card">
+      <h2>Ventas totales por día (real vs. esperado por el modelo)</h2>
+      <div class="chart-scroll"><svg class="chart" id="trendChart" viewBox="0 0 1000 240" preserveAspectRatio="none"></svg></div>
+      <div class="legend">
+        <span><i style="background:var(--fg)"></i> Ventas reales</span>
+        <span><i style="background:var(--expected-line); border-top:2px dashed var(--expected-line)"></i> Esperado por el modelo</span>
+        <span><i class="dot-mark" style="background:var(--alert)"></i> Día con alerta</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Tasa de alerta por día de la semana</h2>
+      <div class="bars" id="weekdayBars"></div>
+    </div>
+
+    <div class="card">
+      <h2>Alertas generadas por el agente</h2>
+      <div class="alert-list" id="alertList"></div>
+    </div>
+  </section>
+
+  <section class="tabpanel" id="tab-agent">
+    <div class="panel">
+      <div class="chat" id="chat"></div>
+      <div class="chips" id="chips"></div>
+      <form class="inputbar" id="inputForm">
+        <input type="text" id="userInput" placeholder="Ej. ¿cuántas alertas hay?" autocomplete="off">
+        <button type="submit" class="send">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>Dashboard y respuestas generados con lógica fija a partir de agente_datos.json — no usa un modelo de lenguaje.</footer>
+</div>
+
+<script>
+let DATA = null;
+
+/* ---------- tabs ---------- */
+document.querySelectorAll('.tab').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.tab').forEach(b => b.classList.remove('active'));
+    document.querySelectorAll('.tabpanel').forEach(p => p.classList.remove('active'));
+    btn.classList.add('active');
+    document.getElementById('tab-' + btn.dataset.tab).classList.add('active');
+  });
+});
+
+function money(n) { return '$' + Math.round(n).toLocaleString('es-MX'); }
+function norm(s) { return s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, ''); }
+
+/* ---------- dashboard ---------- */
+function buildKPIs() {
+  const l = DATA.latest_day;
+  const kpis = [
+    { label: 'Ventas último día', value: money(l.total_sales) },
+    { label: 'Esperado por el modelo', value: money(l.expected_sales) },
+    { label: 'Total de alertas', value: DATA.alerts.length },
+    { label: 'Tasa de alerta (modelo)', value: DATA.model_calibration.modelo_regresion + '%' },
+    { label: 'Días analizados', value: DATA.daily_series.length }
+  ];
+  const row = document.getElementById('kpiRow');
+  row.innerHTML = '';
+  kpis.forEach(k => {
+    const div = document.createElement('div');
+    div.className = 'kpi';
+    div.innerHTML = `<div class="label">${k.label}</div><div class="value${k.label.includes('alerta') && l.alert ? ' alert' : ''}">${k.value}</div>`;
+    row.appendChild(div);
+  });
+}
+
+function buildChart() {
+  const daily = DATA.daily_series;
+  const w = 1000, h = 240, pad = 10;
+  const n = daily.length;
+  const allVals = [];
+  daily.forEach(d => { allVals.push(d.total_sales, d.expected_sales); });
+  const min = Math.min(...allVals), max = Math.max(...allVals);
+  const x = i => pad + i * (w - 2 * pad) / (n - 1);
+  const y = v => h - pad - (v - min) / (max - min) * (h - 2 * pad);
+
+  const linePath = (key) => 'M ' + daily.map((d, i) => `${x(i).toFixed(1)},${y(d[key]).toFixed(1)}`).join(' L ');
+
+  const svg = document.getElementById('trendChart');
+  let dots = '';
+  daily.forEach((d, i) => {
+    if (d.alert) dots += `<circle cx="${x(i).toFixed(1)}" cy="${y(d.total_sales).toFixed(1)}" r="4" fill="var(--alert)" />`;
+  });
+
+  svg.innerHTML = `
+    <path d="${linePath('expected_sales')}" fill="none" stroke="var(--expected-line)" stroke-width="1.5" stroke-dasharray="5,4" />
+    <path d="${linePath('total_sales')}" fill="none" stroke="var(--fg)" stroke-width="1.6" />
+    ${dots}
+  `;
+}
+
+function buildWeekdayBars() {
+  const entries = Object.entries(DATA.weekday_alert_rate);
+  const maxVal = Math.max(...entries.map(e => e[1]), 1);
+  const el = document.getElementById('weekdayBars');
+  el.innerHTML = '';
+  entries.forEach(([day, rate]) => {
+    const row = document.createElement('div');
+    row.className = 'bar-row';
+    row.innerHTML = `<div class="bar-label">${day}</div><div class="bar-track"><div class="bar-fill" style="width:${(rate / maxVal * 100).toFixed(1)}%"></div></div><div class="bar-value">${rate}%</div>`;
+    el.appendChild(row);
+  });
+}
+
+function buildAlertList() {
+  const el = document.getElementById('alertList');
+  el.innerHTML = '';
+  DATA.alerts.slice().reverse().forEach(a => {
+    const div = document.createElement('div');
+    div.className = 'alert-item';
+    div.innerHTML = `<span class="date">${a.Date}</span>${a.mensaje.split(': ').slice(1).join(': ')}`;
+    el.appendChild(div);
+  });
+}
+
+/* ---------- agent chat ---------- */
+const chat = document.getElementById('chat');
+const chips = document.getElementById('chips');
+const form = document.getElementById('inputForm');
+const input = document.getElementById('userInput');
+
+function addMessage(text, who) {
+  const row = document.createElement('div');
+  row.className = 'msg ' + who;
+  const bubble = document.createElement('div');
+  bubble.className = 'bubble';
+  bubble.innerHTML = text;
+  row.appendChild(bubble);
+  chat.appendChild(row);
+  chat.scrollTop = chat.scrollHeight;
+}
+
+function lastNAlerts(n) { return DATA.alerts.slice(-n).reverse(); }
+function weekdayMasRiesgoso() {
+  const entries = Object.entries(DATA.weekday_alert_rate);
+  entries.sort((a, b) => b[1] - a[1]);
+  return entries;
+}
+
+function answer(raw) {
+  const q = norm(raw);
+
+  if (/\b(hola|buenas|buenos dias|buenas tardes|hey)\b/.test(q)) {
+    return 'Hola, soy el agente de métricas de ventas. Puedo decirte cuántas alertas se han generado, cómo va el modelo, o qué pasó en un día en específico. Prueba con alguna de las preguntas sugeridas abajo, o revisa la pestaña Dashboard.';
+  }
+  if (/cuant(a|o)s? alertas|total de alertas|numero de alertas/.test(q)) {
+    const alerts = lastNAlerts(3);
+    let out = `Se han generado <b>${DATA.alerts.length} alertas</b> en los ${DATA.daily_series.length} días analizados (tasa de alerta del modelo: <b>${DATA.model_calibration.modelo_regresion}%</b>).<br>Las 3 más recientes:<ul>`;
+    alerts.forEach(a => out += `<li>${a.mensaje}</li>`);
+    out += '</ul>';
+    return out;
+  }
+  if (/ultima alerta|alerta reciente|alerta mas reciente/.test(q)) {
+    const a = lastNAlerts(1)[0];
+    if (!a) return 'No hay alertas registradas en los datos actuales.';
+    return `La alerta más reciente:<span class="alert-line">${a.mensaje}</span>`;
+  }
+  if (/tasa de alerta|porcentaje de alerta|que tan seguido (se activa|avisa)|con que frecuencia/.test(q)) {
+    const c = DATA.model_calibration;
+    return `El modelo de regresión activa una alerta en el <b>${c.modelo_regresion}%</b> de los días. Antes de meter el modelo, usando solo el promedio histórico por día de la semana, la tasa era <b>${c.base_estadistica}%</b>: el modelo entrenado afinó la detección y redujo falsos positivos.`;
+  }
+  if (/(que|cual) (dia|días).*(riesg|alerta)|dia.*mas (alertas|riesgoso)/.test(q)) {
+    const ranked = weekdayMasRiesgoso();
+    let out = `El día con más alertas proporcionalmente es <b>${ranked[0][0]}</b> (${ranked[0][1]}%). Por día de la semana:<ul>`;
+    ranked.forEach(([d, r]) => out += `<li>${d}: ${r}%</li>`);
+    out += '</ul>';
+    return out;
+  }
+  if (/hoy|ultimo dia|ventas de hoy|ventas recientes|como van las ventas/.test(q)) {
+    const l = DATA.latest_day;
+    const estado = l.alert ? '<span class="alert-line">⚠ Este día se marcó como anómalo.</span>' : 'Dentro del rango esperado, sin alerta.';
+    return `Último día con datos: <b>${l.date}</b>.<br>Ventas totales: ${money(l.total_sales)} vs. ${money(l.expected_sales)} esperadas por el modelo.<br>${estado}`;
+  }
+  if (/como funciona|que modelo|modelo de regresion|que hace el agente|explicame el modelo/.test(q)) {
+    return 'El agente entrena un modelo de regresión lineal que predice las ventas esperadas de cada día usando el día de la semana, si es feriado y el % de tiendas en promoción. Cuando las ventas reales se alejan de lo predicho por más de 2 desviaciones estándar del error del modelo, se genera una alerta con el mensaje explicando la desviación.';
+  }
+  if (/feriado|holiday|causa/.test(q)) {
+    const conFeriado = DATA.alerts.filter(a => a.is_holiday).length;
+    return `De las ${DATA.alerts.length} alertas, ${conFeriado} coinciden con un feriado marcado en los datos. El resto no tiene una causa de calendario identificada (algunas son picos previos a días festivos, que no quedan marcados como feriado exacto).`;
+  }
+  if (/sube|arriba|por encima/.test(q) && /alerta/.test(q)) {
+    const arriba = DATA.alerts.filter(a => a.direction === 'arriba').length;
+    return `${arriba} de las ${DATA.alerts.length} alertas son ventas por <b>arriba</b> de lo esperado, y ${DATA.alerts.length - arriba} por abajo.`;
+  }
+  if (/baja|abajo|por debajo/.test(q) && /alerta/.test(q)) {
+    const abajo = DATA.alerts.filter(a => a.direction === 'abajo').length;
+    return `${abajo} de las ${DATA.alerts.length} alertas son ventas por <b>debajo</b> de lo esperado.`;
+  }
+  return 'No tengo una respuesta fija para eso todavía. Prueba con una de estas: "¿cuántas alertas hay?", "¿cuál fue la última alerta?", "¿qué día de la semana tiene más alertas?", "¿cómo funciona el modelo?" o "¿cómo van las ventas de hoy?".';
+}
+
+function handleQuestion(text) {
+  addMessage(text, 'user');
+  setTimeout(() => addMessage(answer(text), 'agent'), 250);
+}
+
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+  const text = input.value.trim();
+  if (!text) return;
+  handleQuestion(text);
+  input.value = '';
+});
+
+const EXAMPLES = [
+  '¿Cuántas alertas hay?',
+  '¿Cuál fue la última alerta?',
+  '¿Qué día tiene más alertas?',
+  '¿Cómo van las ventas de hoy?',
+  '¿Cómo funciona el modelo?'
+];
+
+function buildChips() {
+  chips.innerHTML = '';
+  EXAMPLES.forEach(ex => {
+    const b = document.createElement('button');
+    b.type = 'button';
+    b.className = 'chip';
+    b.textContent = ex;
+    b.addEventListener('click', () => handleQuestion(ex));
+    chips.appendChild(b);
+  });
+}
+
+/* ---------- load ---------- */
+async function loadData() {
+  const statusDot = document.getElementById('statusDot');
+  const statusText = document.getElementById('statusText');
+  try {
+    const res = await fetch('data/agente_datos.json');
+    DATA = await res.json();
+    statusDot.classList.add('ok');
+    statusText.innerHTML = `Datos cargados · última fecha <b>${DATA.last_updated}</b> · ${DATA.alerts.length} alertas`;
+
+    buildKPIs();
+    buildChart();
+    buildWeekdayBars();
+    buildAlertList();
+
+    buildChips();
+    addMessage('Datos cargados. Pregúntame sobre las ventas, las alertas o el modelo, o revisa la pestaña Dashboard.', 'agent');
+  } catch (err) {
+    statusText.textContent = 'No se pudo cargar data/agente_datos.json';
+    addMessage('No pude cargar los datos (data/agente_datos.json). Si estás viendo esto directamente desde el archivo en tu computadora, ábrelo con un servidor local o revisa que esté publicado en GitHub Pages.', 'agent');
+  }
+}
+
+loadData();
+</script>
+</body>
+</html>

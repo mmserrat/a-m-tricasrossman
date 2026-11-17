@@ -1,0 +1,6601 @@
+{
+  "last_updated": "2015-07-31",
+  "latest_day": {
+    "date": "2015-07-31",
+    "total_sales": 10109742.0,
+    "expected_sales": 8782724.324222991,
+    "lower_bound": 6620559.421624257,
+    "upper_bound": 10944889.226821724,
+    "alert": false
+  },
+  "alerts": [
+    {
+      "Date": "2013-03-28",
+      "total_sales": 11417987,
+      "expected_sales": 8360915.9812627565,
+      "pct_deviation": 36.56382895831386,
+      "direction": "arriba",
+      "is_holiday": false,
+      "mensaje": "2013-03-28: ventas totales arriba de lo predicho por el modelo (11,417,987 vs. 8,360,916 esperadas, +36.6%). Sin causa de calendario identificada."
+    },
+    {
+      "Date": "2013-03-30",
+      "total_sales": 9380402,
+      "expected_sales": 6336807.06766917,
+      "pct_deviation": 48.03041815584797,
+      "direction": "arriba",
+      "is_holiday": false,
+      "mensaje": "2013-03-30: ventas totales arriba de lo predicho por el modelo (9,380,402 vs. 6,336,807 esperadas, +48.0%). Sin causa de calendario identificada."
+    },
+    {
+      "Date": "2013-11-29",
+      "total_sales": 8803269,
+      "expected_sales": 6352333.243548699,
+      "pct_deviation": 38.583236465757246,
+      "direction": "arriba",
+      "is_holiday": false,
+      "mensaje": "2013-11-29: ventas totales arriba de lo predicho por el modelo (8,803,269 vs. 6,352,333 esperadas, +38.6%). Sin causa de calendario identificada."
+    },
+    {
+      "Date": "2013-11-30",
+      "total_sales": 8614478,
+      "expected_sales": 6336807.06766917,
+      "pct_deviation": 35.94351079349828,
+      "direction": "arriba",
+      "is_holiday": false,
+      "mensaje": "2013-11-30: ventas totales arriba de lo predicho por el modelo (8,614,478 vs. 6,336,807 esperadas, +35.9%). Sin causa de calendario identificada."
+    },
+    {
+      "Date": "2013-12-02",
+      "total_sales": 12972440,
+      "expected_sales": 9886593.45388415,
+      "pct_deviation": 31.212434905002706,
+      "direction": "arriba",
+      "is_holiday": false,
+      "mensaje": "2013-12-02: ventas totales arriba de lo predicho por el modelo (12,972,440 vs. 9,886,593 esperadas, +31.2%). Sin causa de calendario identificada."
+    },
+    {
+      "Date": "2013-12-03",
+      "total_sales": 10915444,
+      "expected_sales": 8744586.31777028,
+      "pct_deviation": 24.825161572460203,
+      "direction": "arriba",
+      "is_holiday": false,
+      "mensaje": "2013-12-03: ventas totales arriba de lo predicho por el modelo (10,915,444 vs. 8,744,586 esperadas, +24.8%). Sin causa de calendario identificada."
+    },
+    {
+      "Date": "2013-12-16",
+      "total_sales": 15623548,
+      "expected_sales": 9886593.45388415,
+      "pct_deviation": 58.02761661916996,
+      "direction": "arriba",
+      "is_holiday": false,
+      "mensaje": "2013-12-16: ventas totales arriba de lo predicho por el modelo (15,623,548 vs. 9,886,593 esperadas, +58.0%). Sin causa de calendario identificada."
+    },
+    {
+      "Date": "2013-12-17",
+      "total_sales": 13053993,
+      "expected_sales": 8744586.31777028,
+      "pct_deviation": 49.28085246837091,
+      "direction": "arriba",
+      "is_holiday": false,
+      "mensaje": "2013-12-17: ventas totales arriba de lo predicho por el modelo (13,053,993 vs. 8,744,586 esperadas, +49.3%). Sin causa de calendario identificada."
+    },
+    {
+      "Date": "2013-12-18",
+      "total_sales": 12189674,
+      "expected_sales": 8354204.953947971,
+      "pct_deviation": 45.91064101485194,
+      "direction": "arriba",
+      "is_holiday": false,
+      "mensaje": "2013-12-18: ventas totales arriba de lo predicho por el modelo (12,189,674 vs. 8,354,205 esperadas, +45.9%). Sin causa de calendario identificada."
+    },
+    {
+      "Date": "2013-12-19",
+      "total_sales": 11740273,
+      "expected_sales": 8360915.9812627565,
+      "pct_deviation": 40.418502306572115,
+      "direction": "arriba",
+      "is_holiday": false,
+      "mensaje": "2013-12-19: ventas totales arriba de lo predicho por el modelo (11,740,273 vs. 8,360,916 esperadas, +40.4%). Sin causa de calendario identificada."
+    },
+    {
+      "Date": "2013-12-20",
+      "total_sales": 12334496,
+      "expected_sales": 8782724.324222991,
+      "pct_deviation": 40.440432201442626,
+      "direction": "arriba",
+      "is_holiday": false,
+      "mensaje": "2013-12-20: ventas totales arriba de lo predicho por el modelo (12,334,496 vs. 8,782,724 esperadas, +40.4%). Sin causa de calendario identificada."
+    },
+    {
+      "Date": "2013-12-21",
+      "total_sales": 10165366,
+      "expected_sales": 6336807.06766917,
+      "pct_deviation": 60.417792295814145,
+      "direction": "arriba",
+      "is_holiday": false,
+      "mensaje": "2013-12-21: ventas totales arriba de lo predicho por el modelo (10,165,366 vs. 6,336,807 esperadas, +60.4%). Sin causa de calendario identificada."
+    },
+    {
+      "Date": "2013-12-23",
+      "total_sales": 14350056,
+      "expected_sales": 7456202.373209858,
+      "pct_deviation": 92.45797366712797,
+      "direction": "arriba",
+      "is_holiday": false,
+      "mensaje": "2013-12-23: ventas totales arriba de lo predicho por el modelo (14,350,056 vs. 7,456,202 esperadas, +92.5%). Sin causa de calendario identificada."
+    },
+    {
+      "Date": "2013-12-30",
+      "total_sales": 10192135,
+      "expected_sales": 7456202.373209858,
+      "pct_deviation": 36.69337941550983,
+      "direction": "arriba",
+      "is_holiday": false,
+      "mensaje": "2013-12-30: ventas totales arriba de lo predicho por el modelo (10,192,135 vs. 7,456,202 esperadas, +36.7%). Sin causa de calendario identificada."
+    },
+    {
+      "Date": "2014-03-31",
+      "total_sales": 12062933,
+      "expected_sales": 9886593.45388415,
+      "pct_deviation": 22.013037718880103,
+      "direction": "arriba",
+      "is_holiday": false,
+      "mensaje": "2014-03-31: ventas totales arriba de lo predicho por el modelo (12,062,933 vs. 9,886,593 esperadas, +22.0%). Sin causa de calendario identificada."
+    },
+    {
+      "Date": "2014-04-30",
+      "total_sales": 10841040,
+      "expected_sales": 8354204.953947971,
+      "pct_deviation": 29.7674651239771,
+      "direction": "arriba",
+      "is_holiday": false,
+      "mensaje": "2014-04-30: ventas totales arriba de lo predicho por el modelo (10,841,040 vs. 8,354,205 esperadas, +29.8%). Sin causa de calendario identificada."
+    },
+    {
+      "Date": "2014-05-02",
+      "total_sales": 11310699,
+      "expected_sales": 8782724.324222991,
+      "pct_deviation": 28.78349111795285,
+      "direction": "arriba",
+      "is_holiday": false,
+      "mensaje": "2014-05-02: ventas totales arriba de lo predicho por el modelo (11,310,699 vs. 8,782,724 esperadas, +28.8%). Sin causa de calendario identificada."
+    },
+    {
+      "Date": "2014-05-30",
+      "total_sales": 9846892,
+      "expected_sales": 6352333.243548699,
+      "pct_deviation": 55.01220767975774,
+      "direction": "arriba",
+      "is_holiday": false,
+      "mensaje": "2014-05-30: ventas totales arriba de lo predicho por el modelo (9,846,892 vs. 6,352,333 esperadas, +55.0%). Sin causa de calendario identificada."
+    },
+    {
+      "Date": "2014-06-30",
+      "total_sales": 13308602,
+      "expected_sales": 9886593.45388415,
+      "pct_deviation": 34.61261517506258,
+      "direction": "arriba",
+      "is_holiday": false,
+      "mensaje": "2014-06-30: ventas totales arriba de lo predicho por el modelo (13,308,602 vs. 9,886,593 esperadas, +34.6%). Sin causa de calendario identificada."
+    },
+    {
+      "Date": "2014-07-04",
+      "total_sales": 6518718,
+      "expected_sales": 8782724.324222991,
+      "pct_deviation": -25.777950447320773,
+      "direction": "abajo",
+      "is_holiday": false,
+      "mensaje": "2014-07-04: ventas totales abajo de lo predicho por el modelo (6,518,718 vs. 8,782,724 esperadas, -25.8%). Sin causa de calendario identificada."
+    },
+    {
+      "Date": "2014-08-08",
+      "total_sales": 6571862,
+      "expected_sales": 8782724.324222991,
+      "pct_deviation": -25.172853463308343,
+      "direction": "abajo",
+      "is_holiday": false,
+      "mensaje": "2014-08-08: ventas totales abajo de lo predicho por el modelo (6,571,862 vs. 8,782,724 esperadas, -25.2%). Sin causa de calendario identificada."
+    },
+    {
+      "Date": "2014-09-19",
+      "total_sales": 6550530,
+      "expected_sales": 8782724.324222991,
+      "pct_deviation": -25.41573937447335,
+      "direction": "abajo",
+      "is_holiday": false,
+      "mensaje": "2014-09-19: ventas totales abajo de lo predicho por el modelo (6,550,530 vs. 8,782,724 esperadas, -25.4%). Sin causa de calendario identificada."
+    },
+    {
+      "Date": "2014-09-22",
+      "total_sales": 5277645,
+      "expected_sales": 7456202.373209858,
+      "pct_deviation": -29.218055843513806,
+      "direction": "abajo",
+      "is_holiday": false,
+      "mensaje": "2014-09-22: ventas totales abajo de lo predicho por el modelo (5,277,645 vs. 7,456,202 esperadas, -29.2%). Sin causa de calendario identificada."
+    },
+    {
+      "Date": "2014-10-22",
+      "total_sales": 6129832,
+      "expected_sales": 8354204.953947971,
+      "pct_deviation": -26.625788644277783,
+      "direction": "abajo",
+      "is_holiday": false,
+      "mensaje": "2014-10-22: ventas totales abajo de lo predicho por el modelo (6,129,832 vs. 8,354,205 esperadas, -26.6%). Sin causa de calendario identificada."
+    },
+    {
+      "Date": "2014-10-24",
+      "total_sales": 6523289,
+      "expected_sales": 8782724.324222991,
+      "pct_deviation": -25.72590509292666,
+      "direction": "abajo",
+      "is_holiday": false,
+      "mensaje": "2014-10-24: ventas totales abajo de lo predicho por el modelo (6,523,289 vs. 8,782,724 esperadas, -25.7%). Sin causa de calendario identificada."
+    },
+    {
+      "Date": "2014-12-15",
+      "total_sales": 12133381,
+      "expected_sales": 9886593.45388415,
+      "pct_deviation": 22.725598626017668,
+      "direction": "arriba",
+      "is_holiday": false,
+      "mensaje": "2014-12-15: ventas totales arriba de lo predicho por el modelo (12,133,381 vs. 9,886,593 esperadas, +22.7%). Sin causa de calendario identificada."
+    },
+    {
+      "Date": "2014-12-22",
+      "total_sales": 11007641,
+      "expected_sales": 7456202.373209858,
+      "pct_deviation": 47.63066302425567,
+      "direction": "arriba",
+      "is_holiday": false,
+      "mensaje": "2014-12-22: ventas totales arriba de lo predicho por el modelo (11,007,641 vs. 7,456,202 esperadas, +47.6%). Sin causa de calendario identificada."
+    },
+    {
+      "Date": "2014-12-23",
+      "total_sales": 10712124,
+      "expected_sales": 6314195.237095986,
+      "pct_deviation": 69.65145355446283,
+      "direction": "arriba",
+      "is_holiday": false,
+      "mensaje": "2014-12-23: ventas totales arriba de lo predicho por el modelo (10,712,124 vs. 6,314,195 esperadas, +69.7%). Sin causa de calendario identificada."
+    },
+    {
+      "Date": "2015-03-30",
+      "total_sales": 12371453,
+      "expected_sales": 9886593.45388415,
+      "pct_deviation": 25.133627246901924,
+      "direction": "arriba",
+      "is_holiday": false,
+      "mensaje": "2015-03-30: ventas totales arriba de lo predicho por el modelo (12,371,453 vs. 9,886,593 esperadas, +25.1%). Sin causa de calendario identificada."
+    },
+    {
+      "Date": "2015-03-31",
+      "total_sales": 11222913,
+      "expected_sales": 8744586.31777028,
+      "pct_deviation": 28.34126843934741,
+      "direction": "arriba",
+      "is_holiday": false,
+      "mensaje": "2015-03-31: ventas totales arriba de lo predicho por el modelo (11,222,913 vs. 8,744,586 esperadas, +28.3%). Sin causa de calendario identificada."
+    },
+    {
+      "Date": "2015-04-01",
+      "total_sales": 11102030,
+      "expected_sales": 8354204.953947971,
+      "pct_deviation": 32.891520631816455,
+      "direction": "arriba",
+      "is_holiday": false,
+      "mensaje": "2015-04-01: ventas totales arriba de lo predicho por el modelo (11,102,030 vs. 8,354,205 esperadas, +32.9%). Sin causa de calendario identificada."
+    },
+    {
+      "Date": "2015-04-02",
+      "total_sales": 11400447,
+      "expected_sales": 8360915.9812627565,
+      "pct_deviation": 36.35404333148413,
+      "direction": "arriba",
+      "is_holiday": false,
+      "mensaje": "2015-04-02: ventas totales arriba de lo predicho por el modelo (11,400,447 vs. 8,360,916 esperadas, +36.4%). Sin causa de calendario identificada."
+    },
+    {
+      "Date": "2015-04-04",
+      "total_sales": 9366558,
+      "expected_sales": 6336807.06766917,
+      "pct_deviation": 47.81194850934992,
+      "direction": "arriba",
+      "is_holiday": false,
+      "mensaje": "2015-04-04: ventas totales arriba de lo predicho por el modelo (9,366,558 vs. 6,336,807 esperadas, +47.8%). Sin causa de calendario identificada."
+    },
+    {
+      "Date": "2015-04-30",
+      "total_sales": 11327847,
+      "expected_sales": 8360915.9812627565,
+      "pct_deviation": 35.48571741883651,
+      "direction": "arriba",
+      "is_holiday": false,
+      "mensaje": "2015-04-30: ventas totales arriba de lo predicho por el modelo (11,327,847 vs. 8,360,916 esperadas, +35.5%). Sin causa de calendario identificada."
+    },
+    {
+      "Date": "2015-05-02",
+      "total_sales": 8764984,
+      "expected_sales": 6336807.06766917,
+      "pct_deviation": 38.3186186103023,
+      "direction": "arriba",
+      "is_holiday": false,
+      "mensaje": "2015-05-02: ventas totales arriba de lo predicho por el modelo (8,764,984 vs. 6,336,807 esperadas, +38.3%). Sin causa de calendario identificada."
+    },
+    {
+      "Date": "2015-05-13",
+      "total_sales": 8147927,
+      "expected_sales": 5923813.873273676,
+      "pct_deviation": 37.545290488629284,
+      "direction": "arriba",
+      "is_holiday": false,
+      "mensaje": "2015-05-13: ventas totales arriba de lo predicho por el modelo (8,147,927 vs. 5,923,814 esperadas, +37.5%). Sin causa de calendario identificada."
+    },
+    {
+      "Date": "2015-05-15",
+      "total_sales": 8596524,
+      "expected_sales": 6352333.243548699,
+      "pct_deviation": 35.32860557544672,
+      "direction": "arriba",
+      "is_holiday": false,
+      "mensaje": "2015-05-15: ventas totales arriba de lo predicho por el modelo (8,596,524 vs. 6,352,333 esperadas, +35.3%). Sin causa de calendario identificada."
+    },
+    {
+      "Date": "2015-06-30",
+      "total_sales": 11483932,
+      "expected_sales": 8744586.31777028,
+      "pct_deviation": 31.326189515254356,
+      "direction": "arriba",
+      "is_holiday": false,
+      "mensaje": "2015-06-30: ventas totales arriba de lo predicho por el modelo (11,483,932 vs. 8,744,586 esperadas, +31.3%). Sin causa de calendario identificada."
+    }
+  ],
+  "weekday_alert_rate": {
+    "Lunes": 7.8,
+    "Martes": 3.7,
+    "Miércoles": 3.8,
+    "Jueves": 3.2,
+    "Viernes": 7.0,
+    "Sábado": 3.8
+  },
+  "model_calibration": {
+    "base_estadistica": 6.8,
+    "modelo_regresion": 4.88
+  },
+  "daily_series": [
+    {
+      "date": "2013-01-02",
+      "total_sales": 6949829,
+      "expected_sales": 5923813.873273676,
+      "lower_bound": 3761648.9706749422,
+      "upper_bound": 8085978.77587241,
+      "alert": false
+    },
+    {
+      "date": "2013-01-03",
+      "total_sales": 6347820,
+      "expected_sales": 5930524.900588463,
+      "lower_bound": 3768359.997989729,
+      "upper_bound": 8092689.803187197,
+      "alert": false
+    },
+    {
+      "date": "2013-01-04",
+      "total_sales": 6638954,
+      "expected_sales": 6352333.243548699,
+      "lower_bound": 4190168.3409499647,
+      "upper_bound": 8514498.146147434,
+      "alert": false
+    },
+    {
+      "date": "2013-01-05",
+      "total_sales": 5951593,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2013-01-07",
+      "total_sales": 10826848,
+      "expected_sales": 9886593.45388415,
+      "lower_bound": 7724428.551285417,
+      "upper_bound": 12048758.356482886,
+      "alert": false
+    },
+    {
+      "date": "2013-01-08",
+      "total_sales": 8749437,
+      "expected_sales": 8744586.31777028,
+      "lower_bound": 6582421.415171546,
+      "upper_bound": 10906751.220369015,
+      "alert": false
+    },
+    {
+      "date": "2013-01-09",
+      "total_sales": 7746603,
+      "expected_sales": 8354204.953947971,
+      "lower_bound": 6192040.051349237,
+      "upper_bound": 10516369.856546704,
+      "alert": false
+    },
+    {
+      "date": "2013-01-10",
+      "total_sales": 7751485,
+      "expected_sales": 8360915.9812627565,
+      "lower_bound": 6198751.0786640225,
+      "upper_bound": 10523080.88386149,
+      "alert": false
+    },
+    {
+      "date": "2013-01-11",
+      "total_sales": 8039306,
+      "expected_sales": 8782724.324222991,
+      "lower_bound": 6620559.421624257,
+      "upper_bound": 10944889.226821724,
+      "alert": false
+    },
+    {
+      "date": "2013-01-12",
+      "total_sales": 6017491,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2013-01-14",
+      "total_sales": 5886788,
+      "expected_sales": 7456202.373209858,
+      "lower_bound": 5294037.470611124,
+      "upper_bound": 9618367.275808591,
+      "alert": false
+    },
+    {
+      "date": "2013-01-15",
+      "total_sales": 5512591,
+      "expected_sales": 6314195.237095986,
+      "lower_bound": 4152030.3344972515,
+      "upper_bound": 8476360.13969472,
+      "alert": false
+    },
+    {
+      "date": "2013-01-16",
+      "total_sales": 5293020,
+      "expected_sales": 5923813.873273676,
+      "lower_bound": 3761648.9706749422,
+      "upper_bound": 8085978.77587241,
+      "alert": false
+    },
+    {
+      "date": "2013-01-17",
+      "total_sales": 5386564,
+      "expected_sales": 5930524.900588463,
+      "lower_bound": 3768359.997989729,
+      "upper_bound": 8092689.803187197,
+      "alert": false
+    },
+    {
+      "date": "2013-01-18",
+      "total_sales": 6137010,
+      "expected_sales": 6352333.243548699,
+      "lower_bound": 4190168.3409499647,
+      "upper_bound": 8514498.146147434,
+      "alert": false
+    },
+    {
+      "date": "2013-01-19",
+      "total_sales": 6010192,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2013-01-21",
+      "total_sales": 8761074,
+      "expected_sales": 9886593.45388415,
+      "lower_bound": 7724428.551285417,
+      "upper_bound": 12048758.356482886,
+      "alert": false
+    },
+    {
+      "date": "2013-01-22",
+      "total_sales": 8320289,
+      "expected_sales": 8744586.31777028,
+      "lower_bound": 6582421.415171546,
+      "upper_bound": 10906751.220369015,
+      "alert": false
+    },
+    {
+      "date": "2013-01-23",
+      "total_sales": 7746563,
+      "expected_sales": 8354204.953947971,
+      "lower_bound": 6192040.051349237,
+      "upper_bound": 10516369.856546704,
+      "alert": false
+    },
+    {
+      "date": "2013-01-24",
+      "total_sales": 7439836,
+      "expected_sales": 8360915.9812627565,
+      "lower_bound": 6198751.0786640225,
+      "upper_bound": 10523080.88386149,
+      "alert": false
+    },
+    {
+      "date": "2013-01-25",
+      "total_sales": 7780789,
+      "expected_sales": 8782724.324222991,
+      "lower_bound": 6620559.421624257,
+      "upper_bound": 10944889.226821724,
+      "alert": false
+    },
+    {
+      "date": "2013-01-26",
+      "total_sales": 5848770,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2013-01-28",
+      "total_sales": 5878702,
+      "expected_sales": 7456202.373209858,
+      "lower_bound": 5294037.470611124,
+      "upper_bound": 9618367.275808591,
+      "alert": false
+    },
+    {
+      "date": "2013-01-29",
+      "total_sales": 5452668,
+      "expected_sales": 6314195.237095986,
+      "lower_bound": 4152030.3344972515,
+      "upper_bound": 8476360.13969472,
+      "alert": false
+    },
+    {
+      "date": "2013-01-30",
+      "total_sales": 5909779,
+      "expected_sales": 5923813.873273676,
+      "lower_bound": 3761648.9706749422,
+      "upper_bound": 8085978.77587241,
+      "alert": false
+    },
+    {
+      "date": "2013-01-31",
+      "total_sales": 7068567,
+      "expected_sales": 5930524.900588463,
+      "lower_bound": 3768359.997989729,
+      "upper_bound": 8092689.803187197,
+      "alert": false
+    },
+    {
+      "date": "2013-02-01",
+      "total_sales": 7203007,
+      "expected_sales": 6352333.243548699,
+      "lower_bound": 4190168.3409499647,
+      "upper_bound": 8514498.146147434,
+      "alert": false
+    },
+    {
+      "date": "2013-02-02",
+      "total_sales": 6781741,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2013-02-04",
+      "total_sales": 10333651,
+      "expected_sales": 9886593.45388415,
+      "lower_bound": 7724428.551285417,
+      "upper_bound": 12048758.356482886,
+      "alert": false
+    },
+    {
+      "date": "2013-02-05",
+      "total_sales": 8841604,
+      "expected_sales": 8744586.31777028,
+      "lower_bound": 6582421.415171546,
+      "upper_bound": 10906751.220369015,
+      "alert": false
+    },
+    {
+      "date": "2013-02-06",
+      "total_sales": 8094803,
+      "expected_sales": 8354204.953947971,
+      "lower_bound": 6192040.051349237,
+      "upper_bound": 10516369.856546704,
+      "alert": false
+    },
+    {
+      "date": "2013-02-07",
+      "total_sales": 7430076,
+      "expected_sales": 8360915.9812627565,
+      "lower_bound": 6198751.0786640225,
+      "upper_bound": 10523080.88386149,
+      "alert": false
+    },
+    {
+      "date": "2013-02-08",
+      "total_sales": 7968566,
+      "expected_sales": 8782724.324222991,
+      "lower_bound": 6620559.421624257,
+      "upper_bound": 10944889.226821724,
+      "alert": false
+    },
+    {
+      "date": "2013-02-09",
+      "total_sales": 6161019,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2013-02-11",
+      "total_sales": 5517060,
+      "expected_sales": 7456202.373209858,
+      "lower_bound": 5294037.470611124,
+      "upper_bound": 9618367.275808591,
+      "alert": false
+    },
+    {
+      "date": "2013-02-12",
+      "total_sales": 5563503,
+      "expected_sales": 6314195.237095986,
+      "lower_bound": 4152030.3344972515,
+      "upper_bound": 8476360.13969472,
+      "alert": false
+    },
+    {
+      "date": "2013-02-13",
+      "total_sales": 6175147,
+      "expected_sales": 5923813.873273676,
+      "lower_bound": 3761648.9706749422,
+      "upper_bound": 8085978.77587241,
+      "alert": false
+    },
+    {
+      "date": "2013-02-14",
+      "total_sales": 6422292,
+      "expected_sales": 5930524.900588463,
+      "lower_bound": 3768359.997989729,
+      "upper_bound": 8092689.803187197,
+      "alert": false
+    },
+    {
+      "date": "2013-02-15",
+      "total_sales": 6255053,
+      "expected_sales": 6352333.243548699,
+      "lower_bound": 4190168.3409499647,
+      "upper_bound": 8514498.146147434,
+      "alert": false
+    },
+    {
+      "date": "2013-02-16",
+      "total_sales": 6162142,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2013-02-18",
+      "total_sales": 10703641,
+      "expected_sales": 9886593.45388415,
+      "lower_bound": 7724428.551285417,
+      "upper_bound": 12048758.356482886,
+      "alert": false
+    },
+    {
+      "date": "2013-02-19",
+      "total_sales": 7988672,
+      "expected_sales": 8744586.31777028,
+      "lower_bound": 6582421.415171546,
+      "upper_bound": 10906751.220369015,
+      "alert": false
+    },
+    {
+      "date": "2013-02-20",
+      "total_sales": 7759768,
+      "expected_sales": 8354204.953947971,
+      "lower_bound": 6192040.051349237,
+      "upper_bound": 10516369.856546704,
+      "alert": false
+    },
+    {
+      "date": "2013-02-21",
+      "total_sales": 7611880,
+      "expected_sales": 8360915.9812627565,
+      "lower_bound": 6198751.0786640225,
+      "upper_bound": 10523080.88386149,
+      "alert": false
+    },
+    {
+      "date": "2013-02-22",
+      "total_sales": 7840974,
+      "expected_sales": 8782724.324222991,
+      "lower_bound": 6620559.421624257,
+      "upper_bound": 10944889.226821724,
+      "alert": false
+    },
+    {
+      "date": "2013-02-23",
+      "total_sales": 5637945,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2013-02-25",
+      "total_sales": 5615365,
+      "expected_sales": 7456202.373209858,
+      "lower_bound": 5294037.470611124,
+      "upper_bound": 9618367.275808591,
+      "alert": false
+    },
+    {
+      "date": "2013-02-26",
+      "total_sales": 5671238,
+      "expected_sales": 6314195.237095986,
+      "lower_bound": 4152030.3344972515,
+      "upper_bound": 8476360.13969472,
+      "alert": false
+    },
+    {
+      "date": "2013-02-27",
+      "total_sales": 6008503,
+      "expected_sales": 5923813.873273676,
+      "lower_bound": 3761648.9706749422,
+      "upper_bound": 8085978.77587241,
+      "alert": false
+    },
+    {
+      "date": "2013-02-28",
+      "total_sales": 7108972,
+      "expected_sales": 5930524.900588463,
+      "lower_bound": 3768359.997989729,
+      "upper_bound": 8092689.803187197,
+      "alert": false
+    },
+    {
+      "date": "2013-03-01",
+      "total_sales": 7244231,
+      "expected_sales": 6352333.243548699,
+      "lower_bound": 4190168.3409499647,
+      "upper_bound": 8514498.146147434,
+      "alert": false
+    },
+    {
+      "date": "2013-03-02",
+      "total_sales": 6779350,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2013-03-04",
+      "total_sales": 11072682,
+      "expected_sales": 9886593.45388415,
+      "lower_bound": 7724428.551285417,
+      "upper_bound": 12048758.356482886,
+      "alert": false
+    },
+    {
+      "date": "2013-03-05",
+      "total_sales": 8943536,
+      "expected_sales": 8744586.31777028,
+      "lower_bound": 6582421.415171546,
+      "upper_bound": 10906751.220369015,
+      "alert": false
+    },
+    {
+      "date": "2013-03-06",
+      "total_sales": 8062941,
+      "expected_sales": 8354204.953947971,
+      "lower_bound": 6192040.051349237,
+      "upper_bound": 10516369.856546704,
+      "alert": false
+    },
+    {
+      "date": "2013-03-07",
+      "total_sales": 7981811,
+      "expected_sales": 8360915.9812627565,
+      "lower_bound": 6198751.0786640225,
+      "upper_bound": 10523080.88386149,
+      "alert": false
+    },
+    {
+      "date": "2013-03-08",
+      "total_sales": 8118153,
+      "expected_sales": 8782724.324222991,
+      "lower_bound": 6620559.421624257,
+      "upper_bound": 10944889.226821724,
+      "alert": false
+    },
+    {
+      "date": "2013-03-09",
+      "total_sales": 6061383,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2013-03-11",
+      "total_sales": 6194538,
+      "expected_sales": 7456202.373209858,
+      "lower_bound": 5294037.470611124,
+      "upper_bound": 9618367.275808591,
+      "alert": false
+    },
+    {
+      "date": "2013-03-12",
+      "total_sales": 5338418,
+      "expected_sales": 6314195.237095986,
+      "lower_bound": 4152030.3344972515,
+      "upper_bound": 8476360.13969472,
+      "alert": false
+    },
+    {
+      "date": "2013-03-13",
+      "total_sales": 5830737,
+      "expected_sales": 5923813.873273676,
+      "lower_bound": 3761648.9706749422,
+      "upper_bound": 8085978.77587241,
+      "alert": false
+    },
+    {
+      "date": "2013-03-14",
+      "total_sales": 6098093,
+      "expected_sales": 5930524.900588463,
+      "lower_bound": 3768359.997989729,
+      "upper_bound": 8092689.803187197,
+      "alert": false
+    },
+    {
+      "date": "2013-03-15",
+      "total_sales": 6783348,
+      "expected_sales": 6352333.243548699,
+      "lower_bound": 4190168.3409499647,
+      "upper_bound": 8514498.146147434,
+      "alert": false
+    },
+    {
+      "date": "2013-03-16",
+      "total_sales": 6459058,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2013-03-18",
+      "total_sales": 10078195,
+      "expected_sales": 9886593.45388415,
+      "lower_bound": 7724428.551285417,
+      "upper_bound": 12048758.356482886,
+      "alert": false
+    },
+    {
+      "date": "2013-03-19",
+      "total_sales": 8528292,
+      "expected_sales": 8744586.31777028,
+      "lower_bound": 6582421.415171546,
+      "upper_bound": 10906751.220369015,
+      "alert": false
+    },
+    {
+      "date": "2013-03-20",
+      "total_sales": 7728892,
+      "expected_sales": 8354204.953947971,
+      "lower_bound": 6192040.051349237,
+      "upper_bound": 10516369.856546704,
+      "alert": false
+    },
+    {
+      "date": "2013-03-21",
+      "total_sales": 7897067,
+      "expected_sales": 8360915.9812627565,
+      "lower_bound": 6198751.0786640225,
+      "upper_bound": 10523080.88386149,
+      "alert": false
+    },
+    {
+      "date": "2013-03-22",
+      "total_sales": 8245992,
+      "expected_sales": 8782724.324222991,
+      "lower_bound": 6620559.421624257,
+      "upper_bound": 10944889.226821724,
+      "alert": false
+    },
+    {
+      "date": "2013-03-23",
+      "total_sales": 6337911,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2013-03-25",
+      "total_sales": 10482556,
+      "expected_sales": 9886593.45388415,
+      "lower_bound": 7724428.551285417,
+      "upper_bound": 12048758.356482886,
+      "alert": false
+    },
+    {
+      "date": "2013-03-26",
+      "total_sales": 9305505,
+      "expected_sales": 8744586.31777028,
+      "lower_bound": 6582421.415171546,
+      "upper_bound": 10906751.220369015,
+      "alert": false
+    },
+    {
+      "date": "2013-03-27",
+      "total_sales": 9674698,
+      "expected_sales": 8354204.953947971,
+      "lower_bound": 6192040.051349237,
+      "upper_bound": 10516369.856546704,
+      "alert": false
+    },
+    {
+      "date": "2013-03-28",
+      "total_sales": 11417987,
+      "expected_sales": 8360915.9812627565,
+      "lower_bound": 6198751.0786640225,
+      "upper_bound": 10523080.88386149,
+      "alert": true
+    },
+    {
+      "date": "2013-03-30",
+      "total_sales": 9380402,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": true
+    },
+    {
+      "date": "2013-04-02",
+      "total_sales": 7362049,
+      "expected_sales": 6314195.237095986,
+      "lower_bound": 4152030.3344972515,
+      "upper_bound": 8476360.13969472,
+      "alert": false
+    },
+    {
+      "date": "2013-04-03",
+      "total_sales": 6406442,
+      "expected_sales": 5923813.873273676,
+      "lower_bound": 3761648.9706749422,
+      "upper_bound": 8085978.77587241,
+      "alert": false
+    },
+    {
+      "date": "2013-04-04",
+      "total_sales": 6496112,
+      "expected_sales": 5930524.900588463,
+      "lower_bound": 3768359.997989729,
+      "upper_bound": 8092689.803187197,
+      "alert": false
+    },
+    {
+      "date": "2013-04-05",
+      "total_sales": 6622062,
+      "expected_sales": 6352333.243548699,
+      "lower_bound": 4190168.3409499647,
+      "upper_bound": 8514498.146147434,
+      "alert": false
+    },
+    {
+      "date": "2013-04-06",
+      "total_sales": 6171054,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2013-04-08",
+      "total_sales": 10115602,
+      "expected_sales": 9886593.45388415,
+      "lower_bound": 7724428.551285417,
+      "upper_bound": 12048758.356482886,
+      "alert": false
+    },
+    {
+      "date": "2013-04-09",
+      "total_sales": 8418477,
+      "expected_sales": 8744586.31777028,
+      "lower_bound": 6582421.415171546,
+      "upper_bound": 10906751.220369015,
+      "alert": false
+    },
+    {
+      "date": "2013-04-10",
+      "total_sales": 7698779,
+      "expected_sales": 8354204.953947971,
+      "lower_bound": 6192040.051349237,
+      "upper_bound": 10516369.856546704,
+      "alert": false
+    },
+    {
+      "date": "2013-04-11",
+      "total_sales": 7580421,
+      "expected_sales": 8360915.9812627565,
+      "lower_bound": 6198751.0786640225,
+      "upper_bound": 10523080.88386149,
+      "alert": false
+    },
+    {
+      "date": "2013-04-12",
+      "total_sales": 8056347,
+      "expected_sales": 8782724.324222991,
+      "lower_bound": 6620559.421624257,
+      "upper_bound": 10944889.226821724,
+      "alert": false
+    },
+    {
+      "date": "2013-04-13",
+      "total_sales": 6024315,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2013-04-15",
+      "total_sales": 5711125,
+      "expected_sales": 7456202.373209858,
+      "lower_bound": 5294037.470611124,
+      "upper_bound": 9618367.275808591,
+      "alert": false
+    },
+    {
+      "date": "2013-04-16",
+      "total_sales": 5668517,
+      "expected_sales": 6314195.237095986,
+      "lower_bound": 4152030.3344972515,
+      "upper_bound": 8476360.13969472,
+      "alert": false
+    },
+    {
+      "date": "2013-04-17",
+      "total_sales": 5556697,
+      "expected_sales": 5923813.873273676,
+      "lower_bound": 3761648.9706749422,
+      "upper_bound": 8085978.77587241,
+      "alert": false
+    },
+    {
+      "date": "2013-04-18",
+      "total_sales": 5726233,
+      "expected_sales": 5930524.900588463,
+      "lower_bound": 3768359.997989729,
+      "upper_bound": 8092689.803187197,
+      "alert": false
+    },
+    {
+      "date": "2013-04-19",
+      "total_sales": 6349901,
+      "expected_sales": 6352333.243548699,
+      "lower_bound": 4190168.3409499647,
+      "upper_bound": 8514498.146147434,
+      "alert": false
+    },
+    {
+      "date": "2013-04-20",
+      "total_sales": 6006147,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2013-04-22",
+      "total_sales": 9542000,
+      "expected_sales": 9886593.45388415,
+      "lower_bound": 7724428.551285417,
+      "upper_bound": 12048758.356482886,
+      "alert": false
+    },
+    {
+      "date": "2013-04-23",
+      "total_sales": 8047511,
+      "expected_sales": 8744586.31777028,
+      "lower_bound": 6582421.415171546,
+      "upper_bound": 10906751.220369015,
+      "alert": false
+    },
+    {
+      "date": "2013-04-24",
+      "total_sales": 7177730,
+      "expected_sales": 8354204.953947971,
+      "lower_bound": 6192040.051349237,
+      "upper_bound": 10516369.856546704,
+      "alert": false
+    },
+    {
+      "date": "2013-04-25",
+      "total_sales": 7121467,
+      "expected_sales": 8360915.9812627565,
+      "lower_bound": 6198751.0786640225,
+      "upper_bound": 10523080.88386149,
+      "alert": false
+    },
+    {
+      "date": "2013-04-26",
+      "total_sales": 7652433,
+      "expected_sales": 8782724.324222991,
+      "lower_bound": 6620559.421624257,
+      "upper_bound": 10944889.226821724,
+      "alert": false
+    },
+    {
+      "date": "2013-04-27",
+      "total_sales": 6308284,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2013-04-29",
+      "total_sales": 10040182,
+      "expected_sales": 9886593.45388415,
+      "lower_bound": 7724428.551285417,
+      "upper_bound": 12048758.356482886,
+      "alert": false
+    },
+    {
+      "date": "2013-04-30",
+      "total_sales": 10565093,
+      "expected_sales": 8744586.31777028,
+      "lower_bound": 6582421.415171546,
+      "upper_bound": 10906751.220369015,
+      "alert": false
+    },
+    {
+      "date": "2013-05-02",
+      "total_sales": 9884371,
+      "expected_sales": 8360915.9812627565,
+      "lower_bound": 6198751.0786640225,
+      "upper_bound": 10523080.88386149,
+      "alert": false
+    },
+    {
+      "date": "2013-05-03",
+      "total_sales": 8967338,
+      "expected_sales": 8782724.324222991,
+      "lower_bound": 6620559.421624257,
+      "upper_bound": 10944889.226821724,
+      "alert": false
+    },
+    {
+      "date": "2013-05-04",
+      "total_sales": 6487719,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2013-05-06",
+      "total_sales": 6884920,
+      "expected_sales": 7456202.373209858,
+      "lower_bound": 5294037.470611124,
+      "upper_bound": 9618367.275808591,
+      "alert": false
+    },
+    {
+      "date": "2013-05-07",
+      "total_sales": 6697752,
+      "expected_sales": 6314195.237095986,
+      "lower_bound": 4152030.3344972515,
+      "upper_bound": 8476360.13969472,
+      "alert": false
+    },
+    {
+      "date": "2013-05-08",
+      "total_sales": 7693180,
+      "expected_sales": 5923813.873273676,
+      "lower_bound": 3761648.9706749422,
+      "upper_bound": 8085978.77587241,
+      "alert": false
+    },
+    {
+      "date": "2013-05-10",
+      "total_sales": 8481406,
+      "expected_sales": 6352333.243548699,
+      "lower_bound": 4190168.3409499647,
+      "upper_bound": 8514498.146147434,
+      "alert": false
+    },
+    {
+      "date": "2013-05-11",
+      "total_sales": 6658662,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2013-05-13",
+      "total_sales": 9826496,
+      "expected_sales": 9886593.45388415,
+      "lower_bound": 7724428.551285417,
+      "upper_bound": 12048758.356482886,
+      "alert": false
+    },
+    {
+      "date": "2013-05-14",
+      "total_sales": 8662237,
+      "expected_sales": 8744586.31777028,
+      "lower_bound": 6582421.415171546,
+      "upper_bound": 10906751.220369015,
+      "alert": false
+    },
+    {
+      "date": "2013-05-15",
+      "total_sales": 7767784,
+      "expected_sales": 8354204.953947971,
+      "lower_bound": 6192040.051349237,
+      "upper_bound": 10516369.856546704,
+      "alert": false
+    },
+    {
+      "date": "2013-05-16",
+      "total_sales": 7884887,
+      "expected_sales": 8360915.9812627565,
+      "lower_bound": 6198751.0786640225,
+      "upper_bound": 10523080.88386149,
+      "alert": false
+    },
+    {
+      "date": "2013-05-17",
+      "total_sales": 8225841,
+      "expected_sales": 8782724.324222991,
+      "lower_bound": 6620559.421624257,
+      "upper_bound": 10944889.226821724,
+      "alert": false
+    },
+    {
+      "date": "2013-05-18",
+      "total_sales": 6410461,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2013-05-21",
+      "total_sales": 7204456,
+      "expected_sales": 6314195.237095986,
+      "lower_bound": 4152030.3344972515,
+      "upper_bound": 8476360.13969472,
+      "alert": false
+    },
+    {
+      "date": "2013-05-22",
+      "total_sales": 6085235,
+      "expected_sales": 5923813.873273676,
+      "lower_bound": 3761648.9706749422,
+      "upper_bound": 8085978.77587241,
+      "alert": false
+    },
+    {
+      "date": "2013-05-23",
+      "total_sales": 6209485,
+      "expected_sales": 5930524.900588463,
+      "lower_bound": 3768359.997989729,
+      "upper_bound": 8092689.803187197,
+      "alert": false
+    },
+    {
+      "date": "2013-05-24",
+      "total_sales": 6483138,
+      "expected_sales": 6352333.243548699,
+      "lower_bound": 4190168.3409499647,
+      "upper_bound": 8514498.146147434,
+      "alert": false
+    },
+    {
+      "date": "2013-05-25",
+      "total_sales": 5806559,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2013-05-27",
+      "total_sales": 9944524,
+      "expected_sales": 9886593.45388415,
+      "lower_bound": 7724428.551285417,
+      "upper_bound": 12048758.356482886,
+      "alert": false
+    },
+    {
+      "date": "2013-05-28",
+      "total_sales": 8390312,
+      "expected_sales": 8744586.31777028,
+      "lower_bound": 6582421.415171546,
+      "upper_bound": 10906751.220369015,
+      "alert": false
+    },
+    {
+      "date": "2013-05-29",
+      "total_sales": 8885059,
+      "expected_sales": 8354204.953947971,
+      "lower_bound": 6192040.051349237,
+      "upper_bound": 10516369.856546704,
+      "alert": false
+    },
+    {
+      "date": "2013-05-31",
+      "total_sales": 10913876,
+      "expected_sales": 8782724.324222991,
+      "lower_bound": 6620559.421624257,
+      "upper_bound": 10944889.226821724,
+      "alert": false
+    },
+    {
+      "date": "2013-06-01",
+      "total_sales": 6907750,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2013-06-03",
+      "total_sales": 10144989,
+      "expected_sales": 9886593.45388415,
+      "lower_bound": 7724428.551285417,
+      "upper_bound": 12048758.356482886,
+      "alert": false
+    },
+    {
+      "date": "2013-06-04",
+      "total_sales": 8526834,
+      "expected_sales": 8744586.31777028,
+      "lower_bound": 6582421.415171546,
+      "upper_bound": 10906751.220369015,
+      "alert": false
+    },
+    {
+      "date": "2013-06-05",
+      "total_sales": 7683188,
+      "expected_sales": 8354204.953947971,
+      "lower_bound": 6192040.051349237,
+      "upper_bound": 10516369.856546704,
+      "alert": false
+    },
+    {
+      "date": "2013-06-06",
+      "total_sales": 7646668,
+      "expected_sales": 8360915.9812627565,
+      "lower_bound": 6198751.0786640225,
+      "upper_bound": 10523080.88386149,
+      "alert": false
+    },
+    {
+      "date": "2013-06-07",
+      "total_sales": 7967656,
+      "expected_sales": 8782724.324222991,
+      "lower_bound": 6620559.421624257,
+      "upper_bound": 10944889.226821724,
+      "alert": false
+    },
+    {
+      "date": "2013-06-08",
+      "total_sales": 5993792,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2013-06-10",
+      "total_sales": 6667460,
+      "expected_sales": 7456202.373209858,
+      "lower_bound": 5294037.470611124,
+      "upper_bound": 9618367.275808591,
+      "alert": false
+    },
+    {
+      "date": "2013-06-11",
+      "total_sales": 6201425,
+      "expected_sales": 6314195.237095986,
+      "lower_bound": 4152030.3344972515,
+      "upper_bound": 8476360.13969472,
+      "alert": false
+    },
+    {
+      "date": "2013-06-12",
+      "total_sales": 5961024,
+      "expected_sales": 5923813.873273676,
+      "lower_bound": 3761648.9706749422,
+      "upper_bound": 8085978.77587241,
+      "alert": false
+    },
+    {
+      "date": "2013-06-13",
+      "total_sales": 6044207,
+      "expected_sales": 5930524.900588463,
+      "lower_bound": 3768359.997989729,
+      "upper_bound": 8092689.803187197,
+      "alert": false
+    },
+    {
+      "date": "2013-06-14",
+      "total_sales": 6887448,
+      "expected_sales": 6352333.243548699,
+      "lower_bound": 4190168.3409499647,
+      "upper_bound": 8514498.146147434,
+      "alert": false
+    },
+    {
+      "date": "2013-06-15",
+      "total_sales": 6144832,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2013-06-17",
+      "total_sales": 10191372,
+      "expected_sales": 9886593.45388415,
+      "lower_bound": 7724428.551285417,
+      "upper_bound": 12048758.356482886,
+      "alert": false
+    },
+    {
+      "date": "2013-06-18",
+      "total_sales": 8100286,
+      "expected_sales": 8744586.31777028,
+      "lower_bound": 6582421.415171546,
+      "upper_bound": 10906751.220369015,
+      "alert": false
+    },
+    {
+      "date": "2013-06-19",
+      "total_sales": 7243757,
+      "expected_sales": 8354204.953947971,
+      "lower_bound": 6192040.051349237,
+      "upper_bound": 10516369.856546704,
+      "alert": false
+    },
+    {
+      "date": "2013-06-20",
+      "total_sales": 7353311,
+      "expected_sales": 8360915.9812627565,
+      "lower_bound": 6198751.0786640225,
+      "upper_bound": 10523080.88386149,
+      "alert": false
+    },
+    {
+      "date": "2013-06-21",
+      "total_sales": 8406280,
+      "expected_sales": 8782724.324222991,
+      "lower_bound": 6620559.421624257,
+      "upper_bound": 10944889.226821724,
+      "alert": false
+    },
+    {
+      "date": "2013-06-22",
+      "total_sales": 6189413,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2013-06-24",
+      "total_sales": 6511212,
+      "expected_sales": 7456202.373209858,
+      "lower_bound": 5294037.470611124,
+      "upper_bound": 9618367.275808591,
+      "alert": false
+    },
+    {
+      "date": "2013-06-25",
+      "total_sales": 5827831,
+      "expected_sales": 6314195.237095986,
+      "lower_bound": 4152030.3344972515,
+      "upper_bound": 8476360.13969472,
+      "alert": false
+    },
+    {
+      "date": "2013-06-26",
+      "total_sales": 6028195,
+      "expected_sales": 5923813.873273676,
+      "lower_bound": 3761648.9706749422,
+      "upper_bound": 8085978.77587241,
+      "alert": false
+    },
+    {
+      "date": "2013-06-27",
+      "total_sales": 6372971,
+      "expected_sales": 5930524.900588463,
+      "lower_bound": 3768359.997989729,
+      "upper_bound": 8092689.803187197,
+      "alert": false
+    },
+    {
+      "date": "2013-06-28",
+      "total_sales": 7625077,
+      "expected_sales": 6352333.243548699,
+      "lower_bound": 4190168.3409499647,
+      "upper_bound": 8514498.146147434,
+      "alert": false
+    },
+    {
+      "date": "2013-06-29",
+      "total_sales": 6909121,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2013-07-01",
+      "total_sales": 10750990,
+      "expected_sales": 9886593.45388415,
+      "lower_bound": 7724428.551285417,
+      "upper_bound": 12048758.356482886,
+      "alert": false
+    },
+    {
+      "date": "2013-07-02",
+      "total_sales": 8936605,
+      "expected_sales": 8744586.31777028,
+      "lower_bound": 6582421.415171546,
+      "upper_bound": 10906751.220369015,
+      "alert": false
+    },
+    {
+      "date": "2013-07-03",
+      "total_sales": 8416942,
+      "expected_sales": 8354204.953947971,
+      "lower_bound": 6192040.051349237,
+      "upper_bound": 10516369.856546704,
+      "alert": false
+    },
+    {
+      "date": "2013-07-04",
+      "total_sales": 8458325,
+      "expected_sales": 8360915.9812627565,
+      "lower_bound": 6198751.0786640225,
+      "upper_bound": 10523080.88386149,
+      "alert": false
+    },
+    {
+      "date": "2013-07-05",
+      "total_sales": 8384512,
+      "expected_sales": 8782724.324222991,
+      "lower_bound": 6620559.421624257,
+      "upper_bound": 10944889.226821724,
+      "alert": false
+    },
+    {
+      "date": "2013-07-06",
+      "total_sales": 5927036,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2013-07-08",
+      "total_sales": 6652999,
+      "expected_sales": 7456202.373209858,
+      "lower_bound": 5294037.470611124,
+      "upper_bound": 9618367.275808591,
+      "alert": false
+    },
+    {
+      "date": "2013-07-09",
+      "total_sales": 6157174,
+      "expected_sales": 6314195.237095986,
+      "lower_bound": 4152030.3344972515,
+      "upper_bound": 8476360.13969472,
+      "alert": false
+    },
+    {
+      "date": "2013-07-10",
+      "total_sales": 6248496,
+      "expected_sales": 5923813.873273676,
+      "lower_bound": 3761648.9706749422,
+      "upper_bound": 8085978.77587241,
+      "alert": false
+    },
+    {
+      "date": "2013-07-11",
+      "total_sales": 6483182,
+      "expected_sales": 5930524.900588463,
+      "lower_bound": 3768359.997989729,
+      "upper_bound": 8092689.803187197,
+      "alert": false
+    },
+    {
+      "date": "2013-07-12",
+      "total_sales": 6699439,
+      "expected_sales": 6352333.243548699,
+      "lower_bound": 4190168.3409499647,
+      "upper_bound": 8514498.146147434,
+      "alert": false
+    },
+    {
+      "date": "2013-07-13",
+      "total_sales": 5987351,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2013-07-15",
+      "total_sales": 11484803,
+      "expected_sales": 9886593.45388415,
+      "lower_bound": 7724428.551285417,
+      "upper_bound": 12048758.356482886,
+      "alert": false
+    },
+    {
+      "date": "2013-07-16",
+      "total_sales": 9157994,
+      "expected_sales": 8744586.31777028,
+      "lower_bound": 6582421.415171546,
+      "upper_bound": 10906751.220369015,
+      "alert": false
+    },
+    {
+      "date": "2013-07-17",
+      "total_sales": 8269168,
+      "expected_sales": 8354204.953947971,
+      "lower_bound": 6192040.051349237,
+      "upper_bound": 10516369.856546704,
+      "alert": false
+    },
+    {
+      "date": "2013-07-18",
+      "total_sales": 8092686,
+      "expected_sales": 8360915.9812627565,
+      "lower_bound": 6198751.0786640225,
+      "upper_bound": 10523080.88386149,
+      "alert": false
+    },
+    {
+      "date": "2013-07-19",
+      "total_sales": 8376476,
+      "expected_sales": 8782724.324222991,
+      "lower_bound": 6620559.421624257,
+      "upper_bound": 10944889.226821724,
+      "alert": false
+    },
+    {
+      "date": "2013-07-20",
+      "total_sales": 5941848,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2013-07-22",
+      "total_sales": 6285621,
+      "expected_sales": 7456202.373209858,
+      "lower_bound": 5294037.470611124,
+      "upper_bound": 9618367.275808591,
+      "alert": false
+    },
+    {
+      "date": "2013-07-23",
+      "total_sales": 5767497,
+      "expected_sales": 6314195.237095986,
+      "lower_bound": 4152030.3344972515,
+      "upper_bound": 8476360.13969472,
+      "alert": false
+    },
+    {
+      "date": "2013-07-24",
+      "total_sales": 5966755,
+      "expected_sales": 5923813.873273676,
+      "lower_bound": 3761648.9706749422,
+      "upper_bound": 8085978.77587241,
+      "alert": false
+    },
+    {
+      "date": "2013-07-25",
+      "total_sales": 6065761,
+      "expected_sales": 5930524.900588463,
+      "lower_bound": 3768359.997989729,
+      "upper_bound": 8092689.803187197,
+      "alert": false
+    },
+    {
+      "date": "2013-07-26",
+      "total_sales": 6270667,
+      "expected_sales": 6352333.243548699,
+      "lower_bound": 4190168.3409499647,
+      "upper_bound": 8514498.146147434,
+      "alert": false
+    },
+    {
+      "date": "2013-07-27",
+      "total_sales": 5448670,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2013-07-29",
+      "total_sales": 11299276,
+      "expected_sales": 9886593.45388415,
+      "lower_bound": 7724428.551285417,
+      "upper_bound": 12048758.356482886,
+      "alert": false
+    },
+    {
+      "date": "2013-07-30",
+      "total_sales": 10064515,
+      "expected_sales": 8744586.31777028,
+      "lower_bound": 6582421.415171546,
+      "upper_bound": 10906751.220369015,
+      "alert": false
+    },
+    {
+      "date": "2013-07-31",
+      "total_sales": 10293490,
+      "expected_sales": 8354204.953947971,
+      "lower_bound": 6192040.051349237,
+      "upper_bound": 10516369.856546704,
+      "alert": false
+    },
+    {
+      "date": "2013-08-01",
+      "total_sales": 8783485,
+      "expected_sales": 8360915.9812627565,
+      "lower_bound": 6198751.0786640225,
+      "upper_bound": 10523080.88386149,
+      "alert": false
+    },
+    {
+      "date": "2013-08-02",
+      "total_sales": 8085626,
+      "expected_sales": 8782724.324222991,
+      "lower_bound": 6620559.421624257,
+      "upper_bound": 10944889.226821724,
+      "alert": false
+    },
+    {
+      "date": "2013-08-03",
+      "total_sales": 6320830,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2013-08-05",
+      "total_sales": 7169893,
+      "expected_sales": 7456202.373209858,
+      "lower_bound": 5294037.470611124,
+      "upper_bound": 9618367.275808591,
+      "alert": false
+    },
+    {
+      "date": "2013-08-06",
+      "total_sales": 6366382,
+      "expected_sales": 6314195.237095986,
+      "lower_bound": 4152030.3344972515,
+      "upper_bound": 8476360.13969472,
+      "alert": false
+    },
+    {
+      "date": "2013-08-07",
+      "total_sales": 6414477,
+      "expected_sales": 5923813.873273676,
+      "lower_bound": 3761648.9706749422,
+      "upper_bound": 8085978.77587241,
+      "alert": false
+    },
+    {
+      "date": "2013-08-08",
+      "total_sales": 6430437,
+      "expected_sales": 5930524.900588463,
+      "lower_bound": 3768359.997989729,
+      "upper_bound": 8092689.803187197,
+      "alert": false
+    },
+    {
+      "date": "2013-08-09",
+      "total_sales": 6589299,
+      "expected_sales": 6352333.243548699,
+      "lower_bound": 4190168.3409499647,
+      "upper_bound": 8514498.146147434,
+      "alert": false
+    },
+    {
+      "date": "2013-08-10",
+      "total_sales": 5881545,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2013-08-12",
+      "total_sales": 11137198,
+      "expected_sales": 9886593.45388415,
+      "lower_bound": 7724428.551285417,
+      "upper_bound": 12048758.356482886,
+      "alert": false
+    },
+    {
+      "date": "2013-08-13",
+      "total_sales": 9179490,
+      "expected_sales": 8744586.31777028,
+      "lower_bound": 6582421.415171546,
+      "upper_bound": 10906751.220369015,
+      "alert": false
+    },
+    {
+      "date": "2013-08-14",
+      "total_sales": 8509505,
+      "expected_sales": 8354204.953947971,
+      "lower_bound": 6192040.051349237,
+      "upper_bound": 10516369.856546704,
+      "alert": false
+    },
+    {
+      "date": "2013-08-15",
+      "total_sales": 7029537,
+      "expected_sales": 7585291.401851886,
+      "lower_bound": 5423126.499253152,
+      "upper_bound": 9747456.30445062,
+      "alert": false
+    },
+    {
+      "date": "2013-08-16",
+      "total_sales": 8137427,
+      "expected_sales": 8782724.324222991,
+      "lower_bound": 6620559.421624257,
+      "upper_bound": 10944889.226821724,
+      "alert": false
+    },
+    {
+      "date": "2013-08-17",
+      "total_sales": 5584570,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2013-08-19",
+      "total_sales": 6391105,
+      "expected_sales": 7456202.373209858,
+      "lower_bound": 5294037.470611124,
+      "upper_bound": 9618367.275808591,
+      "alert": false
+    },
+    {
+      "date": "2013-08-20",
+      "total_sales": 5989832,
+      "expected_sales": 6314195.237095986,
+      "lower_bound": 4152030.3344972515,
+      "upper_bound": 8476360.13969472,
+      "alert": false
+    },
+    {
+      "date": "2013-08-21",
+      "total_sales": 5696932,
+      "expected_sales": 5923813.873273676,
+      "lower_bound": 3761648.9706749422,
+      "upper_bound": 8085978.77587241,
+      "alert": false
+    },
+    {
+      "date": "2013-08-22",
+      "total_sales": 5759988,
+      "expected_sales": 5930524.900588463,
+      "lower_bound": 3768359.997989729,
+      "upper_bound": 8092689.803187197,
+      "alert": false
+    },
+    {
+      "date": "2013-08-23",
+      "total_sales": 6035936,
+      "expected_sales": 6352333.243548699,
+      "lower_bound": 4190168.3409499647,
+      "upper_bound": 8514498.146147434,
+      "alert": false
+    },
+    {
+      "date": "2013-08-24",
+      "total_sales": 5397910,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2013-08-26",
+      "total_sales": 10302422,
+      "expected_sales": 9886593.45388415,
+      "lower_bound": 7724428.551285417,
+      "upper_bound": 12048758.356482886,
+      "alert": false
+    },
+    {
+      "date": "2013-08-27",
+      "total_sales": 8397061,
+      "expected_sales": 8744586.31777028,
+      "lower_bound": 6582421.415171546,
+      "upper_bound": 10906751.220369015,
+      "alert": false
+    },
+    {
+      "date": "2013-08-28",
+      "total_sales": 7838558,
+      "expected_sales": 8354204.953947971,
+      "lower_bound": 6192040.051349237,
+      "upper_bound": 10516369.856546704,
+      "alert": false
+    },
+    {
+      "date": "2013-08-29",
+      "total_sales": 7970501,
+      "expected_sales": 8360915.9812627565,
+      "lower_bound": 6198751.0786640225,
+      "upper_bound": 10523080.88386149,
+      "alert": false
+    },
+    {
+      "date": "2013-08-30",
+      "total_sales": 9221577,
+      "expected_sales": 8782724.324222991,
+      "lower_bound": 6620559.421624257,
+      "upper_bound": 10944889.226821724,
+      "alert": false
+    },
+    {
+      "date": "2013-08-31",
+      "total_sales": 6458023,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2013-09-02",
+      "total_sales": 6834913,
+      "expected_sales": 7456202.373209858,
+      "lower_bound": 5294037.470611124,
+      "upper_bound": 9618367.275808591,
+      "alert": false
+    },
+    {
+      "date": "2013-09-03",
+      "total_sales": 6322579,
+      "expected_sales": 6314195.237095986,
+      "lower_bound": 4152030.3344972515,
+      "upper_bound": 8476360.13969472,
+      "alert": false
+    },
+    {
+      "date": "2013-09-04",
+      "total_sales": 5985810,
+      "expected_sales": 5923813.873273676,
+      "lower_bound": 3761648.9706749422,
+      "upper_bound": 8085978.77587241,
+      "alert": false
+    },
+    {
+      "date": "2013-09-05",
+      "total_sales": 5843845,
+      "expected_sales": 5930524.900588463,
+      "lower_bound": 3768359.997989729,
+      "upper_bound": 8092689.803187197,
+      "alert": false
+    },
+    {
+      "date": "2013-09-06",
+      "total_sales": 6121373,
+      "expected_sales": 6352333.243548699,
+      "lower_bound": 4190168.3409499647,
+      "upper_bound": 8514498.146147434,
+      "alert": false
+    },
+    {
+      "date": "2013-09-07",
+      "total_sales": 5795003,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2013-09-09",
+      "total_sales": 11058017,
+      "expected_sales": 9886593.45388415,
+      "lower_bound": 7724428.551285417,
+      "upper_bound": 12048758.356482886,
+      "alert": false
+    },
+    {
+      "date": "2013-09-10",
+      "total_sales": 8946722,
+      "expected_sales": 8744586.31777028,
+      "lower_bound": 6582421.415171546,
+      "upper_bound": 10906751.220369015,
+      "alert": false
+    },
+    {
+      "date": "2013-09-11",
+      "total_sales": 8285894,
+      "expected_sales": 8354204.953947971,
+      "lower_bound": 6192040.051349237,
+      "upper_bound": 10516369.856546704,
+      "alert": false
+    },
+    {
+      "date": "2013-09-12",
+      "total_sales": 8096007,
+      "expected_sales": 8360915.9812627565,
+      "lower_bound": 6198751.0786640225,
+      "upper_bound": 10523080.88386149,
+      "alert": false
+    },
+    {
+      "date": "2013-09-13",
+      "total_sales": 8371696,
+      "expected_sales": 8782724.324222991,
+      "lower_bound": 6620559.421624257,
+      "upper_bound": 10944889.226821724,
+      "alert": false
+    },
+    {
+      "date": "2013-09-14",
+      "total_sales": 5894325,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2013-09-16",
+      "total_sales": 6130906,
+      "expected_sales": 7456202.373209858,
+      "lower_bound": 5294037.470611124,
+      "upper_bound": 9618367.275808591,
+      "alert": false
+    },
+    {
+      "date": "2013-09-17",
+      "total_sales": 5785061,
+      "expected_sales": 6314195.237095986,
+      "lower_bound": 4152030.3344972515,
+      "upper_bound": 8476360.13969472,
+      "alert": false
+    },
+    {
+      "date": "2013-09-18",
+      "total_sales": 5438193,
+      "expected_sales": 5923813.873273676,
+      "lower_bound": 3761648.9706749422,
+      "upper_bound": 8085978.77587241,
+      "alert": false
+    },
+    {
+      "date": "2013-09-19",
+      "total_sales": 5797033,
+      "expected_sales": 5930524.900588463,
+      "lower_bound": 3768359.997989729,
+      "upper_bound": 8092689.803187197,
+      "alert": false
+    },
+    {
+      "date": "2013-09-20",
+      "total_sales": 6042768,
+      "expected_sales": 6352333.243548699,
+      "lower_bound": 4190168.3409499647,
+      "upper_bound": 8514498.146147434,
+      "alert": false
+    },
+    {
+      "date": "2013-09-21",
+      "total_sales": 5745122,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2013-09-23",
+      "total_sales": 9449348,
+      "expected_sales": 9886593.45388415,
+      "lower_bound": 7724428.551285417,
+      "upper_bound": 12048758.356482886,
+      "alert": false
+    },
+    {
+      "date": "2013-09-24",
+      "total_sales": 7922441,
+      "expected_sales": 8744586.31777028,
+      "lower_bound": 6582421.415171546,
+      "upper_bound": 10906751.220369015,
+      "alert": false
+    },
+    {
+      "date": "2013-09-25",
+      "total_sales": 7390563,
+      "expected_sales": 8354204.953947971,
+      "lower_bound": 6192040.051349237,
+      "upper_bound": 10516369.856546704,
+      "alert": false
+    },
+    {
+      "date": "2013-09-26",
+      "total_sales": 7489318,
+      "expected_sales": 8360915.9812627565,
+      "lower_bound": 6198751.0786640225,
+      "upper_bound": 10523080.88386149,
+      "alert": false
+    },
+    {
+      "date": "2013-09-27",
+      "total_sales": 8267396,
+      "expected_sales": 8782724.324222991,
+      "lower_bound": 6620559.421624257,
+      "upper_bound": 10944889.226821724,
+      "alert": false
+    },
+    {
+      "date": "2013-09-28",
+      "total_sales": 6245049,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2013-09-30",
+      "total_sales": 7660976,
+      "expected_sales": 7456202.373209858,
+      "lower_bound": 5294037.470611124,
+      "upper_bound": 9618367.275808591,
+      "alert": false
+    },
+    {
+      "date": "2013-10-01",
+      "total_sales": 6677200,
+      "expected_sales": 6314195.237095986,
+      "lower_bound": 4152030.3344972515,
+      "upper_bound": 8476360.13969472,
+      "alert": false
+    },
+    {
+      "date": "2013-10-02",
+      "total_sales": 7168893,
+      "expected_sales": 5923813.873273676,
+      "lower_bound": 3761648.9706749422,
+      "upper_bound": 8085978.77587241,
+      "alert": false
+    },
+    {
+      "date": "2013-10-04",
+      "total_sales": 8196635,
+      "expected_sales": 6352333.243548699,
+      "lower_bound": 4190168.3409499647,
+      "upper_bound": 8514498.146147434,
+      "alert": false
+    },
+    {
+      "date": "2013-10-05",
+      "total_sales": 6142021,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2013-10-07",
+      "total_sales": 11062400,
+      "expected_sales": 9886593.45388415,
+      "lower_bound": 7724428.551285417,
+      "upper_bound": 12048758.356482886,
+      "alert": false
+    },
+    {
+      "date": "2013-10-08",
+      "total_sales": 8949093,
+      "expected_sales": 8744586.31777028,
+      "lower_bound": 6582421.415171546,
+      "upper_bound": 10906751.220369015,
+      "alert": false
+    },
+    {
+      "date": "2013-10-09",
+      "total_sales": 8089729,
+      "expected_sales": 8354204.953947971,
+      "lower_bound": 6192040.051349237,
+      "upper_bound": 10516369.856546704,
+      "alert": false
+    },
+    {
+      "date": "2013-10-10",
+      "total_sales": 7809827,
+      "expected_sales": 8360915.9812627565,
+      "lower_bound": 6198751.0786640225,
+      "upper_bound": 10523080.88386149,
+      "alert": false
+    },
+    {
+      "date": "2013-10-11",
+      "total_sales": 8141538,
+      "expected_sales": 8782724.324222991,
+      "lower_bound": 6620559.421624257,
+      "upper_bound": 10944889.226821724,
+      "alert": false
+    },
+    {
+      "date": "2013-10-12",
+      "total_sales": 6203651,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2013-10-14",
+      "total_sales": 6571405,
+      "expected_sales": 7456202.373209858,
+      "lower_bound": 5294037.470611124,
+      "upper_bound": 9618367.275808591,
+      "alert": false
+    },
+    {
+      "date": "2013-10-15",
+      "total_sales": 5864402,
+      "expected_sales": 6314195.237095986,
+      "lower_bound": 4152030.3344972515,
+      "upper_bound": 8476360.13969472,
+      "alert": false
+    },
+    {
+      "date": "2013-10-16",
+      "total_sales": 5933839,
+      "expected_sales": 5923813.873273676,
+      "lower_bound": 3761648.9706749422,
+      "upper_bound": 8085978.77587241,
+      "alert": false
+    },
+    {
+      "date": "2013-10-17",
+      "total_sales": 5861163,
+      "expected_sales": 5930524.900588463,
+      "lower_bound": 3768359.997989729,
+      "upper_bound": 8092689.803187197,
+      "alert": false
+    },
+    {
+      "date": "2013-10-18",
+      "total_sales": 6319569,
+      "expected_sales": 6352333.243548699,
+      "lower_bound": 4190168.3409499647,
+      "upper_bound": 8514498.146147434,
+      "alert": false
+    },
+    {
+      "date": "2013-10-19",
+      "total_sales": 5868927,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2013-10-21",
+      "total_sales": 9833873,
+      "expected_sales": 9886593.45388415,
+      "lower_bound": 7724428.551285417,
+      "upper_bound": 12048758.356482886,
+      "alert": false
+    },
+    {
+      "date": "2013-10-22",
+      "total_sales": 7927560,
+      "expected_sales": 8744586.31777028,
+      "lower_bound": 6582421.415171546,
+      "upper_bound": 10906751.220369015,
+      "alert": false
+    },
+    {
+      "date": "2013-10-23",
+      "total_sales": 7416700,
+      "expected_sales": 8354204.953947971,
+      "lower_bound": 6192040.051349237,
+      "upper_bound": 10516369.856546704,
+      "alert": false
+    },
+    {
+      "date": "2013-10-24",
+      "total_sales": 7378657,
+      "expected_sales": 8360915.9812627565,
+      "lower_bound": 6198751.0786640225,
+      "upper_bound": 10523080.88386149,
+      "alert": false
+    },
+    {
+      "date": "2013-10-25",
+      "total_sales": 7589058,
+      "expected_sales": 8782724.324222991,
+      "lower_bound": 6620559.421624257,
+      "upper_bound": 10944889.226821724,
+      "alert": false
+    },
+    {
+      "date": "2013-10-26",
+      "total_sales": 5744750,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2013-10-28",
+      "total_sales": 5831815,
+      "expected_sales": 7456202.373209858,
+      "lower_bound": 5294037.470611124,
+      "upper_bound": 9618367.275808591,
+      "alert": false
+    },
+    {
+      "date": "2013-10-29",
+      "total_sales": 6145546,
+      "expected_sales": 6314195.237095986,
+      "lower_bound": 4152030.3344972515,
+      "upper_bound": 8476360.13969472,
+      "alert": false
+    },
+    {
+      "date": "2013-10-30",
+      "total_sales": 6970004,
+      "expected_sales": 5923813.873273676,
+      "lower_bound": 3761648.9706749422,
+      "upper_bound": 8085978.77587241,
+      "alert": false
+    },
+    {
+      "date": "2013-10-31",
+      "total_sales": 6807674,
+      "expected_sales": 5154900.3211775925,
+      "lower_bound": 2992735.4185788585,
+      "upper_bound": 7317065.2237763265,
+      "alert": false
+    },
+    {
+      "date": "2013-11-02",
+      "total_sales": 7410509,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2013-11-04",
+      "total_sales": 10568398,
+      "expected_sales": 9886593.45388415,
+      "lower_bound": 7724428.551285417,
+      "upper_bound": 12048758.356482886,
+      "alert": false
+    },
+    {
+      "date": "2013-11-05",
+      "total_sales": 9306571,
+      "expected_sales": 8744586.31777028,
+      "lower_bound": 6582421.415171546,
+      "upper_bound": 10906751.220369015,
+      "alert": false
+    },
+    {
+      "date": "2013-11-06",
+      "total_sales": 8224747,
+      "expected_sales": 8354204.953947971,
+      "lower_bound": 6192040.051349237,
+      "upper_bound": 10516369.856546704,
+      "alert": false
+    },
+    {
+      "date": "2013-11-07",
+      "total_sales": 7951819,
+      "expected_sales": 8360915.9812627565,
+      "lower_bound": 6198751.0786640225,
+      "upper_bound": 10523080.88386149,
+      "alert": false
+    },
+    {
+      "date": "2013-11-08",
+      "total_sales": 8443830,
+      "expected_sales": 8782724.324222991,
+      "lower_bound": 6620559.421624257,
+      "upper_bound": 10944889.226821724,
+      "alert": false
+    },
+    {
+      "date": "2013-11-09",
+      "total_sales": 6566741,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2013-11-11",
+      "total_sales": 6423778,
+      "expected_sales": 7456202.373209858,
+      "lower_bound": 5294037.470611124,
+      "upper_bound": 9618367.275808591,
+      "alert": false
+    },
+    {
+      "date": "2013-11-12",
+      "total_sales": 6003149,
+      "expected_sales": 6314195.237095986,
+      "lower_bound": 4152030.3344972515,
+      "upper_bound": 8476360.13969472,
+      "alert": false
+    },
+    {
+      "date": "2013-11-13",
+      "total_sales": 6028677,
+      "expected_sales": 5923813.873273676,
+      "lower_bound": 3761648.9706749422,
+      "upper_bound": 8085978.77587241,
+      "alert": false
+    },
+    {
+      "date": "2013-11-14",
+      "total_sales": 6140303,
+      "expected_sales": 5930524.900588463,
+      "lower_bound": 3768359.997989729,
+      "upper_bound": 8092689.803187197,
+      "alert": false
+    },
+    {
+      "date": "2013-11-15",
+      "total_sales": 6741987,
+      "expected_sales": 6352333.243548699,
+      "lower_bound": 4190168.3409499647,
+      "upper_bound": 8514498.146147434,
+      "alert": false
+    },
+    {
+      "date": "2013-11-16",
+      "total_sales": 6605960,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2013-11-18",
+      "total_sales": 10528615,
+      "expected_sales": 9886593.45388415,
+      "lower_bound": 7724428.551285417,
+      "upper_bound": 12048758.356482886,
+      "alert": false
+    },
+    {
+      "date": "2013-11-19",
+      "total_sales": 8895888,
+      "expected_sales": 8744586.31777028,
+      "lower_bound": 6582421.415171546,
+      "upper_bound": 10906751.220369015,
+      "alert": false
+    },
+    {
+      "date": "2013-11-20",
+      "total_sales": 7472513,
+      "expected_sales": 8354204.953947971,
+      "lower_bound": 6192040.051349237,
+      "upper_bound": 10516369.856546704,
+      "alert": false
+    },
+    {
+      "date": "2013-11-21",
+      "total_sales": 8084449,
+      "expected_sales": 8360915.9812627565,
+      "lower_bound": 6198751.0786640225,
+      "upper_bound": 10523080.88386149,
+      "alert": false
+    },
+    {
+      "date": "2013-11-22",
+      "total_sales": 8199106,
+      "expected_sales": 8782724.324222991,
+      "lower_bound": 6620559.421624257,
+      "upper_bound": 10944889.226821724,
+      "alert": false
+    },
+    {
+      "date": "2013-11-23",
+      "total_sales": 6593077,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2013-11-25",
+      "total_sales": 7204808,
+      "expected_sales": 7456202.373209858,
+      "lower_bound": 5294037.470611124,
+      "upper_bound": 9618367.275808591,
+      "alert": false
+    },
+    {
+      "date": "2013-11-26",
+      "total_sales": 6673704,
+      "expected_sales": 6314195.237095986,
+      "lower_bound": 4152030.3344972515,
+      "upper_bound": 8476360.13969472,
+      "alert": false
+    },
+    {
+      "date": "2013-11-27",
+      "total_sales": 6725418,
+      "expected_sales": 5923813.873273676,
+      "lower_bound": 3761648.9706749422,
+      "upper_bound": 8085978.77587241,
+      "alert": false
+    },
+    {
+      "date": "2013-11-28",
+      "total_sales": 7262197,
+      "expected_sales": 5930524.900588463,
+      "lower_bound": 3768359.997989729,
+      "upper_bound": 8092689.803187197,
+      "alert": false
+    },
+    {
+      "date": "2013-11-29",
+      "total_sales": 8803269,
+      "expected_sales": 6352333.243548699,
+      "lower_bound": 4190168.3409499647,
+      "upper_bound": 8514498.146147434,
+      "alert": true
+    },
+    {
+      "date": "2013-11-30",
+      "total_sales": 8614478,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": true
+    },
+    {
+      "date": "2013-12-02",
+      "total_sales": 12972440,
+      "expected_sales": 9886593.45388415,
+      "lower_bound": 7724428.551285417,
+      "upper_bound": 12048758.356482886,
+      "alert": true
+    },
+    {
+      "date": "2013-12-03",
+      "total_sales": 10915444,
+      "expected_sales": 8744586.31777028,
+      "lower_bound": 6582421.415171546,
+      "upper_bound": 10906751.220369015,
+      "alert": true
+    },
+    {
+      "date": "2013-12-04",
+      "total_sales": 10203870,
+      "expected_sales": 8354204.953947971,
+      "lower_bound": 6192040.051349237,
+      "upper_bound": 10516369.856546704,
+      "alert": false
+    },
+    {
+      "date": "2013-12-05",
+      "total_sales": 10296749,
+      "expected_sales": 8360915.9812627565,
+      "lower_bound": 6198751.0786640225,
+      "upper_bound": 10523080.88386149,
+      "alert": false
+    },
+    {
+      "date": "2013-12-06",
+      "total_sales": 8431475,
+      "expected_sales": 8782724.324222991,
+      "lower_bound": 6620559.421624257,
+      "upper_bound": 10944889.226821724,
+      "alert": false
+    },
+    {
+      "date": "2013-12-07",
+      "total_sales": 7231141,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2013-12-09",
+      "total_sales": 7607576,
+      "expected_sales": 7456202.373209858,
+      "lower_bound": 5294037.470611124,
+      "upper_bound": 9618367.275808591,
+      "alert": false
+    },
+    {
+      "date": "2013-12-10",
+      "total_sales": 7458243,
+      "expected_sales": 6314195.237095986,
+      "lower_bound": 4152030.3344972515,
+      "upper_bound": 8476360.13969472,
+      "alert": false
+    },
+    {
+      "date": "2013-12-11",
+      "total_sales": 7364610,
+      "expected_sales": 5923813.873273676,
+      "lower_bound": 3761648.9706749422,
+      "upper_bound": 8085978.77587241,
+      "alert": false
+    },
+    {
+      "date": "2013-12-12",
+      "total_sales": 7520198,
+      "expected_sales": 5930524.900588463,
+      "lower_bound": 3768359.997989729,
+      "upper_bound": 8092689.803187197,
+      "alert": false
+    },
+    {
+      "date": "2013-12-13",
+      "total_sales": 8012317,
+      "expected_sales": 6352333.243548699,
+      "lower_bound": 4190168.3409499647,
+      "upper_bound": 8514498.146147434,
+      "alert": false
+    },
+    {
+      "date": "2013-12-14",
+      "total_sales": 7938245,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2013-12-16",
+      "total_sales": 15623548,
+      "expected_sales": 9886593.45388415,
+      "lower_bound": 7724428.551285417,
+      "upper_bound": 12048758.356482886,
+      "alert": true
+    },
+    {
+      "date": "2013-12-17",
+      "total_sales": 13053993,
+      "expected_sales": 8744586.31777028,
+      "lower_bound": 6582421.415171546,
+      "upper_bound": 10906751.220369015,
+      "alert": true
+    },
+    {
+      "date": "2013-12-18",
+      "total_sales": 12189674,
+      "expected_sales": 8354204.953947971,
+      "lower_bound": 6192040.051349237,
+      "upper_bound": 10516369.856546704,
+      "alert": true
+    },
+    {
+      "date": "2013-12-19",
+      "total_sales": 11740273,
+      "expected_sales": 8360915.9812627565,
+      "lower_bound": 6198751.0786640225,
+      "upper_bound": 10523080.88386149,
+      "alert": true
+    },
+    {
+      "date": "2013-12-20",
+      "total_sales": 12334496,
+      "expected_sales": 8782724.324222991,
+      "lower_bound": 6620559.421624257,
+      "upper_bound": 10944889.226821724,
+      "alert": true
+    },
+    {
+      "date": "2013-12-21",
+      "total_sales": 10165366,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": true
+    },
+    {
+      "date": "2013-12-23",
+      "total_sales": 14350056,
+      "expected_sales": 7456202.373209858,
+      "lower_bound": 5294037.470611124,
+      "upper_bound": 9618367.275808591,
+      "alert": true
+    },
+    {
+      "date": "2013-12-24",
+      "total_sales": 5232808,
+      "expected_sales": 6314195.237095986,
+      "lower_bound": 4152030.3344972515,
+      "upper_bound": 8476360.13969472,
+      "alert": false
+    },
+    {
+      "date": "2013-12-27",
+      "total_sales": 8168568,
+      "expected_sales": 6352333.243548699,
+      "lower_bound": 4190168.3409499647,
+      "upper_bound": 8514498.146147434,
+      "alert": false
+    },
+    {
+      "date": "2013-12-28",
+      "total_sales": 6726568,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2013-12-30",
+      "total_sales": 10192135,
+      "expected_sales": 7456202.373209858,
+      "lower_bound": 5294037.470611124,
+      "upper_bound": 9618367.275808591,
+      "alert": true
+    },
+    {
+      "date": "2013-12-31",
+      "total_sales": 4534864,
+      "expected_sales": 6314195.237095986,
+      "lower_bound": 4152030.3344972515,
+      "upper_bound": 8476360.13969472,
+      "alert": false
+    },
+    {
+      "date": "2014-01-02",
+      "total_sales": 6980556,
+      "expected_sales": 5930524.900588463,
+      "lower_bound": 3768359.997989729,
+      "upper_bound": 8092689.803187197,
+      "alert": false
+    },
+    {
+      "date": "2014-01-03",
+      "total_sales": 7024253,
+      "expected_sales": 6352333.243548699,
+      "lower_bound": 4190168.3409499647,
+      "upper_bound": 8514498.146147434,
+      "alert": false
+    },
+    {
+      "date": "2014-01-04",
+      "total_sales": 6357259,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2014-01-06",
+      "total_sales": 8661727,
+      "expected_sales": 9110968.874473281,
+      "lower_bound": 6948803.971874547,
+      "upper_bound": 11273133.777072016,
+      "alert": false
+    },
+    {
+      "date": "2014-01-07",
+      "total_sales": 10456932,
+      "expected_sales": 8744586.31777028,
+      "lower_bound": 6582421.415171546,
+      "upper_bound": 10906751.220369015,
+      "alert": false
+    },
+    {
+      "date": "2014-01-08",
+      "total_sales": 8643239,
+      "expected_sales": 8354204.953947971,
+      "lower_bound": 6192040.051349237,
+      "upper_bound": 10516369.856546704,
+      "alert": false
+    },
+    {
+      "date": "2014-01-09",
+      "total_sales": 8016642,
+      "expected_sales": 8360915.9812627565,
+      "lower_bound": 6198751.0786640225,
+      "upper_bound": 10523080.88386149,
+      "alert": false
+    },
+    {
+      "date": "2014-01-10",
+      "total_sales": 8548672,
+      "expected_sales": 8782724.324222991,
+      "lower_bound": 6620559.421624257,
+      "upper_bound": 10944889.226821724,
+      "alert": false
+    },
+    {
+      "date": "2014-01-11",
+      "total_sales": 6231179,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2014-01-13",
+      "total_sales": 6089929,
+      "expected_sales": 7456202.373209858,
+      "lower_bound": 5294037.470611124,
+      "upper_bound": 9618367.275808591,
+      "alert": false
+    },
+    {
+      "date": "2014-01-14",
+      "total_sales": 5785842,
+      "expected_sales": 6314195.237095986,
+      "lower_bound": 4152030.3344972515,
+      "upper_bound": 8476360.13969472,
+      "alert": false
+    },
+    {
+      "date": "2014-01-15",
+      "total_sales": 5779426,
+      "expected_sales": 5923813.873273676,
+      "lower_bound": 3761648.9706749422,
+      "upper_bound": 8085978.77587241,
+      "alert": false
+    },
+    {
+      "date": "2014-01-16",
+      "total_sales": 5720266,
+      "expected_sales": 5930524.900588463,
+      "lower_bound": 3768359.997989729,
+      "upper_bound": 8092689.803187197,
+      "alert": false
+    },
+    {
+      "date": "2014-01-17",
+      "total_sales": 6332625,
+      "expected_sales": 6352333.243548699,
+      "lower_bound": 4190168.3409499647,
+      "upper_bound": 8514498.146147434,
+      "alert": false
+    },
+    {
+      "date": "2014-01-18",
+      "total_sales": 6213031,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2014-01-20",
+      "total_sales": 10648819,
+      "expected_sales": 9886593.45388415,
+      "lower_bound": 7724428.551285417,
+      "upper_bound": 12048758.356482886,
+      "alert": false
+    },
+    {
+      "date": "2014-01-21",
+      "total_sales": 8475207,
+      "expected_sales": 8744586.31777028,
+      "lower_bound": 6582421.415171546,
+      "upper_bound": 10906751.220369015,
+      "alert": false
+    },
+    {
+      "date": "2014-01-22",
+      "total_sales": 7970289,
+      "expected_sales": 8354204.953947971,
+      "lower_bound": 6192040.051349237,
+      "upper_bound": 10516369.856546704,
+      "alert": false
+    },
+    {
+      "date": "2014-01-23",
+      "total_sales": 7625568,
+      "expected_sales": 8360915.9812627565,
+      "lower_bound": 6198751.0786640225,
+      "upper_bound": 10523080.88386149,
+      "alert": false
+    },
+    {
+      "date": "2014-01-24",
+      "total_sales": 7851977,
+      "expected_sales": 8782724.324222991,
+      "lower_bound": 6620559.421624257,
+      "upper_bound": 10944889.226821724,
+      "alert": false
+    },
+    {
+      "date": "2014-01-25",
+      "total_sales": 5986034,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2014-01-27",
+      "total_sales": 5689615,
+      "expected_sales": 7456202.373209858,
+      "lower_bound": 5294037.470611124,
+      "upper_bound": 9618367.275808591,
+      "alert": false
+    },
+    {
+      "date": "2014-01-28",
+      "total_sales": 5790602,
+      "expected_sales": 6314195.237095986,
+      "lower_bound": 4152030.3344972515,
+      "upper_bound": 8476360.13969472,
+      "alert": false
+    },
+    {
+      "date": "2014-01-29",
+      "total_sales": 5809489,
+      "expected_sales": 5923813.873273676,
+      "lower_bound": 3761648.9706749422,
+      "upper_bound": 8085978.77587241,
+      "alert": false
+    },
+    {
+      "date": "2014-01-30",
+      "total_sales": 6313068,
+      "expected_sales": 5930524.900588463,
+      "lower_bound": 3768359.997989729,
+      "upper_bound": 8092689.803187197,
+      "alert": false
+    },
+    {
+      "date": "2014-01-31",
+      "total_sales": 7935853,
+      "expected_sales": 6352333.243548699,
+      "lower_bound": 4190168.3409499647,
+      "upper_bound": 8514498.146147434,
+      "alert": false
+    },
+    {
+      "date": "2014-02-01",
+      "total_sales": 6934170,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2014-02-03",
+      "total_sales": 11757740,
+      "expected_sales": 9886593.45388415,
+      "lower_bound": 7724428.551285417,
+      "upper_bound": 12048758.356482886,
+      "alert": false
+    },
+    {
+      "date": "2014-02-04",
+      "total_sales": 9651472,
+      "expected_sales": 8744586.31777028,
+      "lower_bound": 6582421.415171546,
+      "upper_bound": 10906751.220369015,
+      "alert": false
+    },
+    {
+      "date": "2014-02-05",
+      "total_sales": 8456987,
+      "expected_sales": 8354204.953947971,
+      "lower_bound": 6192040.051349237,
+      "upper_bound": 10516369.856546704,
+      "alert": false
+    },
+    {
+      "date": "2014-02-06",
+      "total_sales": 8226263,
+      "expected_sales": 8360915.9812627565,
+      "lower_bound": 6198751.0786640225,
+      "upper_bound": 10523080.88386149,
+      "alert": false
+    },
+    {
+      "date": "2014-02-07",
+      "total_sales": 8075318,
+      "expected_sales": 8782724.324222991,
+      "lower_bound": 6620559.421624257,
+      "upper_bound": 10944889.226821724,
+      "alert": false
+    },
+    {
+      "date": "2014-02-08",
+      "total_sales": 6387706,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2014-02-10",
+      "total_sales": 6451410,
+      "expected_sales": 7456202.373209858,
+      "lower_bound": 5294037.470611124,
+      "upper_bound": 9618367.275808591,
+      "alert": false
+    },
+    {
+      "date": "2014-02-11",
+      "total_sales": 6056843,
+      "expected_sales": 6314195.237095986,
+      "lower_bound": 4152030.3344972515,
+      "upper_bound": 8476360.13969472,
+      "alert": false
+    },
+    {
+      "date": "2014-02-12",
+      "total_sales": 6046448,
+      "expected_sales": 5923813.873273676,
+      "lower_bound": 3761648.9706749422,
+      "upper_bound": 8085978.77587241,
+      "alert": false
+    },
+    {
+      "date": "2014-02-13",
+      "total_sales": 6180416,
+      "expected_sales": 5930524.900588463,
+      "lower_bound": 3768359.997989729,
+      "upper_bound": 8092689.803187197,
+      "alert": false
+    },
+    {
+      "date": "2014-02-14",
+      "total_sales": 7086640,
+      "expected_sales": 6352333.243548699,
+      "lower_bound": 4190168.3409499647,
+      "upper_bound": 8514498.146147434,
+      "alert": false
+    },
+    {
+      "date": "2014-02-15",
+      "total_sales": 6293698,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2014-02-17",
+      "total_sales": 10675316,
+      "expected_sales": 9886593.45388415,
+      "lower_bound": 7724428.551285417,
+      "upper_bound": 12048758.356482886,
+      "alert": false
+    },
+    {
+      "date": "2014-02-18",
+      "total_sales": 8708285,
+      "expected_sales": 8744586.31777028,
+      "lower_bound": 6582421.415171546,
+      "upper_bound": 10906751.220369015,
+      "alert": false
+    },
+    {
+      "date": "2014-02-19",
+      "total_sales": 7855918,
+      "expected_sales": 8354204.953947971,
+      "lower_bound": 6192040.051349237,
+      "upper_bound": 10516369.856546704,
+      "alert": false
+    },
+    {
+      "date": "2014-02-20",
+      "total_sales": 7738889,
+      "expected_sales": 8360915.9812627565,
+      "lower_bound": 6198751.0786640225,
+      "upper_bound": 10523080.88386149,
+      "alert": false
+    },
+    {
+      "date": "2014-02-21",
+      "total_sales": 7862313,
+      "expected_sales": 8782724.324222991,
+      "lower_bound": 6620559.421624257,
+      "upper_bound": 10944889.226821724,
+      "alert": false
+    },
+    {
+      "date": "2014-02-22",
+      "total_sales": 6123882,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2014-02-24",
+      "total_sales": 6036002,
+      "expected_sales": 7456202.373209858,
+      "lower_bound": 5294037.470611124,
+      "upper_bound": 9618367.275808591,
+      "alert": false
+    },
+    {
+      "date": "2014-02-25",
+      "total_sales": 5697449,
+      "expected_sales": 6314195.237095986,
+      "lower_bound": 4152030.3344972515,
+      "upper_bound": 8476360.13969472,
+      "alert": false
+    },
+    {
+      "date": "2014-02-26",
+      "total_sales": 5960448,
+      "expected_sales": 5923813.873273676,
+      "lower_bound": 3761648.9706749422,
+      "upper_bound": 8085978.77587241,
+      "alert": false
+    },
+    {
+      "date": "2014-02-27",
+      "total_sales": 6006428,
+      "expected_sales": 5930524.900588463,
+      "lower_bound": 3768359.997989729,
+      "upper_bound": 8092689.803187197,
+      "alert": false
+    },
+    {
+      "date": "2014-02-28",
+      "total_sales": 7874307,
+      "expected_sales": 6352333.243548699,
+      "lower_bound": 4190168.3409499647,
+      "upper_bound": 8514498.146147434,
+      "alert": false
+    },
+    {
+      "date": "2014-03-01",
+      "total_sales": 7088957,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2014-03-03",
+      "total_sales": 10254710,
+      "expected_sales": 9886593.45388415,
+      "lower_bound": 7724428.551285417,
+      "upper_bound": 12048758.356482886,
+      "alert": false
+    },
+    {
+      "date": "2014-03-04",
+      "total_sales": 9211960,
+      "expected_sales": 8744586.31777028,
+      "lower_bound": 6582421.415171546,
+      "upper_bound": 10906751.220369015,
+      "alert": false
+    },
+    {
+      "date": "2014-03-05",
+      "total_sales": 8802968,
+      "expected_sales": 8354204.953947971,
+      "lower_bound": 6192040.051349237,
+      "upper_bound": 10516369.856546704,
+      "alert": false
+    },
+    {
+      "date": "2014-03-06",
+      "total_sales": 8444592,
+      "expected_sales": 8360915.9812627565,
+      "lower_bound": 6198751.0786640225,
+      "upper_bound": 10523080.88386149,
+      "alert": false
+    },
+    {
+      "date": "2014-03-07",
+      "total_sales": 8486290,
+      "expected_sales": 8782724.324222991,
+      "lower_bound": 6620559.421624257,
+      "upper_bound": 10944889.226821724,
+      "alert": false
+    },
+    {
+      "date": "2014-03-08",
+      "total_sales": 6075937,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2014-03-10",
+      "total_sales": 6204784,
+      "expected_sales": 7456202.373209858,
+      "lower_bound": 5294037.470611124,
+      "upper_bound": 9618367.275808591,
+      "alert": false
+    },
+    {
+      "date": "2014-03-11",
+      "total_sales": 5906003,
+      "expected_sales": 6314195.237095986,
+      "lower_bound": 4152030.3344972515,
+      "upper_bound": 8476360.13969472,
+      "alert": false
+    },
+    {
+      "date": "2014-03-12",
+      "total_sales": 5795093,
+      "expected_sales": 5923813.873273676,
+      "lower_bound": 3761648.9706749422,
+      "upper_bound": 8085978.77587241,
+      "alert": false
+    },
+    {
+      "date": "2014-03-13",
+      "total_sales": 5898902,
+      "expected_sales": 5930524.900588463,
+      "lower_bound": 3768359.997989729,
+      "upper_bound": 8092689.803187197,
+      "alert": false
+    },
+    {
+      "date": "2014-03-14",
+      "total_sales": 6447567,
+      "expected_sales": 6352333.243548699,
+      "lower_bound": 4190168.3409499647,
+      "upper_bound": 8514498.146147434,
+      "alert": false
+    },
+    {
+      "date": "2014-03-15",
+      "total_sales": 6310072,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2014-03-17",
+      "total_sales": 10311703,
+      "expected_sales": 9886593.45388415,
+      "lower_bound": 7724428.551285417,
+      "upper_bound": 12048758.356482886,
+      "alert": false
+    },
+    {
+      "date": "2014-03-18",
+      "total_sales": 8426401,
+      "expected_sales": 8744586.31777028,
+      "lower_bound": 6582421.415171546,
+      "upper_bound": 10906751.220369015,
+      "alert": false
+    },
+    {
+      "date": "2014-03-19",
+      "total_sales": 7849900,
+      "expected_sales": 8354204.953947971,
+      "lower_bound": 6192040.051349237,
+      "upper_bound": 10516369.856546704,
+      "alert": false
+    },
+    {
+      "date": "2014-03-20",
+      "total_sales": 7179418,
+      "expected_sales": 8360915.9812627565,
+      "lower_bound": 6198751.0786640225,
+      "upper_bound": 10523080.88386149,
+      "alert": false
+    },
+    {
+      "date": "2014-03-21",
+      "total_sales": 7681649,
+      "expected_sales": 8782724.324222991,
+      "lower_bound": 6620559.421624257,
+      "upper_bound": 10944889.226821724,
+      "alert": false
+    },
+    {
+      "date": "2014-03-22",
+      "total_sales": 6176931,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2014-03-24",
+      "total_sales": 6506590,
+      "expected_sales": 7456202.373209858,
+      "lower_bound": 5294037.470611124,
+      "upper_bound": 9618367.275808591,
+      "alert": false
+    },
+    {
+      "date": "2014-03-25",
+      "total_sales": 5909575,
+      "expected_sales": 6314195.237095986,
+      "lower_bound": 4152030.3344972515,
+      "upper_bound": 8476360.13969472,
+      "alert": false
+    },
+    {
+      "date": "2014-03-26",
+      "total_sales": 5840946,
+      "expected_sales": 5923813.873273676,
+      "lower_bound": 3761648.9706749422,
+      "upper_bound": 8085978.77587241,
+      "alert": false
+    },
+    {
+      "date": "2014-03-27",
+      "total_sales": 6024721,
+      "expected_sales": 5930524.900588463,
+      "lower_bound": 3768359.997989729,
+      "upper_bound": 8092689.803187197,
+      "alert": false
+    },
+    {
+      "date": "2014-03-28",
+      "total_sales": 6822072,
+      "expected_sales": 6352333.243548699,
+      "lower_bound": 4190168.3409499647,
+      "upper_bound": 8514498.146147434,
+      "alert": false
+    },
+    {
+      "date": "2014-03-29",
+      "total_sales": 6248819,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2014-03-31",
+      "total_sales": 12062933,
+      "expected_sales": 9886593.45388415,
+      "lower_bound": 7724428.551285417,
+      "upper_bound": 12048758.356482886,
+      "alert": true
+    },
+    {
+      "date": "2014-04-01",
+      "total_sales": 9114237,
+      "expected_sales": 8744586.31777028,
+      "lower_bound": 6582421.415171546,
+      "upper_bound": 10906751.220369015,
+      "alert": false
+    },
+    {
+      "date": "2014-04-02",
+      "total_sales": 8314447,
+      "expected_sales": 8354204.953947971,
+      "lower_bound": 6192040.051349237,
+      "upper_bound": 10516369.856546704,
+      "alert": false
+    },
+    {
+      "date": "2014-04-03",
+      "total_sales": 8215262,
+      "expected_sales": 8360915.9812627565,
+      "lower_bound": 6198751.0786640225,
+      "upper_bound": 10523080.88386149,
+      "alert": false
+    },
+    {
+      "date": "2014-04-04",
+      "total_sales": 8575005,
+      "expected_sales": 8782724.324222991,
+      "lower_bound": 6620559.421624257,
+      "upper_bound": 10944889.226821724,
+      "alert": false
+    },
+    {
+      "date": "2014-04-05",
+      "total_sales": 6560749,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2014-04-07",
+      "total_sales": 6624706,
+      "expected_sales": 7456202.373209858,
+      "lower_bound": 5294037.470611124,
+      "upper_bound": 9618367.275808591,
+      "alert": false
+    },
+    {
+      "date": "2014-04-08",
+      "total_sales": 6248167,
+      "expected_sales": 6314195.237095986,
+      "lower_bound": 4152030.3344972515,
+      "upper_bound": 8476360.13969472,
+      "alert": false
+    },
+    {
+      "date": "2014-04-09",
+      "total_sales": 6410230,
+      "expected_sales": 5923813.873273676,
+      "lower_bound": 3761648.9706749422,
+      "upper_bound": 8085978.77587241,
+      "alert": false
+    },
+    {
+      "date": "2014-04-10",
+      "total_sales": 6524511,
+      "expected_sales": 5930524.900588463,
+      "lower_bound": 3768359.997989729,
+      "upper_bound": 8092689.803187197,
+      "alert": false
+    },
+    {
+      "date": "2014-04-11",
+      "total_sales": 6910251,
+      "expected_sales": 6352333.243548699,
+      "lower_bound": 4190168.3409499647,
+      "upper_bound": 8514498.146147434,
+      "alert": false
+    },
+    {
+      "date": "2014-04-12",
+      "total_sales": 6388099,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2014-04-14",
+      "total_sales": 11683139,
+      "expected_sales": 9886593.45388415,
+      "lower_bound": 7724428.551285417,
+      "upper_bound": 12048758.356482886,
+      "alert": false
+    },
+    {
+      "date": "2014-04-15",
+      "total_sales": 10668363,
+      "expected_sales": 8744586.31777028,
+      "lower_bound": 6582421.415171546,
+      "upper_bound": 10906751.220369015,
+      "alert": false
+    },
+    {
+      "date": "2014-04-16",
+      "total_sales": 10024850,
+      "expected_sales": 8354204.953947971,
+      "lower_bound": 6192040.051349237,
+      "upper_bound": 10516369.856546704,
+      "alert": false
+    },
+    {
+      "date": "2014-04-17",
+      "total_sales": 10357418,
+      "expected_sales": 8360915.9812627565,
+      "lower_bound": 6198751.0786640225,
+      "upper_bound": 10523080.88386149,
+      "alert": false
+    },
+    {
+      "date": "2014-04-19",
+      "total_sales": 8428009,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2014-04-22",
+      "total_sales": 6971756,
+      "expected_sales": 6314195.237095986,
+      "lower_bound": 4152030.3344972515,
+      "upper_bound": 8476360.13969472,
+      "alert": false
+    },
+    {
+      "date": "2014-04-23",
+      "total_sales": 5997676,
+      "expected_sales": 5923813.873273676,
+      "lower_bound": 3761648.9706749422,
+      "upper_bound": 8085978.77587241,
+      "alert": false
+    },
+    {
+      "date": "2014-04-24",
+      "total_sales": 6039156,
+      "expected_sales": 5930524.900588463,
+      "lower_bound": 3768359.997989729,
+      "upper_bound": 8092689.803187197,
+      "alert": false
+    },
+    {
+      "date": "2014-04-25",
+      "total_sales": 6219955,
+      "expected_sales": 6352333.243548699,
+      "lower_bound": 4190168.3409499647,
+      "upper_bound": 8514498.146147434,
+      "alert": false
+    },
+    {
+      "date": "2014-04-26",
+      "total_sales": 5968493,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2014-04-28",
+      "total_sales": 10667908,
+      "expected_sales": 9886593.45388415,
+      "lower_bound": 7724428.551285417,
+      "upper_bound": 12048758.356482886,
+      "alert": false
+    },
+    {
+      "date": "2014-04-29",
+      "total_sales": 9457130,
+      "expected_sales": 8744586.31777028,
+      "lower_bound": 6582421.415171546,
+      "upper_bound": 10906751.220369015,
+      "alert": false
+    },
+    {
+      "date": "2014-04-30",
+      "total_sales": 10841040,
+      "expected_sales": 8354204.953947971,
+      "lower_bound": 6192040.051349237,
+      "upper_bound": 10516369.856546704,
+      "alert": true
+    },
+    {
+      "date": "2014-05-02",
+      "total_sales": 11310699,
+      "expected_sales": 8782724.324222991,
+      "lower_bound": 6620559.421624257,
+      "upper_bound": 10944889.226821724,
+      "alert": true
+    },
+    {
+      "date": "2014-05-03",
+      "total_sales": 6850332,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2014-05-05",
+      "total_sales": 10797063,
+      "expected_sales": 9886593.45388415,
+      "lower_bound": 7724428.551285417,
+      "upper_bound": 12048758.356482886,
+      "alert": false
+    },
+    {
+      "date": "2014-05-06",
+      "total_sales": 9073871,
+      "expected_sales": 8744586.31777028,
+      "lower_bound": 6582421.415171546,
+      "upper_bound": 10906751.220369015,
+      "alert": false
+    },
+    {
+      "date": "2014-05-07",
+      "total_sales": 8451824,
+      "expected_sales": 8354204.953947971,
+      "lower_bound": 6192040.051349237,
+      "upper_bound": 10516369.856546704,
+      "alert": false
+    },
+    {
+      "date": "2014-05-08",
+      "total_sales": 8356504,
+      "expected_sales": 8360915.9812627565,
+      "lower_bound": 6198751.0786640225,
+      "upper_bound": 10523080.88386149,
+      "alert": false
+    },
+    {
+      "date": "2014-05-09",
+      "total_sales": 8722646,
+      "expected_sales": 8782724.324222991,
+      "lower_bound": 6620559.421624257,
+      "upper_bound": 10944889.226821724,
+      "alert": false
+    },
+    {
+      "date": "2014-05-10",
+      "total_sales": 6828031,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2014-05-12",
+      "total_sales": 6383523,
+      "expected_sales": 7456202.373209858,
+      "lower_bound": 5294037.470611124,
+      "upper_bound": 9618367.275808591,
+      "alert": false
+    },
+    {
+      "date": "2014-05-13",
+      "total_sales": 6128627,
+      "expected_sales": 6314195.237095986,
+      "lower_bound": 4152030.3344972515,
+      "upper_bound": 8476360.13969472,
+      "alert": false
+    },
+    {
+      "date": "2014-05-14",
+      "total_sales": 6141038,
+      "expected_sales": 5923813.873273676,
+      "lower_bound": 3761648.9706749422,
+      "upper_bound": 8085978.77587241,
+      "alert": false
+    },
+    {
+      "date": "2014-05-15",
+      "total_sales": 6252912,
+      "expected_sales": 5930524.900588463,
+      "lower_bound": 3768359.997989729,
+      "upper_bound": 8092689.803187197,
+      "alert": false
+    },
+    {
+      "date": "2014-05-16",
+      "total_sales": 6515173,
+      "expected_sales": 6352333.243548699,
+      "lower_bound": 4190168.3409499647,
+      "upper_bound": 8514498.146147434,
+      "alert": false
+    },
+    {
+      "date": "2014-05-17",
+      "total_sales": 6052688,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2014-05-19",
+      "total_sales": 10104320,
+      "expected_sales": 9886593.45388415,
+      "lower_bound": 7724428.551285417,
+      "upper_bound": 12048758.356482886,
+      "alert": false
+    },
+    {
+      "date": "2014-05-20",
+      "total_sales": 8264365,
+      "expected_sales": 8744586.31777028,
+      "lower_bound": 6582421.415171546,
+      "upper_bound": 10906751.220369015,
+      "alert": false
+    },
+    {
+      "date": "2014-05-21",
+      "total_sales": 7727052,
+      "expected_sales": 8354204.953947971,
+      "lower_bound": 6192040.051349237,
+      "upper_bound": 10516369.856546704,
+      "alert": false
+    },
+    {
+      "date": "2014-05-22",
+      "total_sales": 7517793,
+      "expected_sales": 8360915.9812627565,
+      "lower_bound": 6198751.0786640225,
+      "upper_bound": 10523080.88386149,
+      "alert": false
+    },
+    {
+      "date": "2014-05-23",
+      "total_sales": 8177009,
+      "expected_sales": 8782724.324222991,
+      "lower_bound": 6620559.421624257,
+      "upper_bound": 10944889.226821724,
+      "alert": false
+    },
+    {
+      "date": "2014-05-24",
+      "total_sales": 6130815,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2014-05-26",
+      "total_sales": 6489410,
+      "expected_sales": 7456202.373209858,
+      "lower_bound": 5294037.470611124,
+      "upper_bound": 9618367.275808591,
+      "alert": false
+    },
+    {
+      "date": "2014-05-27",
+      "total_sales": 6286135,
+      "expected_sales": 6314195.237095986,
+      "lower_bound": 4152030.3344972515,
+      "upper_bound": 8476360.13969472,
+      "alert": false
+    },
+    {
+      "date": "2014-05-28",
+      "total_sales": 7944392,
+      "expected_sales": 5923813.873273676,
+      "lower_bound": 3761648.9706749422,
+      "upper_bound": 8085978.77587241,
+      "alert": false
+    },
+    {
+      "date": "2014-05-30",
+      "total_sales": 9846892,
+      "expected_sales": 6352333.243548699,
+      "lower_bound": 4190168.3409499647,
+      "upper_bound": 8514498.146147434,
+      "alert": true
+    },
+    {
+      "date": "2014-05-31",
+      "total_sales": 6880606,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2014-06-02",
+      "total_sales": 11662688,
+      "expected_sales": 9886593.45388415,
+      "lower_bound": 7724428.551285417,
+      "upper_bound": 12048758.356482886,
+      "alert": false
+    },
+    {
+      "date": "2014-06-03",
+      "total_sales": 9598519,
+      "expected_sales": 8744586.31777028,
+      "lower_bound": 6582421.415171546,
+      "upper_bound": 10906751.220369015,
+      "alert": false
+    },
+    {
+      "date": "2014-06-04",
+      "total_sales": 8807342,
+      "expected_sales": 8354204.953947971,
+      "lower_bound": 6192040.051349237,
+      "upper_bound": 10516369.856546704,
+      "alert": false
+    },
+    {
+      "date": "2014-06-05",
+      "total_sales": 8812312,
+      "expected_sales": 8360915.9812627565,
+      "lower_bound": 6198751.0786640225,
+      "upper_bound": 10523080.88386149,
+      "alert": false
+    },
+    {
+      "date": "2014-06-06",
+      "total_sales": 8857173,
+      "expected_sales": 8782724.324222991,
+      "lower_bound": 6620559.421624257,
+      "upper_bound": 10944889.226821724,
+      "alert": false
+    },
+    {
+      "date": "2014-06-07",
+      "total_sales": 6731210,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2014-06-10",
+      "total_sales": 7416071,
+      "expected_sales": 6314195.237095986,
+      "lower_bound": 4152030.3344972515,
+      "upper_bound": 8476360.13969472,
+      "alert": false
+    },
+    {
+      "date": "2014-06-11",
+      "total_sales": 6688764,
+      "expected_sales": 5923813.873273676,
+      "lower_bound": 3761648.9706749422,
+      "upper_bound": 8085978.77587241,
+      "alert": false
+    },
+    {
+      "date": "2014-06-12",
+      "total_sales": 6939204,
+      "expected_sales": 5930524.900588463,
+      "lower_bound": 3768359.997989729,
+      "upper_bound": 8092689.803187197,
+      "alert": false
+    },
+    {
+      "date": "2014-06-13",
+      "total_sales": 7068339,
+      "expected_sales": 6352333.243548699,
+      "lower_bound": 4190168.3409499647,
+      "upper_bound": 8514498.146147434,
+      "alert": false
+    },
+    {
+      "date": "2014-06-14",
+      "total_sales": 6574173,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2014-06-16",
+      "total_sales": 10692037,
+      "expected_sales": 9886593.45388415,
+      "lower_bound": 7724428.551285417,
+      "upper_bound": 12048758.356482886,
+      "alert": false
+    },
+    {
+      "date": "2014-06-17",
+      "total_sales": 9295150,
+      "expected_sales": 8744586.31777028,
+      "lower_bound": 6582421.415171546,
+      "upper_bound": 10906751.220369015,
+      "alert": false
+    },
+    {
+      "date": "2014-06-18",
+      "total_sales": 9059505,
+      "expected_sales": 8354204.953947971,
+      "lower_bound": 6192040.051349237,
+      "upper_bound": 10516369.856546704,
+      "alert": false
+    },
+    {
+      "date": "2014-06-20",
+      "total_sales": 9683407,
+      "expected_sales": 8782724.324222991,
+      "lower_bound": 6620559.421624257,
+      "upper_bound": 10944889.226821724,
+      "alert": false
+    },
+    {
+      "date": "2014-06-21",
+      "total_sales": 6065789,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2014-06-23",
+      "total_sales": 6604967,
+      "expected_sales": 7456202.373209858,
+      "lower_bound": 5294037.470611124,
+      "upper_bound": 9618367.275808591,
+      "alert": false
+    },
+    {
+      "date": "2014-06-24",
+      "total_sales": 6040970,
+      "expected_sales": 6314195.237095986,
+      "lower_bound": 4152030.3344972515,
+      "upper_bound": 8476360.13969472,
+      "alert": false
+    },
+    {
+      "date": "2014-06-25",
+      "total_sales": 5977803,
+      "expected_sales": 5923813.873273676,
+      "lower_bound": 3761648.9706749422,
+      "upper_bound": 8085978.77587241,
+      "alert": false
+    },
+    {
+      "date": "2014-06-26",
+      "total_sales": 5802491,
+      "expected_sales": 5930524.900588463,
+      "lower_bound": 3768359.997989729,
+      "upper_bound": 8092689.803187197,
+      "alert": false
+    },
+    {
+      "date": "2014-06-27",
+      "total_sales": 6910940,
+      "expected_sales": 6352333.243548699,
+      "lower_bound": 4190168.3409499647,
+      "upper_bound": 8514498.146147434,
+      "alert": false
+    },
+    {
+      "date": "2014-06-28",
+      "total_sales": 6586535,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2014-06-30",
+      "total_sales": 13308602,
+      "expected_sales": 9886593.45388415,
+      "lower_bound": 7724428.551285417,
+      "upper_bound": 12048758.356482886,
+      "alert": true
+    },
+    {
+      "date": "2014-07-01",
+      "total_sales": 8240050,
+      "expected_sales": 8744586.31777028,
+      "lower_bound": 6582421.415171546,
+      "upper_bound": 10906751.220369015,
+      "alert": false
+    },
+    {
+      "date": "2014-07-02",
+      "total_sales": 7708595,
+      "expected_sales": 8354204.953947971,
+      "lower_bound": 6192040.051349237,
+      "upper_bound": 10516369.856546704,
+      "alert": false
+    },
+    {
+      "date": "2014-07-03",
+      "total_sales": 7204662,
+      "expected_sales": 8360915.9812627565,
+      "lower_bound": 6198751.0786640225,
+      "upper_bound": 10523080.88386149,
+      "alert": false
+    },
+    {
+      "date": "2014-07-04",
+      "total_sales": 6518718,
+      "expected_sales": 8782724.324222991,
+      "lower_bound": 6620559.421624257,
+      "upper_bound": 10944889.226821724,
+      "alert": true
+    },
+    {
+      "date": "2014-07-05",
+      "total_sales": 5377184,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2014-07-07",
+      "total_sales": 6059587,
+      "expected_sales": 7456202.373209858,
+      "lower_bound": 5294037.470611124,
+      "upper_bound": 9618367.275808591,
+      "alert": false
+    },
+    {
+      "date": "2014-07-08",
+      "total_sales": 5119383,
+      "expected_sales": 6314195.237095986,
+      "lower_bound": 4152030.3344972515,
+      "upper_bound": 8476360.13969472,
+      "alert": false
+    },
+    {
+      "date": "2014-07-09",
+      "total_sales": 4959489,
+      "expected_sales": 5923813.873273676,
+      "lower_bound": 3761648.9706749422,
+      "upper_bound": 8085978.77587241,
+      "alert": false
+    },
+    {
+      "date": "2014-07-10",
+      "total_sales": 5729302,
+      "expected_sales": 5930524.900588463,
+      "lower_bound": 3768359.997989729,
+      "upper_bound": 8092689.803187197,
+      "alert": false
+    },
+    {
+      "date": "2014-07-11",
+      "total_sales": 5791635,
+      "expected_sales": 6352333.243548699,
+      "lower_bound": 4190168.3409499647,
+      "upper_bound": 8514498.146147434,
+      "alert": false
+    },
+    {
+      "date": "2014-07-12",
+      "total_sales": 5329624,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2014-07-14",
+      "total_sales": 8607714,
+      "expected_sales": 9886593.45388415,
+      "lower_bound": 7724428.551285417,
+      "upper_bound": 12048758.356482886,
+      "alert": false
+    },
+    {
+      "date": "2014-07-15",
+      "total_sales": 7684994,
+      "expected_sales": 8744586.31777028,
+      "lower_bound": 6582421.415171546,
+      "upper_bound": 10906751.220369015,
+      "alert": false
+    },
+    {
+      "date": "2014-07-16",
+      "total_sales": 7177840,
+      "expected_sales": 8354204.953947971,
+      "lower_bound": 6192040.051349237,
+      "upper_bound": 10516369.856546704,
+      "alert": false
+    },
+    {
+      "date": "2014-07-17",
+      "total_sales": 6837176,
+      "expected_sales": 8360915.9812627565,
+      "lower_bound": 6198751.0786640225,
+      "upper_bound": 10523080.88386149,
+      "alert": false
+    },
+    {
+      "date": "2014-07-18",
+      "total_sales": 6647315,
+      "expected_sales": 8782724.324222991,
+      "lower_bound": 6620559.421624257,
+      "upper_bound": 10944889.226821724,
+      "alert": false
+    },
+    {
+      "date": "2014-07-19",
+      "total_sales": 4689269,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2014-07-21",
+      "total_sales": 5690785,
+      "expected_sales": 7456202.373209858,
+      "lower_bound": 5294037.470611124,
+      "upper_bound": 9618367.275808591,
+      "alert": false
+    },
+    {
+      "date": "2014-07-22",
+      "total_sales": 5274595,
+      "expected_sales": 6314195.237095986,
+      "lower_bound": 4152030.3344972515,
+      "upper_bound": 8476360.13969472,
+      "alert": false
+    },
+    {
+      "date": "2014-07-23",
+      "total_sales": 5068787,
+      "expected_sales": 5923813.873273676,
+      "lower_bound": 3761648.9706749422,
+      "upper_bound": 8085978.77587241,
+      "alert": false
+    },
+    {
+      "date": "2014-07-24",
+      "total_sales": 5179026,
+      "expected_sales": 5930524.900588463,
+      "lower_bound": 3768359.997989729,
+      "upper_bound": 8092689.803187197,
+      "alert": false
+    },
+    {
+      "date": "2014-07-25",
+      "total_sales": 5493418,
+      "expected_sales": 6352333.243548699,
+      "lower_bound": 4190168.3409499647,
+      "upper_bound": 8514498.146147434,
+      "alert": false
+    },
+    {
+      "date": "2014-07-26",
+      "total_sales": 4887412,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2014-07-28",
+      "total_sales": 8536879,
+      "expected_sales": 9886593.45388415,
+      "lower_bound": 7724428.551285417,
+      "upper_bound": 12048758.356482886,
+      "alert": false
+    },
+    {
+      "date": "2014-07-29",
+      "total_sales": 7323566,
+      "expected_sales": 8744586.31777028,
+      "lower_bound": 6582421.415171546,
+      "upper_bound": 10906751.220369015,
+      "alert": false
+    },
+    {
+      "date": "2014-07-30",
+      "total_sales": 7468663,
+      "expected_sales": 8354204.953947971,
+      "lower_bound": 6192040.051349237,
+      "upper_bound": 10516369.856546704,
+      "alert": false
+    },
+    {
+      "date": "2014-07-31",
+      "total_sales": 8284756,
+      "expected_sales": 8360915.9812627565,
+      "lower_bound": 6198751.0786640225,
+      "upper_bound": 10523080.88386149,
+      "alert": false
+    },
+    {
+      "date": "2014-08-01",
+      "total_sales": 7544719,
+      "expected_sales": 8782724.324222991,
+      "lower_bound": 6620559.421624257,
+      "upper_bound": 10944889.226821724,
+      "alert": false
+    },
+    {
+      "date": "2014-08-02",
+      "total_sales": 5300445,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2014-08-04",
+      "total_sales": 9062750,
+      "expected_sales": 9886593.45388415,
+      "lower_bound": 7724428.551285417,
+      "upper_bound": 12048758.356482886,
+      "alert": false
+    },
+    {
+      "date": "2014-08-05",
+      "total_sales": 7530345,
+      "expected_sales": 8744586.31777028,
+      "lower_bound": 6582421.415171546,
+      "upper_bound": 10906751.220369015,
+      "alert": false
+    },
+    {
+      "date": "2014-08-06",
+      "total_sales": 6709611,
+      "expected_sales": 8354204.953947971,
+      "lower_bound": 6192040.051349237,
+      "upper_bound": 10516369.856546704,
+      "alert": false
+    },
+    {
+      "date": "2014-08-07",
+      "total_sales": 6772684,
+      "expected_sales": 8360915.9812627565,
+      "lower_bound": 6198751.0786640225,
+      "upper_bound": 10523080.88386149,
+      "alert": false
+    },
+    {
+      "date": "2014-08-08",
+      "total_sales": 6571862,
+      "expected_sales": 8782724.324222991,
+      "lower_bound": 6620559.421624257,
+      "upper_bound": 10944889.226821724,
+      "alert": true
+    },
+    {
+      "date": "2014-08-09",
+      "total_sales": 4938926,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2014-08-11",
+      "total_sales": 5850906,
+      "expected_sales": 7456202.373209858,
+      "lower_bound": 5294037.470611124,
+      "upper_bound": 9618367.275808591,
+      "alert": false
+    },
+    {
+      "date": "2014-08-12",
+      "total_sales": 5281785,
+      "expected_sales": 6314195.237095986,
+      "lower_bound": 4152030.3344972515,
+      "upper_bound": 8476360.13969472,
+      "alert": false
+    },
+    {
+      "date": "2014-08-13",
+      "total_sales": 5149918,
+      "expected_sales": 5923813.873273676,
+      "lower_bound": 3761648.9706749422,
+      "upper_bound": 8085978.77587241,
+      "alert": false
+    },
+    {
+      "date": "2014-08-14",
+      "total_sales": 5395023,
+      "expected_sales": 5930524.900588463,
+      "lower_bound": 3768359.997989729,
+      "upper_bound": 8092689.803187197,
+      "alert": false
+    },
+    {
+      "date": "2014-08-15",
+      "total_sales": 5595129,
+      "expected_sales": 6352333.243548699,
+      "lower_bound": 4190168.3409499647,
+      "upper_bound": 8514498.146147434,
+      "alert": false
+    },
+    {
+      "date": "2014-08-16",
+      "total_sales": 5021534,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2014-08-18",
+      "total_sales": 9250961,
+      "expected_sales": 9886593.45388415,
+      "lower_bound": 7724428.551285417,
+      "upper_bound": 12048758.356482886,
+      "alert": false
+    },
+    {
+      "date": "2014-08-19",
+      "total_sales": 7698449,
+      "expected_sales": 8744586.31777028,
+      "lower_bound": 6582421.415171546,
+      "upper_bound": 10906751.220369015,
+      "alert": false
+    },
+    {
+      "date": "2014-08-20",
+      "total_sales": 7022798,
+      "expected_sales": 8354204.953947971,
+      "lower_bound": 6192040.051349237,
+      "upper_bound": 10516369.856546704,
+      "alert": false
+    },
+    {
+      "date": "2014-08-21",
+      "total_sales": 6616202,
+      "expected_sales": 8360915.9812627565,
+      "lower_bound": 6198751.0786640225,
+      "upper_bound": 10523080.88386149,
+      "alert": false
+    },
+    {
+      "date": "2014-08-22",
+      "total_sales": 6638319,
+      "expected_sales": 8782724.324222991,
+      "lower_bound": 6620559.421624257,
+      "upper_bound": 10944889.226821724,
+      "alert": false
+    },
+    {
+      "date": "2014-08-23",
+      "total_sales": 4958030,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2014-08-25",
+      "total_sales": 5750763,
+      "expected_sales": 7456202.373209858,
+      "lower_bound": 5294037.470611124,
+      "upper_bound": 9618367.275808591,
+      "alert": false
+    },
+    {
+      "date": "2014-08-26",
+      "total_sales": 5056366,
+      "expected_sales": 6314195.237095986,
+      "lower_bound": 4152030.3344972515,
+      "upper_bound": 8476360.13969472,
+      "alert": false
+    },
+    {
+      "date": "2014-08-27",
+      "total_sales": 5167298,
+      "expected_sales": 5923813.873273676,
+      "lower_bound": 3761648.9706749422,
+      "upper_bound": 8085978.77587241,
+      "alert": false
+    },
+    {
+      "date": "2014-08-28",
+      "total_sales": 5355611,
+      "expected_sales": 5930524.900588463,
+      "lower_bound": 3768359.997989729,
+      "upper_bound": 8092689.803187197,
+      "alert": false
+    },
+    {
+      "date": "2014-08-29",
+      "total_sales": 6562758,
+      "expected_sales": 6352333.243548699,
+      "lower_bound": 4190168.3409499647,
+      "upper_bound": 8514498.146147434,
+      "alert": false
+    },
+    {
+      "date": "2014-08-30",
+      "total_sales": 5643050,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2014-09-01",
+      "total_sales": 9737203,
+      "expected_sales": 9886593.45388415,
+      "lower_bound": 7724428.551285417,
+      "upper_bound": 12048758.356482886,
+      "alert": false
+    },
+    {
+      "date": "2014-09-02",
+      "total_sales": 7854744,
+      "expected_sales": 8744586.31777028,
+      "lower_bound": 6582421.415171546,
+      "upper_bound": 10906751.220369015,
+      "alert": false
+    },
+    {
+      "date": "2014-09-03",
+      "total_sales": 7170145,
+      "expected_sales": 8354204.953947971,
+      "lower_bound": 6192040.051349237,
+      "upper_bound": 10516369.856546704,
+      "alert": false
+    },
+    {
+      "date": "2014-09-04",
+      "total_sales": 6799830,
+      "expected_sales": 8360915.9812627565,
+      "lower_bound": 6198751.0786640225,
+      "upper_bound": 10523080.88386149,
+      "alert": false
+    },
+    {
+      "date": "2014-09-05",
+      "total_sales": 6908744,
+      "expected_sales": 8782724.324222991,
+      "lower_bound": 6620559.421624257,
+      "upper_bound": 10944889.226821724,
+      "alert": false
+    },
+    {
+      "date": "2014-09-06",
+      "total_sales": 5010762,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2014-09-08",
+      "total_sales": 5655302,
+      "expected_sales": 7456202.373209858,
+      "lower_bound": 5294037.470611124,
+      "upper_bound": 9618367.275808591,
+      "alert": false
+    },
+    {
+      "date": "2014-09-09",
+      "total_sales": 5259862,
+      "expected_sales": 6314195.237095986,
+      "lower_bound": 4152030.3344972515,
+      "upper_bound": 8476360.13969472,
+      "alert": false
+    },
+    {
+      "date": "2014-09-10",
+      "total_sales": 5220667,
+      "expected_sales": 5923813.873273676,
+      "lower_bound": 3761648.9706749422,
+      "upper_bound": 8085978.77587241,
+      "alert": false
+    },
+    {
+      "date": "2014-09-11",
+      "total_sales": 5288519,
+      "expected_sales": 5930524.900588463,
+      "lower_bound": 3768359.997989729,
+      "upper_bound": 8092689.803187197,
+      "alert": false
+    },
+    {
+      "date": "2014-09-12",
+      "total_sales": 5479788,
+      "expected_sales": 6352333.243548699,
+      "lower_bound": 4190168.3409499647,
+      "upper_bound": 8514498.146147434,
+      "alert": false
+    },
+    {
+      "date": "2014-09-13",
+      "total_sales": 5134569,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2014-09-15",
+      "total_sales": 8724338,
+      "expected_sales": 9886593.45388415,
+      "lower_bound": 7724428.551285417,
+      "upper_bound": 12048758.356482886,
+      "alert": false
+    },
+    {
+      "date": "2014-09-16",
+      "total_sales": 7191134,
+      "expected_sales": 8744586.31777028,
+      "lower_bound": 6582421.415171546,
+      "upper_bound": 10906751.220369015,
+      "alert": false
+    },
+    {
+      "date": "2014-09-17",
+      "total_sales": 6513743,
+      "expected_sales": 8354204.953947971,
+      "lower_bound": 6192040.051349237,
+      "upper_bound": 10516369.856546704,
+      "alert": false
+    },
+    {
+      "date": "2014-09-18",
+      "total_sales": 6397477,
+      "expected_sales": 8360915.9812627565,
+      "lower_bound": 6198751.0786640225,
+      "upper_bound": 10523080.88386149,
+      "alert": false
+    },
+    {
+      "date": "2014-09-19",
+      "total_sales": 6550530,
+      "expected_sales": 8782724.324222991,
+      "lower_bound": 6620559.421624257,
+      "upper_bound": 10944889.226821724,
+      "alert": true
+    },
+    {
+      "date": "2014-09-20",
+      "total_sales": 4915671,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2014-09-22",
+      "total_sales": 5277645,
+      "expected_sales": 7456202.373209858,
+      "lower_bound": 5294037.470611124,
+      "upper_bound": 9618367.275808591,
+      "alert": true
+    },
+    {
+      "date": "2014-09-23",
+      "total_sales": 4977122,
+      "expected_sales": 6314195.237095986,
+      "lower_bound": 4152030.3344972515,
+      "upper_bound": 8476360.13969472,
+      "alert": false
+    },
+    {
+      "date": "2014-09-24",
+      "total_sales": 4805992,
+      "expected_sales": 5923813.873273676,
+      "lower_bound": 3761648.9706749422,
+      "upper_bound": 8085978.77587241,
+      "alert": false
+    },
+    {
+      "date": "2014-09-25",
+      "total_sales": 4969583,
+      "expected_sales": 5930524.900588463,
+      "lower_bound": 3768359.997989729,
+      "upper_bound": 8092689.803187197,
+      "alert": false
+    },
+    {
+      "date": "2014-09-26",
+      "total_sales": 5320736,
+      "expected_sales": 6352333.243548699,
+      "lower_bound": 4190168.3409499647,
+      "upper_bound": 8514498.146147434,
+      "alert": false
+    },
+    {
+      "date": "2014-09-27",
+      "total_sales": 4975386,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2014-09-29",
+      "total_sales": 8548286,
+      "expected_sales": 9886593.45388415,
+      "lower_bound": 7724428.551285417,
+      "upper_bound": 12048758.356482886,
+      "alert": false
+    },
+    {
+      "date": "2014-09-30",
+      "total_sales": 8893788,
+      "expected_sales": 8744586.31777028,
+      "lower_bound": 6582421.415171546,
+      "upper_bound": 10906751.220369015,
+      "alert": false
+    },
+    {
+      "date": "2014-10-01",
+      "total_sales": 7702334,
+      "expected_sales": 8354204.953947971,
+      "lower_bound": 6192040.051349237,
+      "upper_bound": 10516369.856546704,
+      "alert": false
+    },
+    {
+      "date": "2014-10-02",
+      "total_sales": 8155792,
+      "expected_sales": 8360915.9812627565,
+      "lower_bound": 6198751.0786640225,
+      "upper_bound": 10523080.88386149,
+      "alert": false
+    },
+    {
+      "date": "2014-10-04",
+      "total_sales": 6426083,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2014-10-06",
+      "total_sales": 9028634,
+      "expected_sales": 9886593.45388415,
+      "lower_bound": 7724428.551285417,
+      "upper_bound": 12048758.356482886,
+      "alert": false
+    },
+    {
+      "date": "2014-10-07",
+      "total_sales": 7332784,
+      "expected_sales": 8744586.31777028,
+      "lower_bound": 6582421.415171546,
+      "upper_bound": 10906751.220369015,
+      "alert": false
+    },
+    {
+      "date": "2014-10-08",
+      "total_sales": 6869767,
+      "expected_sales": 8354204.953947971,
+      "lower_bound": 6192040.051349237,
+      "upper_bound": 10516369.856546704,
+      "alert": false
+    },
+    {
+      "date": "2014-10-09",
+      "total_sales": 6816808,
+      "expected_sales": 8360915.9812627565,
+      "lower_bound": 6198751.0786640225,
+      "upper_bound": 10523080.88386149,
+      "alert": false
+    },
+    {
+      "date": "2014-10-10",
+      "total_sales": 7047404,
+      "expected_sales": 8782724.324222991,
+      "lower_bound": 6620559.421624257,
+      "upper_bound": 10944889.226821724,
+      "alert": false
+    },
+    {
+      "date": "2014-10-11",
+      "total_sales": 5190193,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2014-10-13",
+      "total_sales": 5445980,
+      "expected_sales": 7456202.373209858,
+      "lower_bound": 5294037.470611124,
+      "upper_bound": 9618367.275808591,
+      "alert": false
+    },
+    {
+      "date": "2014-10-14",
+      "total_sales": 5213744,
+      "expected_sales": 6314195.237095986,
+      "lower_bound": 4152030.3344972515,
+      "upper_bound": 8476360.13969472,
+      "alert": false
+    },
+    {
+      "date": "2014-10-15",
+      "total_sales": 5110401,
+      "expected_sales": 5923813.873273676,
+      "lower_bound": 3761648.9706749422,
+      "upper_bound": 8085978.77587241,
+      "alert": false
+    },
+    {
+      "date": "2014-10-16",
+      "total_sales": 5179446,
+      "expected_sales": 5930524.900588463,
+      "lower_bound": 3768359.997989729,
+      "upper_bound": 8092689.803187197,
+      "alert": false
+    },
+    {
+      "date": "2014-10-17",
+      "total_sales": 5449686,
+      "expected_sales": 6352333.243548699,
+      "lower_bound": 4190168.3409499647,
+      "upper_bound": 8514498.146147434,
+      "alert": false
+    },
+    {
+      "date": "2014-10-18",
+      "total_sales": 4945733,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2014-10-20",
+      "total_sales": 8078830,
+      "expected_sales": 9886593.45388415,
+      "lower_bound": 7724428.551285417,
+      "upper_bound": 12048758.356482886,
+      "alert": false
+    },
+    {
+      "date": "2014-10-21",
+      "total_sales": 6677374,
+      "expected_sales": 8744586.31777028,
+      "lower_bound": 6582421.415171546,
+      "upper_bound": 10906751.220369015,
+      "alert": false
+    },
+    {
+      "date": "2014-10-22",
+      "total_sales": 6129832,
+      "expected_sales": 8354204.953947971,
+      "lower_bound": 6192040.051349237,
+      "upper_bound": 10516369.856546704,
+      "alert": true
+    },
+    {
+      "date": "2014-10-23",
+      "total_sales": 6463607,
+      "expected_sales": 8360915.9812627565,
+      "lower_bound": 6198751.0786640225,
+      "upper_bound": 10523080.88386149,
+      "alert": false
+    },
+    {
+      "date": "2014-10-24",
+      "total_sales": 6523289,
+      "expected_sales": 8782724.324222991,
+      "lower_bound": 6620559.421624257,
+      "upper_bound": 10944889.226821724,
+      "alert": true
+    },
+    {
+      "date": "2014-10-25",
+      "total_sales": 4894704,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2014-10-27",
+      "total_sales": 5508341,
+      "expected_sales": 7456202.373209858,
+      "lower_bound": 5294037.470611124,
+      "upper_bound": 9618367.275808591,
+      "alert": false
+    },
+    {
+      "date": "2014-10-28",
+      "total_sales": 5163755,
+      "expected_sales": 6314195.237095986,
+      "lower_bound": 4152030.3344972515,
+      "upper_bound": 8476360.13969472,
+      "alert": false
+    },
+    {
+      "date": "2014-10-29",
+      "total_sales": 5285015,
+      "expected_sales": 5923813.873273676,
+      "lower_bound": 3761648.9706749422,
+      "upper_bound": 8085978.77587241,
+      "alert": false
+    },
+    {
+      "date": "2014-10-30",
+      "total_sales": 6271893,
+      "expected_sales": 5930524.900588463,
+      "lower_bound": 3768359.997989729,
+      "upper_bound": 8092689.803187197,
+      "alert": false
+    },
+    {
+      "date": "2014-10-31",
+      "total_sales": 6106412,
+      "expected_sales": 5576708.664137827,
+      "lower_bound": 3414543.761539093,
+      "upper_bound": 7738873.566736561,
+      "alert": false
+    },
+    {
+      "date": "2014-11-03",
+      "total_sales": 9953793,
+      "expected_sales": 9886593.45388415,
+      "lower_bound": 7724428.551285417,
+      "upper_bound": 12048758.356482886,
+      "alert": false
+    },
+    {
+      "date": "2014-11-04",
+      "total_sales": 8181287,
+      "expected_sales": 8744586.31777028,
+      "lower_bound": 6582421.415171546,
+      "upper_bound": 10906751.220369015,
+      "alert": false
+    },
+    {
+      "date": "2014-11-05",
+      "total_sales": 7493001,
+      "expected_sales": 8354204.953947971,
+      "lower_bound": 6192040.051349237,
+      "upper_bound": 10516369.856546704,
+      "alert": false
+    },
+    {
+      "date": "2014-11-06",
+      "total_sales": 7184058,
+      "expected_sales": 8360915.9812627565,
+      "lower_bound": 6198751.0786640225,
+      "upper_bound": 10523080.88386149,
+      "alert": false
+    },
+    {
+      "date": "2014-11-07",
+      "total_sales": 7298281,
+      "expected_sales": 8782724.324222991,
+      "lower_bound": 6620559.421624257,
+      "upper_bound": 10944889.226821724,
+      "alert": false
+    },
+    {
+      "date": "2014-11-08",
+      "total_sales": 5629423,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2014-11-10",
+      "total_sales": 8095306,
+      "expected_sales": 9886593.45388415,
+      "lower_bound": 7724428.551285417,
+      "upper_bound": 12048758.356482886,
+      "alert": false
+    },
+    {
+      "date": "2014-11-11",
+      "total_sales": 7083145,
+      "expected_sales": 8744586.31777028,
+      "lower_bound": 6582421.415171546,
+      "upper_bound": 10906751.220369015,
+      "alert": false
+    },
+    {
+      "date": "2014-11-12",
+      "total_sales": 6686356,
+      "expected_sales": 8354204.953947971,
+      "lower_bound": 6192040.051349237,
+      "upper_bound": 10516369.856546704,
+      "alert": false
+    },
+    {
+      "date": "2014-11-13",
+      "total_sales": 6750180,
+      "expected_sales": 8360915.9812627565,
+      "lower_bound": 6198751.0786640225,
+      "upper_bound": 10523080.88386149,
+      "alert": false
+    },
+    {
+      "date": "2014-11-14",
+      "total_sales": 7064885,
+      "expected_sales": 8782724.324222991,
+      "lower_bound": 6620559.421624257,
+      "upper_bound": 10944889.226821724,
+      "alert": false
+    },
+    {
+      "date": "2014-11-15",
+      "total_sales": 5576429,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2014-11-17",
+      "total_sales": 5849735,
+      "expected_sales": 7456202.373209858,
+      "lower_bound": 5294037.470611124,
+      "upper_bound": 9618367.275808591,
+      "alert": false
+    },
+    {
+      "date": "2014-11-18",
+      "total_sales": 5367537,
+      "expected_sales": 6314195.237095986,
+      "lower_bound": 4152030.3344972515,
+      "upper_bound": 8476360.13969472,
+      "alert": false
+    },
+    {
+      "date": "2014-11-19",
+      "total_sales": 4888765,
+      "expected_sales": 5923813.873273676,
+      "lower_bound": 3761648.9706749422,
+      "upper_bound": 8085978.77587241,
+      "alert": false
+    },
+    {
+      "date": "2014-11-20",
+      "total_sales": 5575878,
+      "expected_sales": 5930524.900588463,
+      "lower_bound": 3768359.997989729,
+      "upper_bound": 8092689.803187197,
+      "alert": false
+    },
+    {
+      "date": "2014-11-21",
+      "total_sales": 5816514,
+      "expected_sales": 6352333.243548699,
+      "lower_bound": 4190168.3409499647,
+      "upper_bound": 8514498.146147434,
+      "alert": false
+    },
+    {
+      "date": "2014-11-22",
+      "total_sales": 5522528,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2014-11-24",
+      "total_sales": 9020315,
+      "expected_sales": 9886593.45388415,
+      "lower_bound": 7724428.551285417,
+      "upper_bound": 12048758.356482886,
+      "alert": false
+    },
+    {
+      "date": "2014-11-25",
+      "total_sales": 7868758,
+      "expected_sales": 8744586.31777028,
+      "lower_bound": 6582421.415171546,
+      "upper_bound": 10906751.220369015,
+      "alert": false
+    },
+    {
+      "date": "2014-11-26",
+      "total_sales": 7518283,
+      "expected_sales": 8354204.953947971,
+      "lower_bound": 6192040.051349237,
+      "upper_bound": 10516369.856546704,
+      "alert": false
+    },
+    {
+      "date": "2014-11-27",
+      "total_sales": 7867510,
+      "expected_sales": 8360915.9812627565,
+      "lower_bound": 6198751.0786640225,
+      "upper_bound": 10523080.88386149,
+      "alert": false
+    },
+    {
+      "date": "2014-11-28",
+      "total_sales": 9172722,
+      "expected_sales": 8782724.324222991,
+      "lower_bound": 6620559.421624257,
+      "upper_bound": 10944889.226821724,
+      "alert": false
+    },
+    {
+      "date": "2014-11-29",
+      "total_sales": 7305547,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2014-12-01",
+      "total_sales": 10276971,
+      "expected_sales": 9886593.45388415,
+      "lower_bound": 7724428.551285417,
+      "upper_bound": 12048758.356482886,
+      "alert": false
+    },
+    {
+      "date": "2014-12-02",
+      "total_sales": 8843822,
+      "expected_sales": 8744586.31777028,
+      "lower_bound": 6582421.415171546,
+      "upper_bound": 10906751.220369015,
+      "alert": false
+    },
+    {
+      "date": "2014-12-03",
+      "total_sales": 8258019,
+      "expected_sales": 8354204.953947971,
+      "lower_bound": 6192040.051349237,
+      "upper_bound": 10516369.856546704,
+      "alert": false
+    },
+    {
+      "date": "2014-12-04",
+      "total_sales": 8554042,
+      "expected_sales": 8360915.9812627565,
+      "lower_bound": 6198751.0786640225,
+      "upper_bound": 10523080.88386149,
+      "alert": false
+    },
+    {
+      "date": "2014-12-05",
+      "total_sales": 9801856,
+      "expected_sales": 8782724.324222991,
+      "lower_bound": 6620559.421624257,
+      "upper_bound": 10944889.226821724,
+      "alert": false
+    },
+    {
+      "date": "2014-12-06",
+      "total_sales": 6479401,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2014-12-08",
+      "total_sales": 6560015,
+      "expected_sales": 7456202.373209858,
+      "lower_bound": 5294037.470611124,
+      "upper_bound": 9618367.275808591,
+      "alert": false
+    },
+    {
+      "date": "2014-12-09",
+      "total_sales": 6329729,
+      "expected_sales": 6314195.237095986,
+      "lower_bound": 4152030.3344972515,
+      "upper_bound": 8476360.13969472,
+      "alert": false
+    },
+    {
+      "date": "2014-12-10",
+      "total_sales": 5909802,
+      "expected_sales": 5923813.873273676,
+      "lower_bound": 3761648.9706749422,
+      "upper_bound": 8085978.77587241,
+      "alert": false
+    },
+    {
+      "date": "2014-12-11",
+      "total_sales": 6156944,
+      "expected_sales": 5930524.900588463,
+      "lower_bound": 3768359.997989729,
+      "upper_bound": 8092689.803187197,
+      "alert": false
+    },
+    {
+      "date": "2014-12-12",
+      "total_sales": 6501211,
+      "expected_sales": 6352333.243548699,
+      "lower_bound": 4190168.3409499647,
+      "upper_bound": 8514498.146147434,
+      "alert": false
+    },
+    {
+      "date": "2014-12-13",
+      "total_sales": 6779226,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2014-12-15",
+      "total_sales": 12133381,
+      "expected_sales": 9886593.45388415,
+      "lower_bound": 7724428.551285417,
+      "upper_bound": 12048758.356482886,
+      "alert": true
+    },
+    {
+      "date": "2014-12-16",
+      "total_sales": 10621060,
+      "expected_sales": 8744586.31777028,
+      "lower_bound": 6582421.415171546,
+      "upper_bound": 10906751.220369015,
+      "alert": false
+    },
+    {
+      "date": "2014-12-17",
+      "total_sales": 9483386,
+      "expected_sales": 8354204.953947971,
+      "lower_bound": 6192040.051349237,
+      "upper_bound": 10516369.856546704,
+      "alert": false
+    },
+    {
+      "date": "2014-12-18",
+      "total_sales": 9808212,
+      "expected_sales": 8360915.9812627565,
+      "lower_bound": 6198751.0786640225,
+      "upper_bound": 10523080.88386149,
+      "alert": false
+    },
+    {
+      "date": "2014-12-19",
+      "total_sales": 9518489,
+      "expected_sales": 8782724.324222991,
+      "lower_bound": 6620559.421624257,
+      "upper_bound": 10944889.226821724,
+      "alert": false
+    },
+    {
+      "date": "2014-12-20",
+      "total_sales": 7956411,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2014-12-22",
+      "total_sales": 11007641,
+      "expected_sales": 7456202.373209858,
+      "lower_bound": 5294037.470611124,
+      "upper_bound": 9618367.275808591,
+      "alert": true
+    },
+    {
+      "date": "2014-12-23",
+      "total_sales": 10712124,
+      "expected_sales": 6314195.237095986,
+      "lower_bound": 4152030.3344972515,
+      "upper_bound": 8476360.13969472,
+      "alert": true
+    },
+    {
+      "date": "2014-12-24",
+      "total_sales": 4612716,
+      "expected_sales": 5923813.873273676,
+      "lower_bound": 3761648.9706749422,
+      "upper_bound": 8085978.77587241,
+      "alert": false
+    },
+    {
+      "date": "2014-12-27",
+      "total_sales": 5710292,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2014-12-29",
+      "total_sales": 7291426,
+      "expected_sales": 7456202.373209858,
+      "lower_bound": 5294037.470611124,
+      "upper_bound": 9618367.275808591,
+      "alert": false
+    },
+    {
+      "date": "2014-12-30",
+      "total_sales": 7665743,
+      "expected_sales": 6314195.237095986,
+      "lower_bound": 4152030.3344972515,
+      "upper_bound": 8476360.13969472,
+      "alert": false
+    },
+    {
+      "date": "2014-12-31",
+      "total_sales": 3895591,
+      "expected_sales": 5923813.873273676,
+      "lower_bound": 3761648.9706749422,
+      "upper_bound": 8085978.77587241,
+      "alert": false
+    },
+    {
+      "date": "2015-01-02",
+      "total_sales": 7561431,
+      "expected_sales": 6352333.243548699,
+      "lower_bound": 4190168.3409499647,
+      "upper_bound": 8514498.146147434,
+      "alert": false
+    },
+    {
+      "date": "2015-01-03",
+      "total_sales": 6150311,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2015-01-05",
+      "total_sales": 11303805,
+      "expected_sales": 9886593.45388415,
+      "lower_bound": 7724428.551285417,
+      "upper_bound": 12048758.356482886,
+      "alert": false
+    },
+    {
+      "date": "2015-01-06",
+      "total_sales": 6791481,
+      "expected_sales": 7968961.738359408,
+      "lower_bound": 5806796.835760674,
+      "upper_bound": 10131126.640958142,
+      "alert": false
+    },
+    {
+      "date": "2015-01-07",
+      "total_sales": 8621857,
+      "expected_sales": 8354204.953947971,
+      "lower_bound": 6192040.051349237,
+      "upper_bound": 10516369.856546704,
+      "alert": false
+    },
+    {
+      "date": "2015-01-08",
+      "total_sales": 7646645,
+      "expected_sales": 8360915.9812627565,
+      "lower_bound": 6198751.0786640225,
+      "upper_bound": 10523080.88386149,
+      "alert": false
+    },
+    {
+      "date": "2015-01-09",
+      "total_sales": 7945387,
+      "expected_sales": 8782724.324222991,
+      "lower_bound": 6620559.421624257,
+      "upper_bound": 10944889.226821724,
+      "alert": false
+    },
+    {
+      "date": "2015-01-10",
+      "total_sales": 6277742,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2015-01-12",
+      "total_sales": 9840664,
+      "expected_sales": 9886593.45388415,
+      "lower_bound": 7724428.551285417,
+      "upper_bound": 12048758.356482886,
+      "alert": false
+    },
+    {
+      "date": "2015-01-13",
+      "total_sales": 8538569,
+      "expected_sales": 8744586.31777028,
+      "lower_bound": 6582421.415171546,
+      "upper_bound": 10906751.220369015,
+      "alert": false
+    },
+    {
+      "date": "2015-01-14",
+      "total_sales": 7881690,
+      "expected_sales": 8354204.953947971,
+      "lower_bound": 6192040.051349237,
+      "upper_bound": 10516369.856546704,
+      "alert": false
+    },
+    {
+      "date": "2015-01-15",
+      "total_sales": 7774935,
+      "expected_sales": 8360915.9812627565,
+      "lower_bound": 6198751.0786640225,
+      "upper_bound": 10523080.88386149,
+      "alert": false
+    },
+    {
+      "date": "2015-01-16",
+      "total_sales": 8456148,
+      "expected_sales": 8782724.324222991,
+      "lower_bound": 6620559.421624257,
+      "upper_bound": 10944889.226821724,
+      "alert": false
+    },
+    {
+      "date": "2015-01-17",
+      "total_sales": 6525692,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2015-01-19",
+      "total_sales": 6386391,
+      "expected_sales": 7456202.373209858,
+      "lower_bound": 5294037.470611124,
+      "upper_bound": 9618367.275808591,
+      "alert": false
+    },
+    {
+      "date": "2015-01-20",
+      "total_sales": 5744162,
+      "expected_sales": 6314195.237095986,
+      "lower_bound": 4152030.3344972515,
+      "upper_bound": 8476360.13969472,
+      "alert": false
+    },
+    {
+      "date": "2015-01-21",
+      "total_sales": 5882045,
+      "expected_sales": 5923813.873273676,
+      "lower_bound": 3761648.9706749422,
+      "upper_bound": 8085978.77587241,
+      "alert": false
+    },
+    {
+      "date": "2015-01-22",
+      "total_sales": 5933913,
+      "expected_sales": 5930524.900588463,
+      "lower_bound": 3768359.997989729,
+      "upper_bound": 8092689.803187197,
+      "alert": false
+    },
+    {
+      "date": "2015-01-23",
+      "total_sales": 6326166,
+      "expected_sales": 6352333.243548699,
+      "lower_bound": 4190168.3409499647,
+      "upper_bound": 8514498.146147434,
+      "alert": false
+    },
+    {
+      "date": "2015-01-24",
+      "total_sales": 5811369,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2015-01-26",
+      "total_sales": 9401803,
+      "expected_sales": 9886593.45388415,
+      "lower_bound": 7724428.551285417,
+      "upper_bound": 12048758.356482886,
+      "alert": false
+    },
+    {
+      "date": "2015-01-27",
+      "total_sales": 8392342,
+      "expected_sales": 8744586.31777028,
+      "lower_bound": 6582421.415171546,
+      "upper_bound": 10906751.220369015,
+      "alert": false
+    },
+    {
+      "date": "2015-01-28",
+      "total_sales": 7930037,
+      "expected_sales": 8354204.953947971,
+      "lower_bound": 6192040.051349237,
+      "upper_bound": 10516369.856546704,
+      "alert": false
+    },
+    {
+      "date": "2015-01-29",
+      "total_sales": 8024066,
+      "expected_sales": 8360915.9812627565,
+      "lower_bound": 6198751.0786640225,
+      "upper_bound": 10523080.88386149,
+      "alert": false
+    },
+    {
+      "date": "2015-01-30",
+      "total_sales": 9454954,
+      "expected_sales": 8782724.324222991,
+      "lower_bound": 6620559.421624257,
+      "upper_bound": 10944889.226821724,
+      "alert": false
+    },
+    {
+      "date": "2015-01-31",
+      "total_sales": 7354597,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2015-02-02",
+      "total_sales": 10291172,
+      "expected_sales": 9886593.45388415,
+      "lower_bound": 7724428.551285417,
+      "upper_bound": 12048758.356482886,
+      "alert": false
+    },
+    {
+      "date": "2015-02-03",
+      "total_sales": 8904680,
+      "expected_sales": 8744586.31777028,
+      "lower_bound": 6582421.415171546,
+      "upper_bound": 10906751.220369015,
+      "alert": false
+    },
+    {
+      "date": "2015-02-04",
+      "total_sales": 8136074,
+      "expected_sales": 8354204.953947971,
+      "lower_bound": 6192040.051349237,
+      "upper_bound": 10516369.856546704,
+      "alert": false
+    },
+    {
+      "date": "2015-02-05",
+      "total_sales": 7973916,
+      "expected_sales": 8360915.9812627565,
+      "lower_bound": 6198751.0786640225,
+      "upper_bound": 10523080.88386149,
+      "alert": false
+    },
+    {
+      "date": "2015-02-06",
+      "total_sales": 8439787,
+      "expected_sales": 8782724.324222991,
+      "lower_bound": 6620559.421624257,
+      "upper_bound": 10944889.226821724,
+      "alert": false
+    },
+    {
+      "date": "2015-02-07",
+      "total_sales": 6594669,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2015-02-09",
+      "total_sales": 6477197,
+      "expected_sales": 7456202.373209858,
+      "lower_bound": 5294037.470611124,
+      "upper_bound": 9618367.275808591,
+      "alert": false
+    },
+    {
+      "date": "2015-02-10",
+      "total_sales": 6345089,
+      "expected_sales": 6314195.237095986,
+      "lower_bound": 4152030.3344972515,
+      "upper_bound": 8476360.13969472,
+      "alert": false
+    },
+    {
+      "date": "2015-02-11",
+      "total_sales": 6393495,
+      "expected_sales": 5923813.873273676,
+      "lower_bound": 3761648.9706749422,
+      "upper_bound": 8085978.77587241,
+      "alert": false
+    },
+    {
+      "date": "2015-02-12",
+      "total_sales": 6151076,
+      "expected_sales": 5930524.900588463,
+      "lower_bound": 3768359.997989729,
+      "upper_bound": 8092689.803187197,
+      "alert": false
+    },
+    {
+      "date": "2015-02-13",
+      "total_sales": 7212357,
+      "expected_sales": 6352333.243548699,
+      "lower_bound": 4190168.3409499647,
+      "upper_bound": 8514498.146147434,
+      "alert": false
+    },
+    {
+      "date": "2015-02-14",
+      "total_sales": 6701361,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2015-02-16",
+      "total_sales": 9321996,
+      "expected_sales": 9886593.45388415,
+      "lower_bound": 7724428.551285417,
+      "upper_bound": 12048758.356482886,
+      "alert": false
+    },
+    {
+      "date": "2015-02-17",
+      "total_sales": 8299474,
+      "expected_sales": 8744586.31777028,
+      "lower_bound": 6582421.415171546,
+      "upper_bound": 10906751.220369015,
+      "alert": false
+    },
+    {
+      "date": "2015-02-18",
+      "total_sales": 8058390,
+      "expected_sales": 8354204.953947971,
+      "lower_bound": 6192040.051349237,
+      "upper_bound": 10516369.856546704,
+      "alert": false
+    },
+    {
+      "date": "2015-02-19",
+      "total_sales": 8031173,
+      "expected_sales": 8360915.9812627565,
+      "lower_bound": 6198751.0786640225,
+      "upper_bound": 10523080.88386149,
+      "alert": false
+    },
+    {
+      "date": "2015-02-20",
+      "total_sales": 8094451,
+      "expected_sales": 8782724.324222991,
+      "lower_bound": 6620559.421624257,
+      "upper_bound": 10944889.226821724,
+      "alert": false
+    },
+    {
+      "date": "2015-02-21",
+      "total_sales": 6290922,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2015-02-23",
+      "total_sales": 5984980,
+      "expected_sales": 7456202.373209858,
+      "lower_bound": 5294037.470611124,
+      "upper_bound": 9618367.275808591,
+      "alert": false
+    },
+    {
+      "date": "2015-02-24",
+      "total_sales": 6021986,
+      "expected_sales": 6314195.237095986,
+      "lower_bound": 4152030.3344972515,
+      "upper_bound": 8476360.13969472,
+      "alert": false
+    },
+    {
+      "date": "2015-02-25",
+      "total_sales": 6028364,
+      "expected_sales": 5923813.873273676,
+      "lower_bound": 3761648.9706749422,
+      "upper_bound": 8085978.77587241,
+      "alert": false
+    },
+    {
+      "date": "2015-02-26",
+      "total_sales": 6471718,
+      "expected_sales": 5930524.900588463,
+      "lower_bound": 3768359.997989729,
+      "upper_bound": 8092689.803187197,
+      "alert": false
+    },
+    {
+      "date": "2015-02-27",
+      "total_sales": 7778945,
+      "expected_sales": 6352333.243548699,
+      "lower_bound": 4190168.3409499647,
+      "upper_bound": 8514498.146147434,
+      "alert": false
+    },
+    {
+      "date": "2015-02-28",
+      "total_sales": 7421745,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2015-03-02",
+      "total_sales": 10933146,
+      "expected_sales": 9886593.45388415,
+      "lower_bound": 7724428.551285417,
+      "upper_bound": 12048758.356482886,
+      "alert": false
+    },
+    {
+      "date": "2015-03-03",
+      "total_sales": 9234921,
+      "expected_sales": 8744586.31777028,
+      "lower_bound": 6582421.415171546,
+      "upper_bound": 10906751.220369015,
+      "alert": false
+    },
+    {
+      "date": "2015-03-04",
+      "total_sales": 8421680,
+      "expected_sales": 8354204.953947971,
+      "lower_bound": 6192040.051349237,
+      "upper_bound": 10516369.856546704,
+      "alert": false
+    },
+    {
+      "date": "2015-03-05",
+      "total_sales": 8263354,
+      "expected_sales": 8360915.9812627565,
+      "lower_bound": 6198751.0786640225,
+      "upper_bound": 10523080.88386149,
+      "alert": false
+    },
+    {
+      "date": "2015-03-06",
+      "total_sales": 8504508,
+      "expected_sales": 8782724.324222991,
+      "lower_bound": 6620559.421624257,
+      "upper_bound": 10944889.226821724,
+      "alert": false
+    },
+    {
+      "date": "2015-03-07",
+      "total_sales": 6565020,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2015-03-09",
+      "total_sales": 6765029,
+      "expected_sales": 7456202.373209858,
+      "lower_bound": 5294037.470611124,
+      "upper_bound": 9618367.275808591,
+      "alert": false
+    },
+    {
+      "date": "2015-03-10",
+      "total_sales": 6211021,
+      "expected_sales": 6314195.237095986,
+      "lower_bound": 4152030.3344972515,
+      "upper_bound": 8476360.13969472,
+      "alert": false
+    },
+    {
+      "date": "2015-03-11",
+      "total_sales": 6272025,
+      "expected_sales": 5923813.873273676,
+      "lower_bound": 3761648.9706749422,
+      "upper_bound": 8085978.77587241,
+      "alert": false
+    },
+    {
+      "date": "2015-03-12",
+      "total_sales": 6376255,
+      "expected_sales": 5930524.900588463,
+      "lower_bound": 3768359.997989729,
+      "upper_bound": 8092689.803187197,
+      "alert": false
+    },
+    {
+      "date": "2015-03-13",
+      "total_sales": 6942094,
+      "expected_sales": 6352333.243548699,
+      "lower_bound": 4190168.3409499647,
+      "upper_bound": 8514498.146147434,
+      "alert": false
+    },
+    {
+      "date": "2015-03-14",
+      "total_sales": 6625997,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2015-03-16",
+      "total_sales": 10877344,
+      "expected_sales": 9886593.45388415,
+      "lower_bound": 7724428.551285417,
+      "upper_bound": 12048758.356482886,
+      "alert": false
+    },
+    {
+      "date": "2015-03-17",
+      "total_sales": 8792886,
+      "expected_sales": 8744586.31777028,
+      "lower_bound": 6582421.415171546,
+      "upper_bound": 10906751.220369015,
+      "alert": false
+    },
+    {
+      "date": "2015-03-18",
+      "total_sales": 7993269,
+      "expected_sales": 8354204.953947971,
+      "lower_bound": 6192040.051349237,
+      "upper_bound": 10516369.856546704,
+      "alert": false
+    },
+    {
+      "date": "2015-03-19",
+      "total_sales": 8073881,
+      "expected_sales": 8360915.9812627565,
+      "lower_bound": 6198751.0786640225,
+      "upper_bound": 10523080.88386149,
+      "alert": false
+    },
+    {
+      "date": "2015-03-20",
+      "total_sales": 8291098,
+      "expected_sales": 8782724.324222991,
+      "lower_bound": 6620559.421624257,
+      "upper_bound": 10944889.226821724,
+      "alert": false
+    },
+    {
+      "date": "2015-03-21",
+      "total_sales": 6398094,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2015-03-23",
+      "total_sales": 6788834,
+      "expected_sales": 7456202.373209858,
+      "lower_bound": 5294037.470611124,
+      "upper_bound": 9618367.275808591,
+      "alert": false
+    },
+    {
+      "date": "2015-03-24",
+      "total_sales": 6226359,
+      "expected_sales": 6314195.237095986,
+      "lower_bound": 4152030.3344972515,
+      "upper_bound": 8476360.13969472,
+      "alert": false
+    },
+    {
+      "date": "2015-03-25",
+      "total_sales": 6073784,
+      "expected_sales": 5923813.873273676,
+      "lower_bound": 3761648.9706749422,
+      "upper_bound": 8085978.77587241,
+      "alert": false
+    },
+    {
+      "date": "2015-03-26",
+      "total_sales": 6362734,
+      "expected_sales": 5930524.900588463,
+      "lower_bound": 3768359.997989729,
+      "upper_bound": 8092689.803187197,
+      "alert": false
+    },
+    {
+      "date": "2015-03-27",
+      "total_sales": 7078009,
+      "expected_sales": 6352333.243548699,
+      "lower_bound": 4190168.3409499647,
+      "upper_bound": 8514498.146147434,
+      "alert": false
+    },
+    {
+      "date": "2015-03-28",
+      "total_sales": 6829093,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2015-03-30",
+      "total_sales": 12371453,
+      "expected_sales": 9886593.45388415,
+      "lower_bound": 7724428.551285417,
+      "upper_bound": 12048758.356482886,
+      "alert": true
+    },
+    {
+      "date": "2015-03-31",
+      "total_sales": 11222913,
+      "expected_sales": 8744586.31777028,
+      "lower_bound": 6582421.415171546,
+      "upper_bound": 10906751.220369015,
+      "alert": true
+    },
+    {
+      "date": "2015-04-01",
+      "total_sales": 11102030,
+      "expected_sales": 8354204.953947971,
+      "lower_bound": 6192040.051349237,
+      "upper_bound": 10516369.856546704,
+      "alert": true
+    },
+    {
+      "date": "2015-04-02",
+      "total_sales": 11400447,
+      "expected_sales": 8360915.9812627565,
+      "lower_bound": 6198751.0786640225,
+      "upper_bound": 10523080.88386149,
+      "alert": true
+    },
+    {
+      "date": "2015-04-04",
+      "total_sales": 9366558,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": true
+    },
+    {
+      "date": "2015-04-07",
+      "total_sales": 7896155,
+      "expected_sales": 6314195.237095986,
+      "lower_bound": 4152030.3344972515,
+      "upper_bound": 8476360.13969472,
+      "alert": false
+    },
+    {
+      "date": "2015-04-08",
+      "total_sales": 6790649,
+      "expected_sales": 5923813.873273676,
+      "lower_bound": 3761648.9706749422,
+      "upper_bound": 8085978.77587241,
+      "alert": false
+    },
+    {
+      "date": "2015-04-09",
+      "total_sales": 6560475,
+      "expected_sales": 5930524.900588463,
+      "lower_bound": 3768359.997989729,
+      "upper_bound": 8092689.803187197,
+      "alert": false
+    },
+    {
+      "date": "2015-04-10",
+      "total_sales": 6669239,
+      "expected_sales": 6352333.243548699,
+      "lower_bound": 4190168.3409499647,
+      "upper_bound": 8514498.146147434,
+      "alert": false
+    },
+    {
+      "date": "2015-04-11",
+      "total_sales": 6445499,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2015-04-13",
+      "total_sales": 11075002,
+      "expected_sales": 9886593.45388415,
+      "lower_bound": 7724428.551285417,
+      "upper_bound": 12048758.356482886,
+      "alert": false
+    },
+    {
+      "date": "2015-04-14",
+      "total_sales": 9166055,
+      "expected_sales": 8744586.31777028,
+      "lower_bound": 6582421.415171546,
+      "upper_bound": 10906751.220369015,
+      "alert": false
+    },
+    {
+      "date": "2015-04-15",
+      "total_sales": 8002511,
+      "expected_sales": 8354204.953947971,
+      "lower_bound": 6192040.051349237,
+      "upper_bound": 10516369.856546704,
+      "alert": false
+    },
+    {
+      "date": "2015-04-16",
+      "total_sales": 8396675,
+      "expected_sales": 8360915.9812627565,
+      "lower_bound": 6198751.0786640225,
+      "upper_bound": 10523080.88386149,
+      "alert": false
+    },
+    {
+      "date": "2015-04-17",
+      "total_sales": 8738327,
+      "expected_sales": 8782724.324222991,
+      "lower_bound": 6620559.421624257,
+      "upper_bound": 10944889.226821724,
+      "alert": false
+    },
+    {
+      "date": "2015-04-18",
+      "total_sales": 6569186,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2015-04-20",
+      "total_sales": 6588863,
+      "expected_sales": 7456202.373209858,
+      "lower_bound": 5294037.470611124,
+      "upper_bound": 9618367.275808591,
+      "alert": false
+    },
+    {
+      "date": "2015-04-21",
+      "total_sales": 6039464,
+      "expected_sales": 6314195.237095986,
+      "lower_bound": 4152030.3344972515,
+      "upper_bound": 8476360.13969472,
+      "alert": false
+    },
+    {
+      "date": "2015-04-22",
+      "total_sales": 6082195,
+      "expected_sales": 5923813.873273676,
+      "lower_bound": 3761648.9706749422,
+      "upper_bound": 8085978.77587241,
+      "alert": false
+    },
+    {
+      "date": "2015-04-23",
+      "total_sales": 6153519,
+      "expected_sales": 5930524.900588463,
+      "lower_bound": 3768359.997989729,
+      "upper_bound": 8092689.803187197,
+      "alert": false
+    },
+    {
+      "date": "2015-04-24",
+      "total_sales": 6367560,
+      "expected_sales": 6352333.243548699,
+      "lower_bound": 4190168.3409499647,
+      "upper_bound": 8514498.146147434,
+      "alert": false
+    },
+    {
+      "date": "2015-04-25",
+      "total_sales": 6305451,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2015-04-27",
+      "total_sales": 10605500,
+      "expected_sales": 9886593.45388415,
+      "lower_bound": 7724428.551285417,
+      "upper_bound": 12048758.356482886,
+      "alert": false
+    },
+    {
+      "date": "2015-04-28",
+      "total_sales": 9302980,
+      "expected_sales": 8744586.31777028,
+      "lower_bound": 6582421.415171546,
+      "upper_bound": 10906751.220369015,
+      "alert": false
+    },
+    {
+      "date": "2015-04-29",
+      "total_sales": 9517703,
+      "expected_sales": 8354204.953947971,
+      "lower_bound": 6192040.051349237,
+      "upper_bound": 10516369.856546704,
+      "alert": false
+    },
+    {
+      "date": "2015-04-30",
+      "total_sales": 11327847,
+      "expected_sales": 8360915.9812627565,
+      "lower_bound": 6198751.0786640225,
+      "upper_bound": 10523080.88386149,
+      "alert": true
+    },
+    {
+      "date": "2015-05-02",
+      "total_sales": 8764984,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": true
+    },
+    {
+      "date": "2015-05-04",
+      "total_sales": 10995906,
+      "expected_sales": 9886593.45388415,
+      "lower_bound": 7724428.551285417,
+      "upper_bound": 12048758.356482886,
+      "alert": false
+    },
+    {
+      "date": "2015-05-05",
+      "total_sales": 8778928,
+      "expected_sales": 8744586.31777028,
+      "lower_bound": 6582421.415171546,
+      "upper_bound": 10906751.220369015,
+      "alert": false
+    },
+    {
+      "date": "2015-05-06",
+      "total_sales": 8633577,
+      "expected_sales": 8354204.953947971,
+      "lower_bound": 6192040.051349237,
+      "upper_bound": 10516369.856546704,
+      "alert": false
+    },
+    {
+      "date": "2015-05-07",
+      "total_sales": 8550616,
+      "expected_sales": 8360915.9812627565,
+      "lower_bound": 6198751.0786640225,
+      "upper_bound": 10523080.88386149,
+      "alert": false
+    },
+    {
+      "date": "2015-05-08",
+      "total_sales": 8665512,
+      "expected_sales": 8782724.324222991,
+      "lower_bound": 6620559.421624257,
+      "upper_bound": 10944889.226821724,
+      "alert": false
+    },
+    {
+      "date": "2015-05-09",
+      "total_sales": 7157061,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2015-05-11",
+      "total_sales": 6732629,
+      "expected_sales": 7456202.373209858,
+      "lower_bound": 5294037.470611124,
+      "upper_bound": 9618367.275808591,
+      "alert": false
+    },
+    {
+      "date": "2015-05-12",
+      "total_sales": 6686277,
+      "expected_sales": 6314195.237095986,
+      "lower_bound": 4152030.3344972515,
+      "upper_bound": 8476360.13969472,
+      "alert": false
+    },
+    {
+      "date": "2015-05-13",
+      "total_sales": 8147927,
+      "expected_sales": 5923813.873273676,
+      "lower_bound": 3761648.9706749422,
+      "upper_bound": 8085978.77587241,
+      "alert": true
+    },
+    {
+      "date": "2015-05-15",
+      "total_sales": 8596524,
+      "expected_sales": 6352333.243548699,
+      "lower_bound": 4190168.3409499647,
+      "upper_bound": 8514498.146147434,
+      "alert": true
+    },
+    {
+      "date": "2015-05-16",
+      "total_sales": 6497847,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2015-05-18",
+      "total_sales": 10603240,
+      "expected_sales": 9886593.45388415,
+      "lower_bound": 7724428.551285417,
+      "upper_bound": 12048758.356482886,
+      "alert": false
+    },
+    {
+      "date": "2015-05-19",
+      "total_sales": 8925994,
+      "expected_sales": 8744586.31777028,
+      "lower_bound": 6582421.415171546,
+      "upper_bound": 10906751.220369015,
+      "alert": false
+    },
+    {
+      "date": "2015-05-20",
+      "total_sales": 8355497,
+      "expected_sales": 8354204.953947971,
+      "lower_bound": 6192040.051349237,
+      "upper_bound": 10516369.856546704,
+      "alert": false
+    },
+    {
+      "date": "2015-05-21",
+      "total_sales": 8228411,
+      "expected_sales": 8360915.9812627565,
+      "lower_bound": 6198751.0786640225,
+      "upper_bound": 10523080.88386149,
+      "alert": false
+    },
+    {
+      "date": "2015-05-22",
+      "total_sales": 8352281,
+      "expected_sales": 8782724.324222991,
+      "lower_bound": 6620559.421624257,
+      "upper_bound": 10944889.226821724,
+      "alert": false
+    },
+    {
+      "date": "2015-05-23",
+      "total_sales": 6773815,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2015-05-26",
+      "total_sales": 7776413,
+      "expected_sales": 6314195.237095986,
+      "lower_bound": 4152030.3344972515,
+      "upper_bound": 8476360.13969472,
+      "alert": false
+    },
+    {
+      "date": "2015-05-27",
+      "total_sales": 6876443,
+      "expected_sales": 5923813.873273676,
+      "lower_bound": 3761648.9706749422,
+      "upper_bound": 8085978.77587241,
+      "alert": false
+    },
+    {
+      "date": "2015-05-28",
+      "total_sales": 6974793,
+      "expected_sales": 5930524.900588463,
+      "lower_bound": 3768359.997989729,
+      "upper_bound": 8092689.803187197,
+      "alert": false
+    },
+    {
+      "date": "2015-05-29",
+      "total_sales": 8372820,
+      "expected_sales": 6352333.243548699,
+      "lower_bound": 4190168.3409499647,
+      "upper_bound": 8514498.146147434,
+      "alert": false
+    },
+    {
+      "date": "2015-05-30",
+      "total_sales": 7546769,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2015-06-01",
+      "total_sales": 11743615,
+      "expected_sales": 9886593.45388415,
+      "lower_bound": 7724428.551285417,
+      "upper_bound": 12048758.356482886,
+      "alert": false
+    },
+    {
+      "date": "2015-06-02",
+      "total_sales": 9925193,
+      "expected_sales": 8744586.31777028,
+      "lower_bound": 6582421.415171546,
+      "upper_bound": 10906751.220369015,
+      "alert": false
+    },
+    {
+      "date": "2015-06-03",
+      "total_sales": 9731791,
+      "expected_sales": 8354204.953947971,
+      "lower_bound": 6192040.051349237,
+      "upper_bound": 10516369.856546704,
+      "alert": false
+    },
+    {
+      "date": "2015-06-05",
+      "total_sales": 9724893,
+      "expected_sales": 8782724.324222991,
+      "lower_bound": 6620559.421624257,
+      "upper_bound": 10944889.226821724,
+      "alert": false
+    },
+    {
+      "date": "2015-06-06",
+      "total_sales": 6478518,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2015-06-08",
+      "total_sales": 7366781,
+      "expected_sales": 7456202.373209858,
+      "lower_bound": 5294037.470611124,
+      "upper_bound": 9618367.275808591,
+      "alert": false
+    },
+    {
+      "date": "2015-06-09",
+      "total_sales": 6865990,
+      "expected_sales": 6314195.237095986,
+      "lower_bound": 4152030.3344972515,
+      "upper_bound": 8476360.13969472,
+      "alert": false
+    },
+    {
+      "date": "2015-06-10",
+      "total_sales": 6524741,
+      "expected_sales": 5923813.873273676,
+      "lower_bound": 3761648.9706749422,
+      "upper_bound": 8085978.77587241,
+      "alert": false
+    },
+    {
+      "date": "2015-06-11",
+      "total_sales": 6553081,
+      "expected_sales": 5930524.900588463,
+      "lower_bound": 3768359.997989729,
+      "upper_bound": 8092689.803187197,
+      "alert": false
+    },
+    {
+      "date": "2015-06-12",
+      "total_sales": 6606431,
+      "expected_sales": 6352333.243548699,
+      "lower_bound": 4190168.3409499647,
+      "upper_bound": 8514498.146147434,
+      "alert": false
+    },
+    {
+      "date": "2015-06-13",
+      "total_sales": 6510261,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2015-06-15",
+      "total_sales": 11570100,
+      "expected_sales": 9886593.45388415,
+      "lower_bound": 7724428.551285417,
+      "upper_bound": 12048758.356482886,
+      "alert": false
+    },
+    {
+      "date": "2015-06-16",
+      "total_sales": 9636747,
+      "expected_sales": 8744586.31777028,
+      "lower_bound": 6582421.415171546,
+      "upper_bound": 10906751.220369015,
+      "alert": false
+    },
+    {
+      "date": "2015-06-17",
+      "total_sales": 8618478,
+      "expected_sales": 8354204.953947971,
+      "lower_bound": 6192040.051349237,
+      "upper_bound": 10516369.856546704,
+      "alert": false
+    },
+    {
+      "date": "2015-06-18",
+      "total_sales": 8191358,
+      "expected_sales": 8360915.9812627565,
+      "lower_bound": 6198751.0786640225,
+      "upper_bound": 10523080.88386149,
+      "alert": false
+    },
+    {
+      "date": "2015-06-19",
+      "total_sales": 8458252,
+      "expected_sales": 8782724.324222991,
+      "lower_bound": 6620559.421624257,
+      "upper_bound": 10944889.226821724,
+      "alert": false
+    },
+    {
+      "date": "2015-06-20",
+      "total_sales": 6390661,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2015-06-22",
+      "total_sales": 6552538,
+      "expected_sales": 7456202.373209858,
+      "lower_bound": 5294037.470611124,
+      "upper_bound": 9618367.275808591,
+      "alert": false
+    },
+    {
+      "date": "2015-06-23",
+      "total_sales": 6292372,
+      "expected_sales": 6314195.237095986,
+      "lower_bound": 4152030.3344972515,
+      "upper_bound": 8476360.13969472,
+      "alert": false
+    },
+    {
+      "date": "2015-06-24",
+      "total_sales": 6257424,
+      "expected_sales": 5923813.873273676,
+      "lower_bound": 3761648.9706749422,
+      "upper_bound": 8085978.77587241,
+      "alert": false
+    },
+    {
+      "date": "2015-06-25",
+      "total_sales": 6211764,
+      "expected_sales": 5930524.900588463,
+      "lower_bound": 3768359.997989729,
+      "upper_bound": 8092689.803187197,
+      "alert": false
+    },
+    {
+      "date": "2015-06-26",
+      "total_sales": 6634687,
+      "expected_sales": 6352333.243548699,
+      "lower_bound": 4190168.3409499647,
+      "upper_bound": 8514498.146147434,
+      "alert": false
+    },
+    {
+      "date": "2015-06-27",
+      "total_sales": 6538314,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2015-06-29",
+      "total_sales": 11916672,
+      "expected_sales": 9886593.45388415,
+      "lower_bound": 7724428.551285417,
+      "upper_bound": 12048758.356482886,
+      "alert": false
+    },
+    {
+      "date": "2015-06-30",
+      "total_sales": 11483932,
+      "expected_sales": 8744586.31777028,
+      "lower_bound": 6582421.415171546,
+      "upper_bound": 10906751.220369015,
+      "alert": true
+    },
+    {
+      "date": "2015-07-01",
+      "total_sales": 8989672,
+      "expected_sales": 8354204.953947971,
+      "lower_bound": 6192040.051349237,
+      "upper_bound": 10516369.856546704,
+      "alert": false
+    },
+    {
+      "date": "2015-07-02",
+      "total_sales": 8446293,
+      "expected_sales": 8360915.9812627565,
+      "lower_bound": 6198751.0786640225,
+      "upper_bound": 10523080.88386149,
+      "alert": false
+    },
+    {
+      "date": "2015-07-03",
+      "total_sales": 8530388,
+      "expected_sales": 8782724.324222991,
+      "lower_bound": 6620559.421624257,
+      "upper_bound": 10944889.226821724,
+      "alert": false
+    },
+    {
+      "date": "2015-07-04",
+      "total_sales": 6054276,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2015-07-06",
+      "total_sales": 7540473,
+      "expected_sales": 7456202.373209858,
+      "lower_bound": 5294037.470611124,
+      "upper_bound": 9618367.275808591,
+      "alert": false
+    },
+    {
+      "date": "2015-07-07",
+      "total_sales": 6393024,
+      "expected_sales": 6314195.237095986,
+      "lower_bound": 4152030.3344972515,
+      "upper_bound": 8476360.13969472,
+      "alert": false
+    },
+    {
+      "date": "2015-07-08",
+      "total_sales": 6915625,
+      "expected_sales": 5923813.873273676,
+      "lower_bound": 3761648.9706749422,
+      "upper_bound": 8085978.77587241,
+      "alert": false
+    },
+    {
+      "date": "2015-07-09",
+      "total_sales": 6938182,
+      "expected_sales": 5930524.900588463,
+      "lower_bound": 3768359.997989729,
+      "upper_bound": 8092689.803187197,
+      "alert": false
+    },
+    {
+      "date": "2015-07-10",
+      "total_sales": 7064909,
+      "expected_sales": 6352333.243548699,
+      "lower_bound": 4190168.3409499647,
+      "upper_bound": 8514498.146147434,
+      "alert": false
+    },
+    {
+      "date": "2015-07-11",
+      "total_sales": 6262022,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2015-07-13",
+      "total_sales": 10841267,
+      "expected_sales": 9886593.45388415,
+      "lower_bound": 7724428.551285417,
+      "upper_bound": 12048758.356482886,
+      "alert": false
+    },
+    {
+      "date": "2015-07-14",
+      "total_sales": 9340405,
+      "expected_sales": 8744586.31777028,
+      "lower_bound": 6582421.415171546,
+      "upper_bound": 10906751.220369015,
+      "alert": false
+    },
+    {
+      "date": "2015-07-15",
+      "total_sales": 8756137,
+      "expected_sales": 8354204.953947971,
+      "lower_bound": 6192040.051349237,
+      "upper_bound": 10516369.856546704,
+      "alert": false
+    },
+    {
+      "date": "2015-07-16",
+      "total_sales": 8373873,
+      "expected_sales": 8360915.9812627565,
+      "lower_bound": 6198751.0786640225,
+      "upper_bound": 10523080.88386149,
+      "alert": false
+    },
+    {
+      "date": "2015-07-17",
+      "total_sales": 7949337,
+      "expected_sales": 8782724.324222991,
+      "lower_bound": 6620559.421624257,
+      "upper_bound": 10944889.226821724,
+      "alert": false
+    },
+    {
+      "date": "2015-07-18",
+      "total_sales": 6448982,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2015-07-20",
+      "total_sales": 7339321,
+      "expected_sales": 7456202.373209858,
+      "lower_bound": 5294037.470611124,
+      "upper_bound": 9618367.275808591,
+      "alert": false
+    },
+    {
+      "date": "2015-07-21",
+      "total_sales": 6356482,
+      "expected_sales": 6314195.237095986,
+      "lower_bound": 4152030.3344972515,
+      "upper_bound": 8476360.13969472,
+      "alert": false
+    },
+    {
+      "date": "2015-07-22",
+      "total_sales": 6110388,
+      "expected_sales": 5923813.873273676,
+      "lower_bound": 3761648.9706749422,
+      "upper_bound": 8085978.77587241,
+      "alert": false
+    },
+    {
+      "date": "2015-07-23",
+      "total_sales": 6687068,
+      "expected_sales": 5930524.900588463,
+      "lower_bound": 3768359.997989729,
+      "upper_bound": 8092689.803187197,
+      "alert": false
+    },
+    {
+      "date": "2015-07-24",
+      "total_sales": 6601325,
+      "expected_sales": 6352333.243548699,
+      "lower_bound": 4190168.3409499647,
+      "upper_bound": 8514498.146147434,
+      "alert": false
+    },
+    {
+      "date": "2015-07-25",
+      "total_sales": 6021666,
+      "expected_sales": 6336807.06766917,
+      "lower_bound": 4174642.165070436,
+      "upper_bound": 8498971.970267903,
+      "alert": false
+    },
+    {
+      "date": "2015-07-27",
+      "total_sales": 10707292,
+      "expected_sales": 9886593.45388415,
+      "lower_bound": 7724428.551285417,
+      "upper_bound": 12048758.356482886,
+      "alert": false
+    },
+    {
+      "date": "2015-07-28",
+      "total_sales": 9115073,
+      "expected_sales": 8744586.31777028,
+      "lower_bound": 6582421.415171546,
+      "upper_bound": 10906751.220369015,
+      "alert": false
+    },
+    {
+      "date": "2015-07-29",
+      "total_sales": 8499962,
+      "expected_sales": 8354204.953947971,
+      "lower_bound": 6192040.051349237,
+      "upper_bound": 10516369.856546704,
+      "alert": false
+    },
+    {
+      "date": "2015-07-30",
+      "total_sales": 8798854,
+      "expected_sales": 8360915.9812627565,
+      "lower_bound": 6198751.0786640225,
+      "upper_bound": 10523080.88386149,
+      "alert": false
+    },
+    {
+      "date": "2015-07-31",
+      "total_sales": 10109742,
+      "expected_sales": 8782724.324222991,
+      "lower_bound": 6620559.421624257,
+      "upper_bound": 10944889.226821724,
+      "alert": false
+    }
+  ]
+}
