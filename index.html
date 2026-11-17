@@ -453,7 +453,7 @@ async function loadData() {
   const statusDot = document.getElementById('statusDot');
   const statusText = document.getElementById('statusText');
   try {
-    const res = await fetch('data/agente_datos.json');
+    const res = await fetch('agente_datos.json');
     DATA = await res.json();
     statusDot.classList.add('ok');
     statusText.innerHTML = `Datos cargados · última fecha <b>${DATA.last_updated}</b> · ${DATA.alerts.length} alertas`;
