@@ -466,10 +466,15 @@ async function loadData() {
     buildChips();
     addMessage('Datos cargados. Pregúntame sobre las ventas, las alertas o el modelo, o revisa la pestaña Dashboard.', 'agent');
   } catch (err) {
-    statusText.textContent = 'No se pudo cargar data/agente_datos.json';
-    addMessage('No pude cargar los datos (data/agente_datos.json). Si estás viendo esto directamente desde el archivo en tu computadora, ábrelo con un servidor local o revisa que esté publicado en GitHub Pages.', 'agent');
+    statusText.textContent = 'No se pudo cargar agente_datos.json';
+    addMessage('No pude cargar los datos (agente_datos.json). Si estás viendo esto directamente desde el archivo en tu computadora, ábrelo con un servidor local o revisa que esté publicado en GitHub Pages.', 'agent');
   }
 }
+
+loadData();
+</script>
+</body>
+</html>
 
 loadData();
 </script>
